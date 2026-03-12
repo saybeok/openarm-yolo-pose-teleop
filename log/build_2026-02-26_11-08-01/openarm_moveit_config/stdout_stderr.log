@@ -1,0 +1,51 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/lee/ros2_ws/build/openarm_moveit_config
+-- Install configuration: ""
+-- Installing: /home/lee/ros2_ws/install/openarm_moveit_config/share/ament_index/resource_index/package_run_dependencies/openarm_moveit_config
+-- Installing: /home/lee/ros2_ws/install/openarm_moveit_config/share/ament_index/resource_index/parent_prefix_path/openarm_moveit_config
+-- Installing: /home/lee/ros2_ws/install/openarm_moveit_config/share/openarm_moveit_config/environment/ament_prefix_path.sh
+-- Installing: /home/lee/ros2_ws/install/openarm_moveit_config/share/openarm_moveit_config/environment/ament_prefix_path.dsv
+-- Installing: /home/lee/ros2_ws/install/openarm_moveit_config/share/openarm_moveit_config/environment/path.sh
+-- Installing: /home/lee/ros2_ws/install/openarm_moveit_config/share/openarm_moveit_config/environment/path.dsv
+-- Installing: /home/lee/ros2_ws/install/openarm_moveit_config/share/openarm_moveit_config/local_setup.bash
+-- Installing: /home/lee/ros2_ws/install/openarm_moveit_config/share/openarm_moveit_config/local_setup.sh
+-- Installing: /home/lee/ros2_ws/install/openarm_moveit_config/share/openarm_moveit_config/local_setup.zsh
+-- Installing: /home/lee/ros2_ws/install/openarm_moveit_config/share/openarm_moveit_config/local_setup.dsv
+-- Installing: /home/lee/ros2_ws/install/openarm_moveit_config/share/openarm_moveit_config/package.dsv
+-- Installing: /home/lee/ros2_ws/install/openarm_moveit_config/share/ament_index/resource_index/packages/openarm_moveit_config
+-- Installing: /home/lee/ros2_ws/install/openarm_moveit_config/share/openarm_moveit_config/cmake/openarm_moveit_configConfig.cmake
+-- Installing: /home/lee/ros2_ws/install/openarm_moveit_config/share/openarm_moveit_config/cmake/openarm_moveit_configConfig-version.cmake
+-- Installing: /home/lee/ros2_ws/install/openarm_moveit_config/share/openarm_moveit_config/package.xml
+-- Installing: /home/lee/ros2_ws/install/openarm_moveit_config/share/openarm_moveit_config/launch
+-- Installing: /home/lee/ros2_ws/install/openarm_moveit_config/share/openarm_moveit_config/launch/moveit_rviz.launch.py
+-- Installing: /home/lee/ros2_ws/install/openarm_moveit_config/share/openarm_moveit_config/launch/move_group.launch.py
+-- Installing: /home/lee/ros2_ws/install/openarm_moveit_config/share/openarm_moveit_config/launch/demo.launch.py
+-- Installing: /home/lee/ros2_ws/install/openarm_moveit_config/share/openarm_moveit_config/config
+-- Installing: /home/lee/ros2_ws/install/openarm_moveit_config/share/openarm_moveit_config/config/moveit_controllers.yaml
+-- Installing: /home/lee/ros2_ws/install/openarm_moveit_config/share/openarm_moveit_config/config/moveit_cpp.yaml
+-- Installing: /home/lee/ros2_ws/install/openarm_moveit_config/share/openarm_moveit_config/config/moveit.rviz
+-- Installing: /home/lee/ros2_ws/install/openarm_moveit_config/share/openarm_moveit_config/config/joint_limits.yaml
+-- Installing: /home/lee/ros2_ws/install/openarm_moveit_config/share/openarm_moveit_config/config/ompl_planning.yaml
+-- Installing: /home/lee/ros2_ws/install/openarm_moveit_config/share/openarm_moveit_config/config/initial_positions.yaml
+-- Installing: /home/lee/ros2_ws/install/openarm_moveit_config/share/openarm_moveit_config/config/ros2_controllers.yaml
+-- Installing: /home/lee/ros2_ws/install/openarm_moveit_config/share/openarm_moveit_config/config/openarm.srdf
+-- Installing: /home/lee/ros2_ws/install/openarm_moveit_config/share/openarm_moveit_config/config/move_group.yaml
+-- Installing: /home/lee/ros2_ws/install/openarm_moveit_config/share/openarm_moveit_config/config/kinematics.yaml
+-- Installing: /home/lee/ros2_ws/install/openarm_moveit_config/share/openarm_moveit_config/config/pilz_cartesian_limits.yaml
+-- Installing: /home/lee/ros2_ws/install/openarm_moveit_config/share/openarm_moveit_config/config/planning_pipelines.yaml
+-- Installing: /home/lee/ros2_ws/install/openarm_moveit_config/share/openarm_moveit_config/.setup_assistant

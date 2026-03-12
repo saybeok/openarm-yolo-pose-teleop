@@ -1,0 +1,66 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/lee/ros2_ws/build/openarm_can
+[ 50%] [32mBuilding CXX object CMakeFiles/openarm_can.dir/src/openarm/can/socket/openarm.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/openarm_can.dir/src/openarm/damiao_motor/dm_motor_device_collection.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/openarm_can.dir/src/openarm/damiao_motor/dm_motor.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/openarm_can.dir/src/openarm/damiao_motor/dm_motor_control.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/openarm_can.dir/src/openarm/can/socket/gripper_component.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/openarm_can.dir/src/openarm/can/socket/arm_component.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/openarm_can.dir/src/openarm/canbus/can_socket.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/openarm_can.dir/src/openarm/canbus/can_device_collection.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/openarm_can.dir/src/openarm/damiao_motor/dm_motor_device.cpp.o[0m
+[ 62%] [32m[1mLinking CXX static library libopenarm_can.a[0m
+[ 62%] Built target openarm_can
+[ 81%] [32mBuilding CXX object CMakeFiles/openarm-can-diagnosis.dir/setup/openarm_can_diagnosis.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/openarm-can-demo.dir/examples/demo.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/openarm-can-motor-check.dir/setup/motor_check.cpp.o[0m
+[ 87%] [32m[1mLinking CXX executable openarm-can-motor-check[0m
+[ 93%] [32m[1mLinking CXX executable openarm-can-demo[0m
+[100%] [32m[1mLinking CXX executable openarm-can-diagnosis[0m
+[100%] Built target openarm-can-motor-check
+[100%] Built target openarm-can-demo
+[100%] Built target openarm-can-diagnosis
+-- Install configuration: ""
+-- Installing: /home/lee/ros2_ws/install/openarm_can/lib/libopenarm_can.a
+-- Installing: /home/lee/ros2_ws/install/openarm_can/include/openarm
+-- Installing: /home/lee/ros2_ws/install/openarm_can/include/openarm/can
+-- Installing: /home/lee/ros2_ws/install/openarm_can/include/openarm/can/socket
+-- Installing: /home/lee/ros2_ws/install/openarm_can/include/openarm/can/socket/gripper_component.hpp
+-- Installing: /home/lee/ros2_ws/install/openarm_can/include/openarm/can/socket/arm_component.hpp
+-- Installing: /home/lee/ros2_ws/install/openarm_can/include/openarm/can/socket/openarm.hpp
+-- Installing: /home/lee/ros2_ws/install/openarm_can/include/openarm/canbus
+-- Installing: /home/lee/ros2_ws/install/openarm_can/include/openarm/canbus/can_device.hpp
+-- Installing: /home/lee/ros2_ws/install/openarm_can/include/openarm/canbus/can_socket.hpp
+-- Installing: /home/lee/ros2_ws/install/openarm_can/include/openarm/canbus/can_device_collection.hpp
+-- Installing: /home/lee/ros2_ws/install/openarm_can/include/openarm/damiao_motor
+-- Installing: /home/lee/ros2_ws/install/openarm_can/include/openarm/damiao_motor/dm_motor_control.hpp
+-- Installing: /home/lee/ros2_ws/install/openarm_can/include/openarm/damiao_motor/dm_motor_constants.hpp
+-- Installing: /home/lee/ros2_ws/install/openarm_can/include/openarm/damiao_motor/dm_motor_device.hpp
+-- Installing: /home/lee/ros2_ws/install/openarm_can/include/openarm/damiao_motor/dm_motor_device_collection.hpp
+-- Installing: /home/lee/ros2_ws/install/openarm_can/include/openarm/damiao_motor/dm_motor.hpp
+-- Installing: /home/lee/ros2_ws/install/openarm_can/lib/cmake/OpenArmCAN/OpenArmCANTargets.cmake
+-- Installing: /home/lee/ros2_ws/install/openarm_can/lib/cmake/OpenArmCAN/OpenArmCANTargets-noconfig.cmake
+-- Installing: /home/lee/ros2_ws/install/openarm_can/lib/cmake/OpenArmCAN/OpenArmCANConfig.cmake
+-- Installing: /home/lee/ros2_ws/install/openarm_can/lib/cmake/OpenArmCAN/OpenArmCANConfigVersion.cmake
+-- Installing: /home/lee/ros2_ws/install/openarm_can/lib/pkgconfig/openarm-can.pc
+-- Installing: /home/lee/ros2_ws/install/openarm_can/bin/openarm-can-motor-check
+-- Installing: /home/lee/ros2_ws/install/openarm_can/bin/openarm-can-diagnosis
+-- Installing: /home/lee/ros2_ws/install/openarm_can/bin/openarm-can-demo
+-- Installing: /home/lee/ros2_ws/install/openarm_can/bin/openarm-can-change-baudrate
+-- Installing: /home/lee/ros2_ws/install/openarm_can/bin/openarm-can-configure-socketcan
+-- Installing: /home/lee/ros2_ws/install/openarm_can/bin/openarm-can-configure-socketcan-4-arms
+-- Installing: /home/lee/ros2_ws/install/openarm_can/bin/openarm-can-set-zero
+-- Installing: /home/lee/ros2_ws/install/openarm_can/bin/openarm-can-zero-position-calibration

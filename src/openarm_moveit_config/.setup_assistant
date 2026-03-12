@@ -1,0 +1,12 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: openarm_description
+    relative_path: urdf/robot/v10.urdf.xacro
+    xacro_args: bimanual:=false
+  srdf:
+    relative_path: config/openarm.srdf
+  package_settings:
+    author_name: OpenArm Portfolio
+    author_email: openarm_portfolio@example.com
+    generated_timestamp: 0
+

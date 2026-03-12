@@ -1,0 +1,6 @@
+Invoking command in '/home/lee/ros2_ws/build/openarm_can': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lee/ros2_ws/src/openarm_can -DCMAKE_INSTALL_PREFIX=/home/lee/ros2_ws/install/openarm_can
+Invoked command in '/home/lee/ros2_ws/build/openarm_can' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lee/ros2_ws/src/openarm_can -DCMAKE_INSTALL_PREFIX=/home/lee/ros2_ws/install/openarm_can
+Invoking command in '/home/lee/ros2_ws/build/openarm_can': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lee/ros2_ws/build/openarm_can -- -j16 -l16
+Invoked command in '/home/lee/ros2_ws/build/openarm_can' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lee/ros2_ws/build/openarm_can -- -j16 -l16
+Invoking command in '/home/lee/ros2_ws/build/openarm_can': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lee/ros2_ws/build/openarm_can
+Invoked command in '/home/lee/ros2_ws/build/openarm_can' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lee/ros2_ws/build/openarm_can

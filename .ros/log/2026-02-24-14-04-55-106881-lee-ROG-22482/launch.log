@@ -1,0 +1,623 @@
+1771909495.1078494 [INFO] [launch]: All log files can be found below /home/lee/ros2_ws/.ros/log/2026-02-24-14-04-55-106881-lee-ROG-22482
+1771909495.1079853 [INFO] [launch]: Default logging verbosity is set to INFO
+1771909495.3829913 [INFO] [robot_state_publisher-1]: process started with pid [22483]
+1771909495.3831365 [INFO] [ros2_control_node-2]: process started with pid [22485]
+1771909495.3832037 [INFO] [rviz2-3]: process started with pid [22487]
+1771909495.4056556 [ros2_control_node-2] getifaddrs: Operation not permitted
+1771909495.4057932 [ros2_control_node-2] getifaddrs: Operation not permitted
+1771909495.4060612 [ros2_control_node-2] getifaddrs: Operation not permitted
+1771909495.4062321 [ros2_control_node-2] [37;1m2026-02-24 14:04:55.405 [31;1m[[37;1mTRANSPORT_UDP[31;1m Error] [37mError creating socket: Operation not permitted[34;1m -> Function [36minit[m
+1771909495.4062955 [ros2_control_node-2] [37;1m2026-02-24 14:04:55.405 [31;1m[[37;1mRTPS_PARTICIPANT[31;1m Error] [37mUser transport failed to register.[34;1m -> Function [36mRTPSParticipantImpl[m
+1771909495.4063327 [ros2_control_node-2] [37;1m2026-02-24 14:04:55.405 [31;1m[[37;1mRTPS_PARTICIPANT[31;1m Error] [37mCannot create participant due to initialization error[34;1m -> Function [36mcreateParticipant[m
+1771909495.4064786 [ros2_control_node-2] [37;1m2026-02-24 14:04:55.406 [31;1m[[37;1mDOMAIN_PARTICIPANT[31;1m Error] [37mProblem creating RTPSParticipant[34;1m -> Function [36menable[m
+1771909495.4065971 [ros2_control_node-2] 
+1771909495.4066527 [ros2_control_node-2] >>> [rcutils|error_handling.c:108] rcutils_set_error_state()
+1771909495.4066865 [ros2_control_node-2] This error state is being overwritten:
+1771909495.4067187 [ros2_control_node-2] 
+1771909495.4067595 [ros2_control_node-2]   '__create_participant failed to create participant, at ./src/participant.cpp:105, at ./src/rcl/node.c:263'
+1771909495.4067910 [ros2_control_node-2] 
+1771909495.4068220 [ros2_control_node-2] with this new error message:
+1771909495.4068506 [ros2_control_node-2] 
+1771909495.4068797 [ros2_control_node-2]   'rcl node's rmw handle is invalid, at ./src/rcl/node.c:415'
+1771909495.4069099 [ros2_control_node-2] 
+1771909495.4069459 [ros2_control_node-2] rcutils_reset_error() should be called after error handling to avoid this.
+1771909495.4069760 [ros2_control_node-2] <<<
+1771909495.4070051 [ros2_control_node-2] [ERROR] [1771909495.406101685] [rcl]: Failed to fini publisher for node: 1
+1771909495.4071052 [ros2_control_node-2] terminate called after throwing an instance of 'rclcpp::exceptions::RCLError'
+1771909495.4071569 [ros2_control_node-2]   what():  failed to initialize rcl node: rcl node's rmw handle is invalid, at ./src/rcl/node.c:415
+1771909495.4072554 [ros2_control_node-2] Stack trace (most recent call last):
+1771909495.4075308 [ros2_control_node-2] #15   Object "", at 0xffffffffffffffff, in 
+1771909495.4077070 [ros2_control_node-2] #14   Object "/opt/ros/humble/lib/controller_manager/ros2_control_node", at 0x5bda1d732ec4, in 
+1771909495.4226198 [rviz2-3] qt.qpa.xcb: could not connect to display :0
+1771909495.4227641 [rviz2-3] qt.qpa.plugin: Could not load the Qt platform plugin "xcb" in "" even though it was found.
+1771909495.4229975 [rviz2-3] This application failed to start because no Qt platform plugin could be initialized. Reinstalling the application may fix this problem.
+1771909495.4230552 [rviz2-3] 
+1771909495.4231195 [rviz2-3] Available platform plugins are: eglfs, linuxfb, minimal, minimalegl, offscreen, vnc, xcb.
+1771909495.4231911 [rviz2-3] 
+1771909495.4482882 [ros2_control_node-2] #13   Source "../csu/libc-start.c", line 392, in __libc_start_main_impl [0x7eaff3429e3f]
+1771909495.4486442 [ros2_control_node-2] #12   Source "../sysdeps/nptl/libc_start_call_main.h", line 58, in __libc_start_call_main [0x7eaff3429d8f]
+1771909495.4487071 [ros2_control_node-2] #11   Object "/opt/ros/humble/lib/controller_manager/ros2_control_node", at 0x5bda1d73236f, in 
+1771909495.4489028 [ros2_control_node-2] #10   Object "/opt/ros/humble/lib/libcontroller_manager.so", at 0x7eaff3eeb0fb, in controller_manager::ControllerManager::ControllerManager(std::shared_ptr<rclcpp::Executor>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, rclcpp::NodeOptions const&)
+1771909495.4494722 [ros2_control_node-2] #9    Object "/opt/ros/humble/lib/librclcpp.so", at 0x7eaff3d54206, in rclcpp::Node::Node(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, rclcpp::NodeOptions const&)
+1771909495.4497373 [ros2_control_node-2] #8    Object "/opt/ros/humble/lib/librclcpp.so", at 0x7eaff3d5c520, in rclcpp::node_interfaces::NodeBase::NodeBase(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::shared_ptr<rclcpp::Context>, rcl_node_options_s const&, bool, bool)
+1771909495.4498019 [ros2_control_node-2] #7    Object "/opt/ros/humble/lib/librclcpp.so", at 0x7eaff3d35518, in rclcpp::exceptions::throw_from_rcl_error(int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, rcutils_error_state_s const*, void (*)())
+1771909495.4502037 [ros2_control_node-2] #6    Object "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30", at 0x7eaff38ae1fd, in std::rethrow_exception(std::__exception_ptr::exception_ptr)
+1771909495.4503803 [ros2_control_node-2] #5    Object "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30", at 0x7eaff38ae276, in std::terminate()
+1771909495.4505508 [ros2_control_node-2] #4    Object "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30", at 0x7eaff38ae20b, in 
+1771909495.4506853 [ros2_control_node-2] #3    Object "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30", at 0x7eaff38a2b9d, in 
+1771909495.4508369 [ros2_control_node-2] #2    Source "./stdlib/abort.c", line 79, in abort [0x7eaff34287f2]
+1771909495.4509673 [ros2_control_node-2] #1    Source "../sysdeps/posix/raise.c", line 26, in raise [0x7eaff3442475]
+1771909495.4511502 [ros2_control_node-2] #0  | Source "./nptl/pthread_kill.c", line 89, in __pthread_kill_internal
+1771909495.4512839 [ros2_control_node-2]     | Source "./nptl/pthread_kill.c", line 78, in __pthread_kill_implementation
+1771909495.4513283 [ros2_control_node-2]       Source "./nptl/pthread_kill.c", line 44, in __pthread_kill [0x7eaff34969fc]
+1771909495.4514263 [ros2_control_node-2] Aborted (Signal sent by tkill() 22485 0)
+1771909495.4867818 [ERROR] [robot_state_publisher-1]: process has died [pid 22483, exit code -6, cmd '/opt/ros/humble/lib/robot_state_publisher/robot_state_publisher --ros-args -r __node:=robot_state_publisher --params-file /tmp/launch_params_4tfe2ve5'].
+1771909495.5208461 [ERROR] [rviz2-3]: process has died [pid 22487, exit code -6, cmd '/opt/ros/humble/lib/rviz2/rviz2 -d /home/lee/ros2_ws/install/openarm_description/share/openarm_description/rviz/arm_only.rviz --ros-args -r __node:=rviz2'].
+1771909495.5478432 [ERROR] [ros2_control_node-2]: process has died [pid 22485, exit code -6, cmd '/opt/ros/humble/lib/controller_manager/ros2_control_node --ros-args --params-file /tmp/launch_params_pupdhbky --params-file /home/lee/ros2_ws/install/openarm_bringup/share/openarm_bringup/config/v10_controllers/openarm_v10_controllers.yaml'].
+1771909496.3895032 [INFO] [spawner-4]: process started with pid [22498]
+1771909496.3897901 [INFO] [spawner-5]: process started with pid [22500]
+1771909496.3899465 [INFO] [spawner-6]: process started with pid [22502]
+1771909496.6369493 [spawner-4] Traceback (most recent call last):
+1771909496.6372337 [spawner-4]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/controller_manager/controller_manager_services.py", line 35, in <module>
+1771909496.6373181 [spawner-4]     from rclpy.parameter import get_parameter_value
+1771909496.6378496 [spawner-6] Traceback (most recent call last):
+1771909496.6379330 [spawner-6]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/controller_manager/controller_manager_services.py", line 35, in <module>
+1771909496.6380396 [spawner-6]     from rclpy.parameter import get_parameter_value
+1771909496.6381071 [spawner-6] ImportError: cannot import name 'get_parameter_value' from 'rclpy.parameter' (/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/parameter.py)
+1771909496.6382039 [spawner-6] 
+1771909496.6382658 [spawner-6] During handling of the above exception, another exception occurred:
+1771909496.6383440 [spawner-6] 
+1771909496.6384258 [spawner-6] Traceback (most recent call last):
+1771909496.6384947 [spawner-6]   File "/home/lee/IsaacLab/_isaac_sim/extscache/omni.kit.pip_archive-0.0.0+69cbf6ad.lx64.cp311/pip_prebundle/numpy/core/__init__.py", line 24, in <module>
+1771909496.6388907 [spawner-4] ImportError: cannot import name 'get_parameter_value' from 'rclpy.parameter' (/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/parameter.py)
+1771909496.6389699 [spawner-4] 
+1771909496.6390600 [spawner-4] During handling of the above exception, another exception occurred:
+1771909496.6391504 [spawner-4] 
+1771909496.6392374 [spawner-4] Traceback (most recent call last):
+1771909496.6393137 [spawner-4]   File "/home/lee/IsaacLab/_isaac_sim/extscache/omni.kit.pip_archive-0.0.0+69cbf6ad.lx64.cp311/pip_prebundle/numpy/core/__init__.py", line 24, in <module>
+1771909496.6393893 [spawner-4]     from . import multiarray
+1771909496.6394591 [spawner-4]   File "/home/lee/IsaacLab/_isaac_sim/extscache/omni.kit.pip_archive-0.0.0+69cbf6ad.lx64.cp311/pip_prebundle/numpy/core/multiarray.py", line 10, in <module>
+1771909496.6395249 [spawner-4]     from . import overrides
+1771909496.6395974 [spawner-4]   File "/home/lee/IsaacLab/_isaac_sim/extscache/omni.kit.pip_archive-0.0.0+69cbf6ad.lx64.cp311/pip_prebundle/numpy/core/overrides.py", line 8, in <module>
+1771909496.6396775 [spawner-4]     from numpy.core._multiarray_umath import (
+1771909496.6397557 [spawner-4] ModuleNotFoundError: No module named 'numpy.core._multiarray_umath'
+1771909496.6398153 [spawner-4] 
+1771909496.6398866 [spawner-4] During handling of the above exception, another exception occurred:
+1771909496.6399589 [spawner-4] 
+1771909496.6400323 [spawner-4] Traceback (most recent call last):
+1771909496.6401253 [spawner-4]   File "/home/lee/IsaacLab/_isaac_sim/extscache/omni.kit.pip_archive-0.0.0+69cbf6ad.lx64.cp311/pip_prebundle/numpy/__init__.py", line 130, in <module>
+1771909496.6404376 [spawner-6]     from . import multiarray
+1771909496.6405118 [spawner-6]   File "/home/lee/IsaacLab/_isaac_sim/extscache/omni.kit.pip_archive-0.0.0+69cbf6ad.lx64.cp311/pip_prebundle/numpy/core/multiarray.py", line 10, in <module>
+1771909496.6405818 [spawner-6]     from . import overrides
+1771909496.6406565 [spawner-6]   File "/home/lee/IsaacLab/_isaac_sim/extscache/omni.kit.pip_archive-0.0.0+69cbf6ad.lx64.cp311/pip_prebundle/numpy/core/overrides.py", line 8, in <module>
+1771909496.6407163 [spawner-6]     from numpy.core._multiarray_umath import (
+1771909496.6407874 [spawner-6] ModuleNotFoundError: No module named 'numpy.core._multiarray_umath'
+1771909496.6408603 [spawner-6] 
+1771909496.6409194 [spawner-6] During handling of the above exception, another exception occurred:
+1771909496.6409862 [spawner-6] 
+1771909496.6410422 [spawner-6] Traceback (most recent call last):
+1771909496.6411173 [spawner-6]   File "/home/lee/IsaacLab/_isaac_sim/extscache/omni.kit.pip_archive-0.0.0+69cbf6ad.lx64.cp311/pip_prebundle/numpy/__init__.py", line 130, in <module>
+1771909496.6412022 [spawner-6]     from numpy.__config__ import show as show_config
+1771909496.6412764 [spawner-6]   File "/home/lee/IsaacLab/_isaac_sim/extscache/omni.kit.pip_archive-0.0.0+69cbf6ad.lx64.cp311/pip_prebundle/numpy/__config__.py", line 4, in <module>
+1771909496.6413317 [spawner-6]     from numpy.core._multiarray_umath import (
+1771909496.6413987 [spawner-6]   File "/home/lee/IsaacLab/_isaac_sim/extscache/omni.kit.pip_archive-0.0.0+69cbf6ad.lx64.cp311/pip_prebundle/numpy/core/__init__.py", line 50, in <module>
+1771909496.6414633 [spawner-6]     raise ImportError(msg)
+1771909496.6415439 [spawner-6] ImportError: 
+1771909496.6416168 [spawner-6] 
+1771909496.6416726 [spawner-6] IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+1771909496.6417301 [spawner-6] 
+1771909496.6417866 [spawner-6] Importing the numpy C-extensions failed. This error can happen for
+1771909496.6418519 [spawner-6] many reasons, often due to issues with your setup or how NumPy was
+1771909496.6419539 [spawner-6] installed.
+1771909496.6420345 [spawner-6] 
+1771909496.6421399 [spawner-6] We have compiled some common reasons and troubleshooting tips at:
+1771909496.6422045 [spawner-6] 
+1771909496.6422544 [spawner-6]     https://numpy.org/devdocs/user/troubleshooting-importerror.html
+1771909496.6422989 [spawner-6] 
+1771909496.6423705 [spawner-6] Please note and check the following:
+1771909496.6424382 [spawner-6] 
+1771909496.6425314 [spawner-6]   * The Python version is: Python3.10 from "/usr/bin/python3"
+1771909496.6425948 [spawner-6]   * The NumPy version is: "1.26.0"
+1771909496.6426446 [spawner-6] 
+1771909496.6426919 [spawner-6] and make sure that they are the versions you expect.
+1771909496.6427536 [spawner-6] Please carefully study the documentation linked above for further help.
+1771909496.6427948 [spawner-6] 
+1771909496.6428390 [spawner-6] Original error was: No module named 'numpy.core._multiarray_umath'
+1771909496.6428769 [spawner-6] 
+1771909496.6429369 [spawner-6] 
+1771909496.6429758 [spawner-6] The above exception was the direct cause of the following exception:
+1771909496.6430135 [spawner-6] 
+1771909496.6430511 [spawner-6] Traceback (most recent call last):
+1771909496.6430893 [spawner-6]   File "/opt/ros/humble/lib/controller_manager/spawner", line 33, in <module>
+1771909496.6431470 [spawner-6]     sys.exit(load_entry_point('controller-manager==2.53.0', 'console_scripts', 'spawner')())
+1771909496.6432095 [spawner-6]   File "/opt/ros/humble/lib/controller_manager/spawner", line 25, in importlib_load_entry_point
+1771909496.6432486 [spawner-6]     return next(matches).load()
+1771909496.6432803 [spawner-6]   File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 171, in load
+1771909496.6433213 [spawner-6]     module = import_module(match.group('module'))
+1771909496.6433544 [spawner-6]   File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+1771909496.6433876 [spawner-6]     return _bootstrap._gcd_import(name[level:], package, level)
+1771909496.6434445 [spawner-6]   File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+1771909496.6434760 [spawner-6]   File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+1771909496.6435075 [spawner-6]   File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+1771909496.6438665 [spawner-4]     from numpy.__config__ import show as show_config
+1771909496.6439357 [spawner-4]   File "/home/lee/IsaacLab/_isaac_sim/extscache/omni.kit.pip_archive-0.0.0+69cbf6ad.lx64.cp311/pip_prebundle/numpy/__config__.py", line 4, in <module>
+1771909496.6439915 [spawner-4]     from numpy.core._multiarray_umath import (
+1771909496.6440279 [spawner-4]   File "/home/lee/IsaacLab/_isaac_sim/extscache/omni.kit.pip_archive-0.0.0+69cbf6ad.lx64.cp311/pip_prebundle/numpy/core/__init__.py", line 50, in <module>
+1771909496.6440623 [spawner-4]     raise ImportError(msg)
+1771909496.6441076 [spawner-4] ImportError: 
+1771909496.6441853 [spawner-4] 
+1771909496.6442354 [spawner-4] IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+1771909496.6442697 [spawner-4] 
+1771909496.6443017 [spawner-4] Importing the numpy C-extensions failed. This error can happen for
+1771909496.6443489 [spawner-4] many reasons, often due to issues with your setup or how NumPy was
+1771909496.6443825 [spawner-4] installed.
+1771909496.6444163 [spawner-4] 
+1771909496.6444552 [spawner-4] We have compiled some common reasons and troubleshooting tips at:
+1771909496.6444855 [spawner-4] 
+1771909496.6445160 [spawner-4]     https://numpy.org/devdocs/user/troubleshooting-importerror.html
+1771909496.6445653 [spawner-4] 
+1771909496.6445971 [spawner-4] Please note and check the following:
+1771909496.6446402 [spawner-4] 
+1771909496.6446836 [spawner-4]   * The Python version is: Python3.10 from "/usr/bin/python3"
+1771909496.6447158 [spawner-4]   * The NumPy version is: "1.26.0"
+1771909496.6447680 [spawner-4] 
+1771909496.6448016 [spawner-4] and make sure that they are the versions you expect.
+1771909496.6448326 [spawner-4] Please carefully study the documentation linked above for further help.
+1771909496.6448689 [spawner-4] 
+1771909496.6449001 [spawner-4] Original error was: No module named 'numpy.core._multiarray_umath'
+1771909496.6449625 [spawner-4] 
+1771909496.6449938 [spawner-4] 
+1771909496.6450248 [spawner-4] The above exception was the direct cause of the following exception:
+1771909496.6450548 [spawner-4] 
+1771909496.6450846 [spawner-4] Traceback (most recent call last):
+1771909496.6451242 [spawner-4]   File "/opt/ros/humble/lib/controller_manager/spawner", line 33, in <module>
+1771909496.6451771 [spawner-4]     sys.exit(load_entry_point('controller-manager==2.53.0', 'console_scripts', 'spawner')())
+1771909496.6452253 [spawner-4]   File "/opt/ros/humble/lib/controller_manager/spawner", line 25, in importlib_load_entry_point
+1771909496.6452656 [spawner-4]     return next(matches).load()
+1771909496.6452971 [spawner-4]   File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 171, in load
+1771909496.6453283 [spawner-4]     module = import_module(match.group('module'))
+1771909496.6453605 [spawner-4]   File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+1771909496.6453915 [spawner-4]     return _bootstrap._gcd_import(name[level:], package, level)
+1771909496.6454284 [spawner-4]   File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+1771909496.6454623 [spawner-4]   File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+1771909496.6454928 [spawner-4]   File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+1771909496.6455228 [spawner-4]   File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+1771909496.6455638 [spawner-4]   File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+1771909496.6455944 [spawner-4]   File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+1771909496.6458979 [spawner-4]   File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+1771909496.6459489 [spawner-4]   File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+1771909496.6460743 [spawner-6]   File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+1771909496.6461294 [spawner-6]   File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+1771909496.6462772 [spawner-6]   File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+1771909496.6463211 [spawner-6]   File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+1771909496.6463556 [spawner-6]   File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+1771909496.6463883 [spawner-6]   File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+1771909496.6464212 [spawner-6]   File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+1771909496.6464527 [spawner-6]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/controller_manager/__init__.py", line 15, in <module>
+1771909496.6466606 [spawner-4]   File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+1771909496.6467199 [spawner-4]   File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+1771909496.6467571 [spawner-4]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/controller_manager/__init__.py", line 15, in <module>
+1771909496.6467917 [spawner-4]     from .controller_manager_services import (
+1771909496.6468244 [spawner-4]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/controller_manager/controller_manager_services.py", line 37, in <module>
+1771909496.6468575 [spawner-4]     from ros2param.api import get_parameter_value
+1771909496.6468906 [spawner-4]   File "/opt/ros/humble/lib/python3.10/site-packages/ros2param/api/__init__.py", line 26, in <module>
+1771909496.6469302 [spawner-4]     from ros2cli.node.direct import DirectNode
+1771909496.6469660 [spawner-4]   File "/opt/ros/humble/lib/python3.10/site-packages/ros2cli/node/direct.py", line 18, in <module>
+1771909496.6469998 [spawner-4]     import rclpy.action
+1771909496.6470323 [spawner-4]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/action/__init__.py", line 15, in <module>
+1771909496.6470637 [spawner-4]     from .client import ActionClient  # noqa: F401
+1771909496.6470947 [spawner-4]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/action/client.py", line 32, in <module>
+1771909496.6471467 [spawner-4]     from unique_identifier_msgs.msg import UUID
+1771909496.6471829 [spawner-4]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/unique_identifier_msgs/msg/__init__.py", line 1, in <module>
+1771909496.6472151 [spawner-4]     from unique_identifier_msgs.msg._uuid import UUID  # noqa: F401
+1771909496.6472466 [spawner-4]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/unique_identifier_msgs/msg/_uuid.py", line 11, in <module>
+1771909496.6472774 [spawner-4]     import numpy  # noqa: E402, I100
+1771909496.6473076 [spawner-4]   File "/home/lee/IsaacLab/_isaac_sim/extscache/omni.kit.pip_archive-0.0.0+69cbf6ad.lx64.cp311/pip_prebundle/numpy/__init__.py", line 135, in <module>
+1771909496.6473410 [spawner-4]     raise ImportError(msg) from e
+1771909496.6473720 [spawner-4] ImportError: Error importing numpy: you should not try to import numpy from
+1771909496.6474018 [spawner-4]         its source directory; please exit the numpy source tree, and relaunch
+1771909496.6474316 [spawner-4]         your python interpreter from there.
+1771909496.6474628 [spawner-4] Error in sys.excepthook:
+1771909496.6474948 [spawner-4] Traceback (most recent call last):
+1771909496.6475258 [spawner-4]   File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 153, in apport_excepthook
+1771909496.6475570 [spawner-4]     with os.fdopen(os.open(pr_filename,
+1771909496.6475873 [spawner-4] PermissionError: [Errno 13] Permission denied: '/var/crash/_opt_ros_humble_lib_controller_manager_spawner.0.crash'
+1771909496.6476276 [spawner-4] 
+1771909496.6476777 [spawner-4] Original exception was:
+1771909496.6477258 [spawner-4] Traceback (most recent call last):
+1771909496.6477735 [spawner-4]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/controller_manager/controller_manager_services.py", line 35, in <module>
+1771909496.6478431 [spawner-4]     from rclpy.parameter import get_parameter_value
+1771909496.6479142 [spawner-4] ImportError: cannot import name 'get_parameter_value' from 'rclpy.parameter' (/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/parameter.py)
+1771909496.6479785 [spawner-4] 
+1771909496.6480384 [spawner-4] During handling of the above exception, another exception occurred:
+1771909496.6480970 [spawner-4] 
+1771909496.6481717 [spawner-4] Traceback (most recent call last):
+1771909496.6482282 [spawner-4]   File "/home/lee/IsaacLab/_isaac_sim/extscache/omni.kit.pip_archive-0.0.0+69cbf6ad.lx64.cp311/pip_prebundle/numpy/core/__init__.py", line 24, in <module>
+1771909496.6482847 [spawner-4]     from . import multiarray
+1771909496.6483424 [spawner-4]   File "/home/lee/IsaacLab/_isaac_sim/extscache/omni.kit.pip_archive-0.0.0+69cbf6ad.lx64.cp311/pip_prebundle/numpy/core/multiarray.py", line 10, in <module>
+1771909496.6483982 [spawner-4]     from . import overrides
+1771909496.6488156 [spawner-4]   File "/home/lee/IsaacLab/_isaac_sim/extscache/omni.kit.pip_archive-0.0.0+69cbf6ad.lx64.cp311/pip_prebundle/numpy/core/overrides.py", line 8, in <module>
+1771909496.6488843 [spawner-4]     from numpy.core._multiarray_umath import (
+1771909496.6489222 [spawner-4] ModuleNotFoundError: No module named 'numpy.core._multiarray_umath'
+1771909496.6489561 [spawner-4] 
+1771909496.6489885 [spawner-4] During handling of the above exception, another exception occurred:
+1771909496.6490192 [spawner-4] 
+1771909496.6490505 [spawner-4] Traceback (most recent call last):
+1771909496.6490922 [spawner-4]   File "/home/lee/IsaacLab/_isaac_sim/extscache/omni.kit.pip_archive-0.0.0+69cbf6ad.lx64.cp311/pip_prebundle/numpy/__init__.py", line 130, in <module>
+1771909496.6491592 [spawner-4]     from numpy.__config__ import show as show_config
+1771909496.6492138 [spawner-4]   File "/home/lee/IsaacLab/_isaac_sim/extscache/omni.kit.pip_archive-0.0.0+69cbf6ad.lx64.cp311/pip_prebundle/numpy/__config__.py", line 4, in <module>
+1771909496.6495435 [spawner-4]     from numpy.core._multiarray_umath import (
+1771909496.6496181 [spawner-4]   File "/home/lee/IsaacLab/_isaac_sim/extscache/omni.kit.pip_archive-0.0.0+69cbf6ad.lx64.cp311/pip_prebundle/numpy/core/__init__.py", line 50, in <module>
+1771909496.6496754 [spawner-4]     raise ImportError(msg)
+1771909496.6497328 [spawner-4] ImportError: 
+1771909496.6497850 [spawner-4] 
+1771909496.6498504 [spawner-4] IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+1771909496.6499074 [spawner-4] 
+1771909496.6499684 [spawner-4] Importing the numpy C-extensions failed. This error can happen for
+1771909496.6500144 [spawner-4] many reasons, often due to issues with your setup or how NumPy was
+1771909496.6500580 [spawner-4] installed.
+1771909496.6501215 [spawner-4] 
+1771909496.6501789 [spawner-4] We have compiled some common reasons and troubleshooting tips at:
+1771909496.6502268 [spawner-4] 
+1771909496.6502829 [spawner-4]     https://numpy.org/devdocs/user/troubleshooting-importerror.html
+1771909496.6503534 [spawner-4] 
+1771909496.6504107 [spawner-4] Please note and check the following:
+1771909496.6504745 [spawner-4] 
+1771909496.6505401 [spawner-4]   * The Python version is: Python3.10 from "/usr/bin/python3"
+1771909496.6506131 [spawner-4]   * The NumPy version is: "1.26.0"
+1771909496.6506753 [spawner-4] 
+1771909496.6507385 [spawner-4] and make sure that they are the versions you expect.
+1771909496.6507804 [spawner-4] Please carefully study the documentation linked above for further help.
+1771909496.6508274 [spawner-4] 
+1771909496.6508749 [spawner-4] Original error was: No module named 'numpy.core._multiarray_umath'
+1771909496.6509449 [spawner-4] 
+1771909496.6510026 [spawner-4] 
+1771909496.6510668 [spawner-4] The above exception was the direct cause of the following exception:
+1771909496.6511328 [spawner-4] 
+1771909496.6511881 [spawner-4] Traceback (most recent call last):
+1771909496.6512353 [spawner-4]   File "/opt/ros/humble/lib/controller_manager/spawner", line 33, in <module>
+1771909496.6512680 [spawner-4]     sys.exit(load_entry_point('controller-manager==2.53.0', 'console_scripts', 'spawner')())
+1771909496.6513078 [spawner-4]   File "/opt/ros/humble/lib/controller_manager/spawner", line 25, in importlib_load_entry_point
+1771909496.6513686 [spawner-4]     return next(matches).load()
+1771909496.6514058 [spawner-4]   File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 171, in load
+1771909496.6514585 [spawner-4]     module = import_module(match.group('module'))
+1771909496.6515207 [spawner-4]   File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+1771909496.6515563 [spawner-4]     return _bootstrap._gcd_import(name[level:], package, level)
+1771909496.6515882 [spawner-4]   File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+1771909496.6516201 [spawner-4]   File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+1771909496.6516621 [spawner-4]   File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+1771909496.6516929 [spawner-4]   File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+1771909496.6517231 [spawner-4]   File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+1771909496.6517532 [spawner-4]   File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+1771909496.6517837 [spawner-4]   File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+1771909496.6518142 [spawner-4]   File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+1771909496.6518531 [spawner-4]   File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+1771909496.6518917 [spawner-4]   File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+1771909496.6519241 [spawner-4]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/controller_manager/__init__.py", line 15, in <module>
+1771909496.6519556 [spawner-4]     from .controller_manager_services import (
+1771909496.6519938 [spawner-4]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/controller_manager/controller_manager_services.py", line 37, in <module>
+1771909496.6520243 [spawner-4]     from ros2param.api import get_parameter_value
+1771909496.6520541 [spawner-4]   File "/opt/ros/humble/lib/python3.10/site-packages/ros2param/api/__init__.py", line 26, in <module>
+1771909496.6520834 [spawner-4]     from ros2cli.node.direct import DirectNode
+1771909496.6521218 [spawner-4]   File "/opt/ros/humble/lib/python3.10/site-packages/ros2cli/node/direct.py", line 18, in <module>
+1771909496.6521773 [spawner-4]     import rclpy.action
+1771909496.6522095 [spawner-4]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/action/__init__.py", line 15, in <module>
+1771909496.6522396 [spawner-4]     from .client import ActionClient  # noqa: F401
+1771909496.6522682 [spawner-4]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/action/client.py", line 32, in <module>
+1771909496.6522973 [spawner-4]     from unique_identifier_msgs.msg import UUID
+1771909496.6523263 [spawner-4]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/unique_identifier_msgs/msg/__init__.py", line 1, in <module>
+1771909496.6523557 [spawner-4]     from unique_identifier_msgs.msg._uuid import UUID  # noqa: F401
+1771909496.6523848 [spawner-4]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/unique_identifier_msgs/msg/_uuid.py", line 11, in <module>
+1771909496.6524134 [spawner-4]     import numpy  # noqa: E402, I100
+1771909496.6524551 [spawner-4]   File "/home/lee/IsaacLab/_isaac_sim/extscache/omni.kit.pip_archive-0.0.0+69cbf6ad.lx64.cp311/pip_prebundle/numpy/__init__.py", line 135, in <module>
+1771909496.6524854 [spawner-4]     raise ImportError(msg) from e
+1771909496.6525140 [spawner-4] ImportError: Error importing numpy: you should not try to import numpy from
+1771909496.6525435 [spawner-4]         its source directory; please exit the numpy source tree, and relaunch
+1771909496.6525726 [spawner-4]         your python interpreter from there.
+1771909496.6530681 [spawner-6]     from .controller_manager_services import (
+1771909496.6531329 [spawner-6]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/controller_manager/controller_manager_services.py", line 37, in <module>
+1771909496.6531906 [spawner-6]     from ros2param.api import get_parameter_value
+1771909496.6532254 [spawner-6]   File "/opt/ros/humble/lib/python3.10/site-packages/ros2param/api/__init__.py", line 26, in <module>
+1771909496.6532745 [spawner-6]     from ros2cli.node.direct import DirectNode
+1771909496.6533072 [spawner-6]   File "/opt/ros/humble/lib/python3.10/site-packages/ros2cli/node/direct.py", line 18, in <module>
+1771909496.6533408 [spawner-6]     import rclpy.action
+1771909496.6533821 [spawner-6]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/action/__init__.py", line 15, in <module>
+1771909496.6534176 [spawner-6]     from .client import ActionClient  # noqa: F401
+1771909496.6534636 [spawner-6]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/action/client.py", line 32, in <module>
+1771909496.6534941 [spawner-6]     from unique_identifier_msgs.msg import UUID
+1771909496.6535249 [spawner-6]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/unique_identifier_msgs/msg/__init__.py", line 1, in <module>
+1771909496.6535673 [spawner-6]     from unique_identifier_msgs.msg._uuid import UUID  # noqa: F401
+1771909496.6535983 [spawner-6]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/unique_identifier_msgs/msg/_uuid.py", line 11, in <module>
+1771909496.6536479 [spawner-6]     import numpy  # noqa: E402, I100
+1771909496.6536856 [spawner-6]   File "/home/lee/IsaacLab/_isaac_sim/extscache/omni.kit.pip_archive-0.0.0+69cbf6ad.lx64.cp311/pip_prebundle/numpy/__init__.py", line 135, in <module>
+1771909496.6537189 [spawner-6]     raise ImportError(msg) from e
+1771909496.6537592 [spawner-6] ImportError: Error importing numpy: you should not try to import numpy from
+1771909496.6537898 [spawner-6]         its source directory; please exit the numpy source tree, and relaunch
+1771909496.6538196 [spawner-6]         your python interpreter from there.
+1771909496.6538496 [spawner-6] Error in sys.excepthook:
+1771909496.6538987 [spawner-6] Traceback (most recent call last):
+1771909496.6539290 [spawner-6]   File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 153, in apport_excepthook
+1771909496.6539593 [spawner-6]     with os.fdopen(os.open(pr_filename,
+1771909496.6539900 [spawner-6] PermissionError: [Errno 13] Permission denied: '/var/crash/_opt_ros_humble_lib_controller_manager_spawner.0.crash'
+1771909496.6540203 [spawner-6] 
+1771909496.6540508 [spawner-6] Original exception was:
+1771909496.6540892 [spawner-6] Traceback (most recent call last):
+1771909496.6541309 [spawner-6]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/controller_manager/controller_manager_services.py", line 35, in <module>
+1771909496.6541858 [spawner-6]     from rclpy.parameter import get_parameter_value
+1771909496.6542177 [spawner-6] ImportError: cannot import name 'get_parameter_value' from 'rclpy.parameter' (/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/parameter.py)
+1771909496.6542494 [spawner-6] 
+1771909496.6542804 [spawner-6] During handling of the above exception, another exception occurred:
+1771909496.6543105 [spawner-6] 
+1771909496.6543405 [spawner-6] Traceback (most recent call last):
+1771909496.6543703 [spawner-6]   File "/home/lee/IsaacLab/_isaac_sim/extscache/omni.kit.pip_archive-0.0.0+69cbf6ad.lx64.cp311/pip_prebundle/numpy/core/__init__.py", line 24, in <module>
+1771909496.6544008 [spawner-6]     from . import multiarray
+1771909496.6544304 [spawner-6]   File "/home/lee/IsaacLab/_isaac_sim/extscache/omni.kit.pip_archive-0.0.0+69cbf6ad.lx64.cp311/pip_prebundle/numpy/core/multiarray.py", line 10, in <module>
+1771909496.6544607 [spawner-6]     from . import overrides
+1771909496.6544909 [spawner-6]   File "/home/lee/IsaacLab/_isaac_sim/extscache/omni.kit.pip_archive-0.0.0+69cbf6ad.lx64.cp311/pip_prebundle/numpy/core/overrides.py", line 8, in <module>
+1771909496.6545205 [spawner-6]     from numpy.core._multiarray_umath import (
+1771909496.6545932 [spawner-6] ModuleNotFoundError: No module named 'numpy.core._multiarray_umath'
+1771909496.6547275 [spawner-6] 
+1771909496.6548092 [spawner-6] During handling of the above exception, another exception occurred:
+1771909496.6548727 [spawner-6] 
+1771909496.6549141 [spawner-6] Traceback (most recent call last):
+1771909496.6549499 [spawner-6]   File "/home/lee/IsaacLab/_isaac_sim/extscache/omni.kit.pip_archive-0.0.0+69cbf6ad.lx64.cp311/pip_prebundle/numpy/__init__.py", line 130, in <module>
+1771909496.6549842 [spawner-6]     from numpy.__config__ import show as show_config
+1771909496.6550198 [spawner-6]   File "/home/lee/IsaacLab/_isaac_sim/extscache/omni.kit.pip_archive-0.0.0+69cbf6ad.lx64.cp311/pip_prebundle/numpy/__config__.py", line 4, in <module>
+1771909496.6550531 [spawner-6]     from numpy.core._multiarray_umath import (
+1771909496.6550956 [spawner-6]   File "/home/lee/IsaacLab/_isaac_sim/extscache/omni.kit.pip_archive-0.0.0+69cbf6ad.lx64.cp311/pip_prebundle/numpy/core/__init__.py", line 50, in <module>
+1771909496.6551573 [spawner-6]     raise ImportError(msg)
+1771909496.6552112 [spawner-6] ImportError: 
+1771909496.6552603 [spawner-6] 
+1771909496.6553061 [spawner-6] IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+1771909496.6553493 [spawner-6] 
+1771909496.6553888 [spawner-6] Importing the numpy C-extensions failed. This error can happen for
+1771909496.6554286 [spawner-6] many reasons, often due to issues with your setup or how NumPy was
+1771909496.6554680 [spawner-6] installed.
+1771909496.6555510 [spawner-6] 
+1771909496.6556382 [spawner-6] We have compiled some common reasons and troubleshooting tips at:
+1771909496.6556921 [spawner-6] 
+1771909496.6557431 [spawner-6]     https://numpy.org/devdocs/user/troubleshooting-importerror.html
+1771909496.6557899 [spawner-6] 
+1771909496.6558375 [spawner-6] Please note and check the following:
+1771909496.6558840 [spawner-6] 
+1771909496.6559312 [spawner-6]   * The Python version is: Python3.10 from "/usr/bin/python3"
+1771909496.6559784 [spawner-6]   * The NumPy version is: "1.26.0"
+1771909496.6560240 [spawner-6] 
+1771909496.6560674 [spawner-6] and make sure that they are the versions you expect.
+1771909496.6561182 [spawner-6] Please carefully study the documentation linked above for further help.
+1771909496.6561742 [spawner-6] 
+1771909496.6562221 [spawner-6] Original error was: No module named 'numpy.core._multiarray_umath'
+1771909496.6562698 [spawner-6] 
+1771909496.6563137 [spawner-6] 
+1771909496.6563444 [spawner-6] The above exception was the direct cause of the following exception:
+1771909496.6563745 [spawner-6] 
+1771909496.6564093 [spawner-6] Traceback (most recent call last):
+1771909496.6564469 [spawner-6]   File "/opt/ros/humble/lib/controller_manager/spawner", line 33, in <module>
+1771909496.6564775 [spawner-6]     sys.exit(load_entry_point('controller-manager==2.53.0', 'console_scripts', 'spawner')())
+1771909496.6565068 [spawner-6]   File "/opt/ros/humble/lib/controller_manager/spawner", line 25, in importlib_load_entry_point
+1771909496.6565361 [spawner-6]     return next(matches).load()
+1771909496.6565673 [spawner-6]   File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 171, in load
+1771909496.6565952 [spawner-6]     module = import_module(match.group('module'))
+1771909496.6566234 [spawner-6]   File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+1771909496.6566522 [spawner-6]     return _bootstrap._gcd_import(name[level:], package, level)
+1771909496.6566801 [spawner-6]   File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+1771909496.6570287 [spawner-6]   File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+1771909496.6570926 [spawner-6]   File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+1771909496.6571474 [spawner-6]   File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+1771909496.6571846 [spawner-6]   File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+1771909496.6572158 [spawner-6]   File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+1771909496.6572461 [spawner-6]   File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+1771909496.6572764 [spawner-6]   File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+1771909496.6573062 [spawner-6]   File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+1771909496.6573365 [spawner-6]   File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+1771909496.6573687 [spawner-6]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/controller_manager/__init__.py", line 15, in <module>
+1771909496.6574006 [spawner-6]     from .controller_manager_services import (
+1771909496.6574309 [spawner-6]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/controller_manager/controller_manager_services.py", line 37, in <module>
+1771909496.6574612 [spawner-6]     from ros2param.api import get_parameter_value
+1771909496.6574900 [spawner-6]   File "/opt/ros/humble/lib/python3.10/site-packages/ros2param/api/__init__.py", line 26, in <module>
+1771909496.6575191 [spawner-6]     from ros2cli.node.direct import DirectNode
+1771909496.6575472 [spawner-6]   File "/opt/ros/humble/lib/python3.10/site-packages/ros2cli/node/direct.py", line 18, in <module>
+1771909496.6575758 [spawner-6]     import rclpy.action
+1771909496.6576056 [spawner-6]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/action/__init__.py", line 15, in <module>
+1771909496.6576338 [spawner-6]     from .client import ActionClient  # noqa: F401
+1771909496.6576705 [spawner-6]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/action/client.py", line 32, in <module>
+1771909496.6577005 [spawner-6]     from unique_identifier_msgs.msg import UUID
+1771909496.6577299 [spawner-6]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/unique_identifier_msgs/msg/__init__.py", line 1, in <module>
+1771909496.6577597 [spawner-6]     from unique_identifier_msgs.msg._uuid import UUID  # noqa: F401
+1771909496.6577892 [spawner-6]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/unique_identifier_msgs/msg/_uuid.py", line 11, in <module>
+1771909496.6578276 [spawner-6]     import numpy  # noqa: E402, I100
+1771909496.6578593 [spawner-6]   File "/home/lee/IsaacLab/_isaac_sim/extscache/omni.kit.pip_archive-0.0.0+69cbf6ad.lx64.cp311/pip_prebundle/numpy/__init__.py", line 135, in <module>
+1771909496.6578906 [spawner-6]     raise ImportError(msg) from e
+1771909496.6579204 [spawner-6] ImportError: Error importing numpy: you should not try to import numpy from
+1771909496.6579492 [spawner-6]         its source directory; please exit the numpy source tree, and relaunch
+1771909496.6579773 [spawner-6]         your python interpreter from there.
+1771909496.6582425 [spawner-5] Traceback (most recent call last):
+1771909496.6582963 [spawner-5]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/controller_manager/controller_manager_services.py", line 35, in <module>
+1771909496.6583316 [spawner-5]     from rclpy.parameter import get_parameter_value
+1771909496.6583633 [spawner-5] ImportError: cannot import name 'get_parameter_value' from 'rclpy.parameter' (/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/parameter.py)
+1771909496.6584029 [spawner-5] 
+1771909496.6584342 [spawner-5] During handling of the above exception, another exception occurred:
+1771909496.6584647 [spawner-5] 
+1771909496.6584952 [spawner-5] Traceback (most recent call last):
+1771909496.6585259 [spawner-5]   File "/home/lee/IsaacLab/_isaac_sim/extscache/omni.kit.pip_archive-0.0.0+69cbf6ad.lx64.cp311/pip_prebundle/numpy/core/__init__.py", line 24, in <module>
+1771909496.6585665 [spawner-5]     from . import multiarray
+1771909496.6586018 [spawner-5]   File "/home/lee/IsaacLab/_isaac_sim/extscache/omni.kit.pip_archive-0.0.0+69cbf6ad.lx64.cp311/pip_prebundle/numpy/core/multiarray.py", line 10, in <module>
+1771909496.6587329 [spawner-5]     from . import overrides
+1771909496.6587808 [spawner-5]   File "/home/lee/IsaacLab/_isaac_sim/extscache/omni.kit.pip_archive-0.0.0+69cbf6ad.lx64.cp311/pip_prebundle/numpy/core/overrides.py", line 8, in <module>
+1771909496.6588142 [spawner-5]     from numpy.core._multiarray_umath import (
+1771909496.6588454 [spawner-5] ModuleNotFoundError: No module named 'numpy.core._multiarray_umath'
+1771909496.6588750 [spawner-5] 
+1771909496.6589053 [spawner-5] During handling of the above exception, another exception occurred:
+1771909496.6589451 [spawner-5] 
+1771909496.6589766 [spawner-5] Traceback (most recent call last):
+1771909496.6590064 [spawner-5]   File "/home/lee/IsaacLab/_isaac_sim/extscache/omni.kit.pip_archive-0.0.0+69cbf6ad.lx64.cp311/pip_prebundle/numpy/__init__.py", line 130, in <module>
+1771909496.6591401 [spawner-5]     from numpy.__config__ import show as show_config
+1771909496.6592083 [spawner-5]   File "/home/lee/IsaacLab/_isaac_sim/extscache/omni.kit.pip_archive-0.0.0+69cbf6ad.lx64.cp311/pip_prebundle/numpy/__config__.py", line 4, in <module>
+1771909496.6592412 [spawner-5]     from numpy.core._multiarray_umath import (
+1771909496.6592727 [spawner-5]   File "/home/lee/IsaacLab/_isaac_sim/extscache/omni.kit.pip_archive-0.0.0+69cbf6ad.lx64.cp311/pip_prebundle/numpy/core/__init__.py", line 50, in <module>
+1771909496.6593161 [spawner-5]     raise ImportError(msg)
+1771909496.6593566 [spawner-5] ImportError: 
+1771909496.6594014 [spawner-5] 
+1771909496.6594317 [spawner-5] IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+1771909496.6594608 [spawner-5] 
+1771909496.6595001 [spawner-5] Importing the numpy C-extensions failed. This error can happen for
+1771909496.6595352 [spawner-5] many reasons, often due to issues with your setup or how NumPy was
+1771909496.6595762 [spawner-5] installed.
+1771909496.6596043 [spawner-5] 
+1771909496.6596332 [spawner-5] We have compiled some common reasons and troubleshooting tips at:
+1771909496.6596611 [spawner-5] 
+1771909496.6596987 [spawner-5]     https://numpy.org/devdocs/user/troubleshooting-importerror.html
+1771909496.6597340 [spawner-5] 
+1771909496.6597662 [spawner-5] Please note and check the following:
+1771909496.6597960 [spawner-5] 
+1771909496.6598237 [spawner-5]   * The Python version is: Python3.10 from "/usr/bin/python3"
+1771909496.6598616 [spawner-5]   * The NumPy version is: "1.26.0"
+1771909496.6598897 [spawner-5] 
+1771909496.6599174 [spawner-5] and make sure that they are the versions you expect.
+1771909496.6599545 [spawner-5] Please carefully study the documentation linked above for further help.
+1771909496.6599824 [spawner-5] 
+1771909496.6600096 [spawner-5] Original error was: No module named 'numpy.core._multiarray_umath'
+1771909496.6600475 [spawner-5] 
+1771909496.6600914 [spawner-5] 
+1771909496.6601322 [spawner-5] The above exception was the direct cause of the following exception:
+1771909496.6601651 [spawner-5] 
+1771909496.6602046 [spawner-5] Traceback (most recent call last):
+1771909496.6602325 [spawner-5]   File "/opt/ros/humble/lib/controller_manager/spawner", line 33, in <module>
+1771909496.6602612 [spawner-5]     sys.exit(load_entry_point('controller-manager==2.53.0', 'console_scripts', 'spawner')())
+1771909496.6603029 [spawner-5]   File "/opt/ros/humble/lib/controller_manager/spawner", line 25, in importlib_load_entry_point
+1771909496.6603312 [spawner-5]     return next(matches).load()
+1771909496.6603730 [spawner-5]   File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 171, in load
+1771909496.6604085 [spawner-5]     module = import_module(match.group('module'))
+1771909496.6604567 [spawner-5]   File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+1771909496.6604857 [spawner-5]     return _bootstrap._gcd_import(name[level:], package, level)
+1771909496.6605332 [spawner-5]   File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+1771909496.6605608 [spawner-5]   File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+1771909496.6606097 [spawner-5]   File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+1771909496.6606369 [spawner-5]   File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+1771909496.6606655 [spawner-5]   File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+1771909496.6607029 [spawner-5]   File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+1771909496.6607294 [spawner-5]   File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+1771909496.6607652 [spawner-5]   File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+1771909496.6608009 [spawner-5]   File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+1771909496.6608338 [spawner-5]   File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+1771909496.6608768 [spawner-5]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/controller_manager/__init__.py", line 15, in <module>
+1771909496.6609480 [spawner-5]     from .controller_manager_services import (
+1771909496.6609895 [spawner-5]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/controller_manager/controller_manager_services.py", line 37, in <module>
+1771909496.6610339 [spawner-5]     from ros2param.api import get_parameter_value
+1771909496.6610758 [spawner-5]   File "/opt/ros/humble/lib/python3.10/site-packages/ros2param/api/__init__.py", line 26, in <module>
+1771909496.6611092 [spawner-5]     from ros2cli.node.direct import DirectNode
+1771909496.6611524 [spawner-5]   File "/opt/ros/humble/lib/python3.10/site-packages/ros2cli/node/direct.py", line 18, in <module>
+1771909496.6611874 [spawner-5]     import rclpy.action
+1771909496.6612175 [spawner-5]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/action/__init__.py", line 15, in <module>
+1771909496.6612546 [spawner-5]     from .client import ActionClient  # noqa: F401
+1771909496.6613176 [spawner-5]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/action/client.py", line 32, in <module>
+1771909496.6613712 [spawner-5]     from unique_identifier_msgs.msg import UUID
+1771909496.6614077 [spawner-5]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/unique_identifier_msgs/msg/__init__.py", line 1, in <module>
+1771909496.6614397 [spawner-5]     from unique_identifier_msgs.msg._uuid import UUID  # noqa: F401
+1771909496.6614802 [spawner-5]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/unique_identifier_msgs/msg/_uuid.py", line 11, in <module>
+1771909496.6615078 [spawner-5]     import numpy  # noqa: E402, I100
+1771909496.6615546 [spawner-5]   File "/home/lee/IsaacLab/_isaac_sim/extscache/omni.kit.pip_archive-0.0.0+69cbf6ad.lx64.cp311/pip_prebundle/numpy/__init__.py", line 135, in <module>
+1771909496.6615834 [spawner-5]     raise ImportError(msg) from e
+1771909496.6616113 [spawner-5] ImportError: Error importing numpy: you should not try to import numpy from
+1771909496.6616547 [spawner-5]         its source directory; please exit the numpy source tree, and relaunch
+1771909496.6616824 [spawner-5]         your python interpreter from there.
+1771909496.6617100 [spawner-5] Error in sys.excepthook:
+1771909496.6617544 [spawner-5] Traceback (most recent call last):
+1771909496.6617937 [spawner-5]   File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 153, in apport_excepthook
+1771909496.6618335 [spawner-5]     with os.fdopen(os.open(pr_filename,
+1771909496.6618698 [spawner-5] PermissionError: [Errno 13] Permission denied: '/var/crash/_opt_ros_humble_lib_controller_manager_spawner.0.crash'
+1771909496.6618972 [spawner-5] 
+1771909496.6619339 [spawner-5] Original exception was:
+1771909496.6619709 [spawner-5] Traceback (most recent call last):
+1771909496.6619995 [spawner-5]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/controller_manager/controller_manager_services.py", line 35, in <module>
+1771909496.6620271 [spawner-5]     from rclpy.parameter import get_parameter_value
+1771909496.6620750 [spawner-5] ImportError: cannot import name 'get_parameter_value' from 'rclpy.parameter' (/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/parameter.py)
+1771909496.6621048 [spawner-5] 
+1771909496.6621475 [spawner-5] During handling of the above exception, another exception occurred:
+1771909496.6622024 [spawner-5] 
+1771909496.6622324 [spawner-5] Traceback (most recent call last):
+1771909496.6622603 [spawner-5]   File "/home/lee/IsaacLab/_isaac_sim/extscache/omni.kit.pip_archive-0.0.0+69cbf6ad.lx64.cp311/pip_prebundle/numpy/core/__init__.py", line 24, in <module>
+1771909496.6622891 [spawner-5]     from . import multiarray
+1771909496.6623304 [spawner-5]   File "/home/lee/IsaacLab/_isaac_sim/extscache/omni.kit.pip_archive-0.0.0+69cbf6ad.lx64.cp311/pip_prebundle/numpy/core/multiarray.py", line 10, in <module>
+1771909496.6623604 [spawner-5]     from . import overrides
+1771909496.6623886 [spawner-5]   File "/home/lee/IsaacLab/_isaac_sim/extscache/omni.kit.pip_archive-0.0.0+69cbf6ad.lx64.cp311/pip_prebundle/numpy/core/overrides.py", line 8, in <module>
+1771909496.6624305 [spawner-5]     from numpy.core._multiarray_umath import (
+1771909496.6624579 [spawner-5] ModuleNotFoundError: No module named 'numpy.core._multiarray_umath'
+1771909496.6624854 [spawner-5] 
+1771909496.6625245 [spawner-5] During handling of the above exception, another exception occurred:
+1771909496.6625514 [spawner-5] 
+1771909496.6625781 [spawner-5] Traceback (most recent call last):
+1771909496.6626053 [spawner-5]   File "/home/lee/IsaacLab/_isaac_sim/extscache/omni.kit.pip_archive-0.0.0+69cbf6ad.lx64.cp311/pip_prebundle/numpy/__init__.py", line 130, in <module>
+1771909496.6626329 [spawner-5]     from numpy.__config__ import show as show_config
+1771909496.6626606 [spawner-5]   File "/home/lee/IsaacLab/_isaac_sim/extscache/omni.kit.pip_archive-0.0.0+69cbf6ad.lx64.cp311/pip_prebundle/numpy/__config__.py", line 4, in <module>
+1771909496.6627035 [spawner-5]     from numpy.core._multiarray_umath import (
+1771909496.6627328 [spawner-5]   File "/home/lee/IsaacLab/_isaac_sim/extscache/omni.kit.pip_archive-0.0.0+69cbf6ad.lx64.cp311/pip_prebundle/numpy/core/__init__.py", line 50, in <module>
+1771909496.6627603 [spawner-5]     raise ImportError(msg)
+1771909496.6627982 [spawner-5] ImportError: 
+1771909496.6628249 [spawner-5] 
+1771909496.6628518 [spawner-5] IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+1771909496.6629014 [spawner-5] 
+1771909496.6629488 [spawner-5] Importing the numpy C-extensions failed. This error can happen for
+1771909496.6629784 [spawner-5] many reasons, often due to issues with your setup or how NumPy was
+1771909496.6630056 [spawner-5] installed.
+1771909496.6630325 [spawner-5] 
+1771909496.6630602 [spawner-5] We have compiled some common reasons and troubleshooting tips at:
+1771909496.6630950 [spawner-5] 
+1771909496.6631362 [spawner-5]     https://numpy.org/devdocs/user/troubleshooting-importerror.html
+1771909496.6631701 [spawner-5] 
+1771909496.6631982 [spawner-5] Please note and check the following:
+1771909496.6632252 [spawner-5] 
+1771909496.6632519 [spawner-5]   * The Python version is: Python3.10 from "/usr/bin/python3"
+1771909496.6632967 [spawner-5]   * The NumPy version is: "1.26.0"
+1771909496.6633337 [spawner-5] 
+1771909496.6633646 [spawner-5] and make sure that they are the versions you expect.
+1771909496.6633923 [spawner-5] Please carefully study the documentation linked above for further help.
+1771909496.6634188 [spawner-5] 
+1771909496.6634560 [spawner-5] Original error was: No module named 'numpy.core._multiarray_umath'
+1771909496.6634827 [spawner-5] 
+1771909496.6635087 [spawner-5] 
+1771909496.6635349 [spawner-5] The above exception was the direct cause of the following exception:
+1771909496.6635621 [spawner-5] 
+1771909496.6635880 [spawner-5] Traceback (most recent call last):
+1771909496.6636152 [spawner-5]   File "/opt/ros/humble/lib/controller_manager/spawner", line 33, in <module>
+1771909496.6636431 [spawner-5]     sys.exit(load_entry_point('controller-manager==2.53.0', 'console_scripts', 'spawner')())
+1771909496.6636846 [spawner-5]   File "/opt/ros/humble/lib/controller_manager/spawner", line 25, in importlib_load_entry_point
+1771909496.6637187 [spawner-5]     return next(matches).load()
+1771909496.6637459 [spawner-5]   File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 171, in load
+1771909496.6642365 [spawner-5]     module = import_module(match.group('module'))
+1771909496.6643171 [spawner-5]   File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+1771909496.6643534 [spawner-5]     return _bootstrap._gcd_import(name[level:], package, level)
+1771909496.6643944 [spawner-5]   File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+1771909496.6644261 [spawner-5]   File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+1771909496.6644559 [spawner-5]   File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+1771909496.6644933 [spawner-5]   File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+1771909496.6645212 [spawner-5]   File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+1771909496.6645486 [spawner-5]   File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+1771909496.6645842 [spawner-5]   File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+1771909496.6648231 [spawner-5]   File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+1771909496.6648669 [spawner-5]   File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+1771909496.6648993 [spawner-5]   File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+1771909496.6649280 [spawner-5]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/controller_manager/__init__.py", line 15, in <module>
+1771909496.6649570 [spawner-5]     from .controller_manager_services import (
+1771909496.6650050 [spawner-5]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/controller_manager/controller_manager_services.py", line 37, in <module>
+1771909496.6650369 [spawner-5]     from ros2param.api import get_parameter_value
+1771909496.6650755 [spawner-5]   File "/opt/ros/humble/lib/python3.10/site-packages/ros2param/api/__init__.py", line 26, in <module>
+1771909496.6651180 [spawner-5]     from ros2cli.node.direct import DirectNode
+1771909496.6651566 [spawner-5]   File "/opt/ros/humble/lib/python3.10/site-packages/ros2cli/node/direct.py", line 18, in <module>
+1771909496.6652019 [spawner-5]     import rclpy.action
+1771909496.6652400 [spawner-5]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/action/__init__.py", line 15, in <module>
+1771909496.6652691 [spawner-5]     from .client import ActionClient  # noqa: F401
+1771909496.6652973 [spawner-5]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/action/client.py", line 32, in <module>
+1771909496.6653333 [spawner-5]     from unique_identifier_msgs.msg import UUID
+1771909496.6653614 [spawner-5]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/unique_identifier_msgs/msg/__init__.py", line 1, in <module>
+1771909496.6653905 [spawner-5]     from unique_identifier_msgs.msg._uuid import UUID  # noqa: F401
+1771909496.6654267 [spawner-5]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/unique_identifier_msgs/msg/_uuid.py", line 11, in <module>
+1771909496.6654632 [spawner-5]     import numpy  # noqa: E402, I100
+1771909496.6654930 [spawner-5]   File "/home/lee/IsaacLab/_isaac_sim/extscache/omni.kit.pip_archive-0.0.0+69cbf6ad.lx64.cp311/pip_prebundle/numpy/__init__.py", line 135, in <module>
+1771909496.6655221 [spawner-5]     raise ImportError(msg) from e
+1771909496.6655509 [spawner-5] ImportError: Error importing numpy: you should not try to import numpy from
+1771909496.6655879 [spawner-5]         its source directory; please exit the numpy source tree, and relaunch
+1771909496.6656148 [spawner-5]         your python interpreter from there.
+1771909496.6933980 [ERROR] [spawner-4]: process has died [pid 22498, exit code 1, cmd '/opt/ros/humble/lib/controller_manager/spawner joint_state_broadcaster --controller-manager /controller_manager --ros-args'].
+1771909496.6960628 [ERROR] [spawner-6]: process has died [pid 22502, exit code 1, cmd '/opt/ros/humble/lib/controller_manager/spawner gripper_controller -c /controller_manager --ros-args'].
+1771909496.7034338 [ERROR] [spawner-5]: process has died [pid 22500, exit code 1, cmd '/opt/ros/humble/lib/controller_manager/spawner joint_trajectory_controller -c /controller_manager --ros-args'].

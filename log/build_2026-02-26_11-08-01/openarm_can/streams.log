@@ -1,0 +1,72 @@
+[0.018s] Invoking command in '/home/lee/ros2_ws/build/openarm_can': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lee/ros2_ws/src/openarm_can -DCMAKE_INSTALL_PREFIX=/home/lee/ros2_ws/install/openarm_can
+[0.080s] -- The C compiler identification is GNU 11.4.0
+[0.146s] -- The CXX compiler identification is GNU 11.4.0
+[0.155s] -- Detecting C compiler ABI info
+[0.249s] -- Detecting C compiler ABI info - done
+[0.257s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.258s] -- Detecting C compile features
+[0.258s] -- Detecting C compile features - done
+[0.262s] -- Detecting CXX compiler ABI info
+[0.377s] -- Detecting CXX compiler ABI info - done
+[0.384s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.385s] -- Detecting CXX compile features
+[0.385s] -- Detecting CXX compile features - done
+[0.397s] -- Configuring done
+[0.423s] -- Generating done
+[0.433s] -- Build files have been written to: /home/lee/ros2_ws/build/openarm_can
+[0.439s] Invoked command in '/home/lee/ros2_ws/build/openarm_can' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lee/ros2_ws/src/openarm_can -DCMAKE_INSTALL_PREFIX=/home/lee/ros2_ws/install/openarm_can
+[0.443s] Invoking command in '/home/lee/ros2_ws/build/openarm_can': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lee/ros2_ws/build/openarm_can -- -j16 -l16
+[0.523s] [ 50%] [32mBuilding CXX object CMakeFiles/openarm_can.dir/src/openarm/can/socket/openarm.cpp.o[0m
+[0.524s] [ 50%] [32mBuilding CXX object CMakeFiles/openarm_can.dir/src/openarm/damiao_motor/dm_motor_device_collection.cpp.o[0m
+[0.524s] [ 50%] [32mBuilding CXX object CMakeFiles/openarm_can.dir/src/openarm/damiao_motor/dm_motor.cpp.o[0m
+[0.524s] [ 50%] [32mBuilding CXX object CMakeFiles/openarm_can.dir/src/openarm/damiao_motor/dm_motor_control.cpp.o[0m
+[0.524s] [ 50%] [32mBuilding CXX object CMakeFiles/openarm_can.dir/src/openarm/can/socket/gripper_component.cpp.o[0m
+[0.524s] [ 50%] [32mBuilding CXX object CMakeFiles/openarm_can.dir/src/openarm/can/socket/arm_component.cpp.o[0m
+[0.524s] [ 50%] [32mBuilding CXX object CMakeFiles/openarm_can.dir/src/openarm/canbus/can_socket.cpp.o[0m
+[0.524s] [ 50%] [32mBuilding CXX object CMakeFiles/openarm_can.dir/src/openarm/canbus/can_device_collection.cpp.o[0m
+[0.524s] [ 56%] [32mBuilding CXX object CMakeFiles/openarm_can.dir/src/openarm/damiao_motor/dm_motor_device.cpp.o[0m
+[1.576s] [ 62%] [32m[1mLinking CXX static library libopenarm_can.a[0m
+[1.641s] [ 62%] Built target openarm_can
+[1.668s] [ 81%] [32mBuilding CXX object CMakeFiles/openarm-can-diagnosis.dir/setup/openarm_can_diagnosis.cpp.o[0m
+[1.668s] [ 81%] [32mBuilding CXX object CMakeFiles/openarm-can-demo.dir/examples/demo.cpp.o[0m
+[1.668s] [ 81%] [32mBuilding CXX object CMakeFiles/openarm-can-motor-check.dir/setup/motor_check.cpp.o[0m
+[2.463s] [ 87%] [32m[1mLinking CXX executable openarm-can-motor-check[0m
+[2.488s] [ 93%] [32m[1mLinking CXX executable openarm-can-demo[0m
+[2.619s] [100%] [32m[1mLinking CXX executable openarm-can-diagnosis[0m
+[2.645s] [100%] Built target openarm-can-motor-check
+[2.670s] [100%] Built target openarm-can-demo
+[2.783s] [100%] Built target openarm-can-diagnosis
+[2.803s] Invoked command in '/home/lee/ros2_ws/build/openarm_can' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lee/ros2_ws/build/openarm_can -- -j16 -l16
+[2.805s] Invoking command in '/home/lee/ros2_ws/build/openarm_can': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lee/ros2_ws/build/openarm_can
+[2.816s] -- Install configuration: ""
+[2.816s] -- Installing: /home/lee/ros2_ws/install/openarm_can/lib/libopenarm_can.a
+[2.818s] -- Installing: /home/lee/ros2_ws/install/openarm_can/include/openarm
+[2.818s] -- Installing: /home/lee/ros2_ws/install/openarm_can/include/openarm/can
+[2.818s] -- Installing: /home/lee/ros2_ws/install/openarm_can/include/openarm/can/socket
+[2.819s] -- Installing: /home/lee/ros2_ws/install/openarm_can/include/openarm/can/socket/gripper_component.hpp
+[2.819s] -- Installing: /home/lee/ros2_ws/install/openarm_can/include/openarm/can/socket/arm_component.hpp
+[2.819s] -- Installing: /home/lee/ros2_ws/install/openarm_can/include/openarm/can/socket/openarm.hpp
+[2.819s] -- Installing: /home/lee/ros2_ws/install/openarm_can/include/openarm/canbus
+[2.819s] -- Installing: /home/lee/ros2_ws/install/openarm_can/include/openarm/canbus/can_device.hpp
+[2.819s] -- Installing: /home/lee/ros2_ws/install/openarm_can/include/openarm/canbus/can_socket.hpp
+[2.819s] -- Installing: /home/lee/ros2_ws/install/openarm_can/include/openarm/canbus/can_device_collection.hpp
+[2.819s] -- Installing: /home/lee/ros2_ws/install/openarm_can/include/openarm/damiao_motor
+[2.819s] -- Installing: /home/lee/ros2_ws/install/openarm_can/include/openarm/damiao_motor/dm_motor_control.hpp
+[2.820s] -- Installing: /home/lee/ros2_ws/install/openarm_can/include/openarm/damiao_motor/dm_motor_constants.hpp
+[2.820s] -- Installing: /home/lee/ros2_ws/install/openarm_can/include/openarm/damiao_motor/dm_motor_device.hpp
+[2.820s] -- Installing: /home/lee/ros2_ws/install/openarm_can/include/openarm/damiao_motor/dm_motor_device_collection.hpp
+[2.820s] -- Installing: /home/lee/ros2_ws/install/openarm_can/include/openarm/damiao_motor/dm_motor.hpp
+[2.820s] -- Installing: /home/lee/ros2_ws/install/openarm_can/lib/cmake/OpenArmCAN/OpenArmCANTargets.cmake
+[2.821s] -- Installing: /home/lee/ros2_ws/install/openarm_can/lib/cmake/OpenArmCAN/OpenArmCANTargets-noconfig.cmake
+[2.821s] -- Installing: /home/lee/ros2_ws/install/openarm_can/lib/cmake/OpenArmCAN/OpenArmCANConfig.cmake
+[2.821s] -- Installing: /home/lee/ros2_ws/install/openarm_can/lib/cmake/OpenArmCAN/OpenArmCANConfigVersion.cmake
+[2.821s] -- Installing: /home/lee/ros2_ws/install/openarm_can/lib/pkgconfig/openarm-can.pc
+[2.821s] -- Installing: /home/lee/ros2_ws/install/openarm_can/bin/openarm-can-motor-check
+[2.822s] -- Installing: /home/lee/ros2_ws/install/openarm_can/bin/openarm-can-diagnosis
+[2.823s] -- Installing: /home/lee/ros2_ws/install/openarm_can/bin/openarm-can-demo
+[2.824s] -- Installing: /home/lee/ros2_ws/install/openarm_can/bin/openarm-can-change-baudrate
+[2.825s] -- Installing: /home/lee/ros2_ws/install/openarm_can/bin/openarm-can-configure-socketcan
+[2.825s] -- Installing: /home/lee/ros2_ws/install/openarm_can/bin/openarm-can-configure-socketcan-4-arms
+[2.825s] -- Installing: /home/lee/ros2_ws/install/openarm_can/bin/openarm-can-set-zero
+[2.825s] -- Installing: /home/lee/ros2_ws/install/openarm_can/bin/openarm-can-zero-position-calibration
+[2.829s] Invoked command in '/home/lee/ros2_ws/build/openarm_can' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lee/ros2_ws/build/openarm_can

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot name="openarm">
+  <group name="arm">
+    <joint name="openarm_joint1"/>
+    <joint name="openarm_joint2"/>
+    <joint name="openarm_joint3"/>
+    <joint name="openarm_joint4"/>
+    <joint name="openarm_joint5"/>
+    <joint name="openarm_joint6"/>
+    <joint name="openarm_joint7"/>
+  </group>
+
+  <group name="gripper">
+    <joint name="openarm_finger_joint1"/>
+  </group>
+
+  <group_state name="home" group="arm">
+    <joint name="openarm_joint1" value="0"/>
+    <joint name="openarm_joint2" value="0"/>
+    <joint name="openarm_joint3" value="0"/>
+    <joint name="openarm_joint4" value="0"/>
+    <joint name="openarm_joint5" value="0"/>
+    <joint name="openarm_joint6" value="0"/>
+    <joint name="openarm_joint7" value="0"/>
+  </group_state>
+
+  <group_state name="closed" group="gripper">
+    <joint name="openarm_finger_joint1" value="0"/>
+  </group_state>
+
+  <group_state name="open" group="gripper">
+    <joint name="openarm_finger_joint1" value="0.044"/>
+  </group_state>
+
+  <end_effector name="ee" parent_link="openarm_hand" group="gripper"/>
+  <passive_joint name="openarm_finger_joint2"/>
+
+  <virtual_joint name="world_joint" type="fixed" parent_frame="world" child_link="openarm_link0"/>
+</robot>
+

@@ -1,0 +1,837 @@
+[0.101s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.101s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7489868a9540>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7489869b8d90>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7489869b8d90>>, mixin_verb=('build',))
+[0.136s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.136s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.136s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.136s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.136s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.136s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.136s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/lee/ros2_ws'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(pose_control) by extensions ['ignore', 'ignore_ament_install']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(pose_control) by extension 'ignore'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(pose_control) by extension 'ignore_ament_install'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(pose_control) by extensions ['colcon_pkg']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(pose_control) by extension 'colcon_pkg'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(pose_control) by extensions ['colcon_meta']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(pose_control) by extension 'colcon_meta'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(pose_control) by extensions ['ros']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(pose_control) by extension 'ros'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(pose_control) by extensions ['cmake', 'python']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(pose_control) by extension 'cmake'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(pose_control) by extension 'python'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(pose_control) by extensions ['python_setup_py']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(pose_control) by extension 'python_setup_py'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_can) by extensions ['ignore', 'ignore_ament_install']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_can) by extension 'ignore'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_can) by extension 'ignore_ament_install'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_can) by extensions ['colcon_pkg']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_can) by extension 'colcon_pkg'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_can) by extensions ['colcon_meta']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_can) by extension 'colcon_meta'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_can) by extensions ['ros']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_can) by extension 'ros'
+[0.159s] DEBUG:colcon.colcon_core.package_identification:Package 'src/openarm_can' with type 'ros.cmake' and name 'openarm_can'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_description) by extensions ['ignore', 'ignore_ament_install']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_description) by extension 'ignore'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_description) by extension 'ignore_ament_install'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_description) by extensions ['colcon_pkg']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_description) by extension 'colcon_pkg'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_description) by extensions ['colcon_meta']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_description) by extension 'colcon_meta'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_description) by extensions ['ros']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_description) by extension 'ros'
+[0.160s] DEBUG:colcon.colcon_core.package_identification:Package 'src/openarm_description' with type 'ros.ament_cmake' and name 'openarm_description'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_moveit_config) by extension 'ignore'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_moveit_config) by extension 'ignore_ament_install'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_moveit_config) by extensions ['colcon_pkg']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_moveit_config) by extension 'colcon_pkg'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_moveit_config) by extensions ['colcon_meta']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_moveit_config) by extension 'colcon_meta'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_moveit_config) by extensions ['ros']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_moveit_config) by extension 'ros'
+[0.161s] DEBUG:colcon.colcon_core.package_identification:Package 'src/openarm_moveit_config' with type 'ros.ament_cmake' and name 'openarm_moveit_config'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_mtc_pick_place) by extensions ['ignore', 'ignore_ament_install']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_mtc_pick_place) by extension 'ignore'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_mtc_pick_place) by extension 'ignore_ament_install'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_mtc_pick_place) by extensions ['colcon_pkg']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_mtc_pick_place) by extension 'colcon_pkg'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_mtc_pick_place) by extensions ['colcon_meta']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_mtc_pick_place) by extension 'colcon_meta'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_mtc_pick_place) by extensions ['ros']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_mtc_pick_place) by extension 'ros'
+[0.162s] DEBUG:colcon.colcon_core.package_identification:Package 'src/openarm_mtc_pick_place' with type 'ros.ament_cmake' and name 'openarm_mtc_pick_place'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_portfolio_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_portfolio_bringup) by extension 'ignore'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_portfolio_bringup) by extension 'ignore_ament_install'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_portfolio_bringup) by extensions ['colcon_pkg']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_portfolio_bringup) by extension 'colcon_pkg'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_portfolio_bringup) by extensions ['colcon_meta']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_portfolio_bringup) by extension 'colcon_meta'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_portfolio_bringup) by extensions ['ros']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_portfolio_bringup) by extension 'ros'
+[0.163s] DEBUG:colcon.colcon_core.package_identification:Package 'src/openarm_portfolio_bringup' with type 'ros.ament_cmake' and name 'openarm_portfolio_bringup'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_portfolio_tools) by extensions ['ignore', 'ignore_ament_install']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_portfolio_tools) by extension 'ignore'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_portfolio_tools) by extension 'ignore_ament_install'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_portfolio_tools) by extensions ['colcon_pkg']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_portfolio_tools) by extension 'colcon_pkg'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_portfolio_tools) by extensions ['colcon_meta']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_portfolio_tools) by extension 'colcon_meta'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_portfolio_tools) by extensions ['ros']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_portfolio_tools) by extension 'ros'
+[0.164s] DEBUG:colcon.colcon_core.package_identification:Package 'src/openarm_portfolio_tools' with type 'ros.ament_cmake' and name 'openarm_portfolio_tools'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_ros2) by extension 'ignore'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_ros2) by extension 'ignore_ament_install'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_ros2) by extensions ['colcon_pkg']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_ros2) by extension 'colcon_pkg'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_ros2) by extensions ['colcon_meta']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_ros2) by extension 'colcon_meta'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_ros2) by extensions ['ros']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_ros2) by extension 'ros'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_ros2) by extensions ['cmake', 'python']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_ros2) by extension 'cmake'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_ros2) by extension 'python'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_ros2) by extensions ['python_setup_py']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_ros2) by extension 'python_setup_py'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_ros2/dev) by extensions ['ignore', 'ignore_ament_install']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_ros2/dev) by extension 'ignore'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_ros2/dev) by extension 'ignore_ament_install'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_ros2/dev) by extensions ['colcon_pkg']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_ros2/dev) by extension 'colcon_pkg'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_ros2/dev) by extensions ['colcon_meta']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_ros2/dev) by extension 'colcon_meta'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_ros2/dev) by extensions ['ros']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_ros2/dev) by extension 'ros'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_ros2/dev) by extensions ['cmake', 'python']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_ros2/dev) by extension 'cmake'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_ros2/dev) by extension 'python'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_ros2/dev) by extensions ['python_setup_py']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_ros2/dev) by extension 'python_setup_py'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_ros2/openarm) by extensions ['ignore', 'ignore_ament_install']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_ros2/openarm) by extension 'ignore'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_ros2/openarm) by extension 'ignore_ament_install'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_ros2/openarm) by extensions ['colcon_pkg']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_ros2/openarm) by extension 'colcon_pkg'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_ros2/openarm) by extensions ['colcon_meta']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_ros2/openarm) by extension 'colcon_meta'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_ros2/openarm) by extensions ['ros']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_ros2/openarm) by extension 'ros'
+[0.166s] DEBUG:colcon.colcon_core.package_identification:Package 'src/openarm_ros2/openarm' with type 'ros.ament_cmake' and name 'openarm'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_ros2/openarm_bimanual_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_ros2/openarm_bimanual_moveit_config) by extension 'ignore'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_ros2/openarm_bimanual_moveit_config) by extension 'ignore_ament_install'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_ros2/openarm_bimanual_moveit_config) by extensions ['colcon_pkg']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_ros2/openarm_bimanual_moveit_config) by extension 'colcon_pkg'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_ros2/openarm_bimanual_moveit_config) by extensions ['colcon_meta']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_ros2/openarm_bimanual_moveit_config) by extension 'colcon_meta'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_ros2/openarm_bimanual_moveit_config) by extensions ['ros']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_ros2/openarm_bimanual_moveit_config) by extension 'ros'
+[0.167s] DEBUG:colcon.colcon_core.package_identification:Package 'src/openarm_ros2/openarm_bimanual_moveit_config' with type 'ros.ament_cmake' and name 'openarm_bimanual_moveit_config'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_ros2/openarm_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_ros2/openarm_bringup) by extension 'ignore'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_ros2/openarm_bringup) by extension 'ignore_ament_install'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_ros2/openarm_bringup) by extensions ['colcon_pkg']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_ros2/openarm_bringup) by extension 'colcon_pkg'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_ros2/openarm_bringup) by extensions ['colcon_meta']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_ros2/openarm_bringup) by extension 'colcon_meta'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_ros2/openarm_bringup) by extensions ['ros']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_ros2/openarm_bringup) by extension 'ros'
+[0.167s] DEBUG:colcon.colcon_core.package_identification:Package 'src/openarm_ros2/openarm_bringup' with type 'ros.ament_cmake' and name 'openarm_bringup'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_ros2/openarm_hardware) by extensions ['ignore', 'ignore_ament_install']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_ros2/openarm_hardware) by extension 'ignore'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_ros2/openarm_hardware) by extension 'ignore_ament_install'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_ros2/openarm_hardware) by extensions ['colcon_pkg']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_ros2/openarm_hardware) by extension 'colcon_pkg'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_ros2/openarm_hardware) by extensions ['colcon_meta']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_ros2/openarm_hardware) by extension 'colcon_meta'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_ros2/openarm_hardware) by extensions ['ros']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_ros2/openarm_hardware) by extension 'ros'
+[0.168s] DEBUG:colcon.colcon_core.package_identification:Package 'src/openarm_ros2/openarm_hardware' with type 'ros.ament_cmake' and name 'openarm_hardware'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_scene_tools) by extensions ['ignore', 'ignore_ament_install']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_scene_tools) by extension 'ignore'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_scene_tools) by extension 'ignore_ament_install'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_scene_tools) by extensions ['colcon_pkg']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_scene_tools) by extension 'colcon_pkg'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_scene_tools) by extensions ['colcon_meta']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_scene_tools) by extension 'colcon_meta'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_scene_tools) by extensions ['ros']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/openarm_scene_tools) by extension 'ros'
+[0.169s] DEBUG:colcon.colcon_core.package_identification:Package 'src/openarm_scene_tools' with type 'ros.ament_cmake' and name 'openarm_scene_tools'
+[0.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.189s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/lee/ros2_ws/install/rviz_marker_tools' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.189s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/lee/ros2_ws/install/openarm_scene_tools' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.189s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/lee/ros2_ws/install/openarm_portfolio_tools' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.190s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/lee/ros2_ws/install/openarm_portfolio_bringup' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.190s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/lee/ros2_ws/install/openarm_moveit_config' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.190s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/lee/ros2_ws/install/openarm' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.190s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/lee/ros2_ws/install/openarm_hardware' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.190s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/lee/ros2_ws/install/openarm_bimanual_moveit_config' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.190s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/lee/ros2_ws/install/openarm_description' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.190s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/lee/ros2_ws/install/openarm_bringup' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.190s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/lee/ros2_ws/install/moveit_task_constructor_msgs' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.190s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/lee/ros2_ws/install/rviz_marker_tools' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.190s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/lee/ros2_ws/install/openarm_scene_tools' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.190s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/lee/ros2_ws/install/openarm_portfolio_tools' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.190s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/lee/ros2_ws/install/openarm_portfolio_bringup' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.190s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/lee/ros2_ws/install/openarm_moveit_config' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.190s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/lee/ros2_ws/install/openarm' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.190s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/lee/ros2_ws/install/openarm_hardware' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.190s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/lee/ros2_ws/install/openarm_bimanual_moveit_config' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.190s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/lee/ros2_ws/install/openarm_description' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.190s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/lee/ros2_ws/install/openarm_can' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.190s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/lee/ros2_ws/install/openarm_bringup' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.190s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/lee/ros2_ws/install/moveit_task_constructor_msgs' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.191s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/lee/ros2_ws/install
+[0.192s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 359 installed packages in /opt/ros/humble
+[0.193s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'openarm_bringup' build argument 'cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'openarm_bringup' build argument 'cmake_target' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'openarm_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'openarm_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'openarm_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'openarm_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'openarm_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'openarm_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'openarm_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.247s] DEBUG:colcon.colcon_core.verb:Building package 'openarm_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lee/ros2_ws/build/openarm_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lee/ros2_ws/install/openarm_bringup', 'merge_install': False, 'path': '/home/lee/ros2_ws/src/openarm_ros2/openarm_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'openarm_can' build argument 'cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'openarm_can' build argument 'cmake_target' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'openarm_can' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'openarm_can' build argument 'cmake_clean_cache' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'openarm_can' build argument 'cmake_clean_first' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'openarm_can' build argument 'cmake_force_configure' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'openarm_can' build argument 'ament_cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'openarm_can' build argument 'catkin_cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'openarm_can' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.248s] DEBUG:colcon.colcon_core.verb:Building package 'openarm_can' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lee/ros2_ws/build/openarm_can', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lee/ros2_ws/install/openarm_can', 'merge_install': False, 'path': '/home/lee/ros2_ws/src/openarm_can', 'symlink_install': False, 'test_result_base': None}
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'openarm_description' build argument 'cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'openarm_description' build argument 'cmake_target' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'openarm_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'openarm_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'openarm_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'openarm_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'openarm_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'openarm_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'openarm_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.248s] DEBUG:colcon.colcon_core.verb:Building package 'openarm_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lee/ros2_ws/build/openarm_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lee/ros2_ws/install/openarm_description', 'merge_install': False, 'path': '/home/lee/ros2_ws/src/openarm_description', 'symlink_install': False, 'test_result_base': None}
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'openarm_mtc_pick_place' build argument 'cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'openarm_mtc_pick_place' build argument 'cmake_target' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'openarm_mtc_pick_place' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'openarm_mtc_pick_place' build argument 'cmake_clean_cache' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'openarm_mtc_pick_place' build argument 'cmake_clean_first' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'openarm_mtc_pick_place' build argument 'cmake_force_configure' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'openarm_mtc_pick_place' build argument 'ament_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'openarm_mtc_pick_place' build argument 'catkin_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'openarm_mtc_pick_place' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.249s] DEBUG:colcon.colcon_core.verb:Building package 'openarm_mtc_pick_place' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lee/ros2_ws/build/openarm_mtc_pick_place', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lee/ros2_ws/install/openarm_mtc_pick_place', 'merge_install': False, 'path': '/home/lee/ros2_ws/src/openarm_mtc_pick_place', 'symlink_install': False, 'test_result_base': None}
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'openarm_portfolio_tools' build argument 'cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'openarm_portfolio_tools' build argument 'cmake_target' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'openarm_portfolio_tools' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'openarm_portfolio_tools' build argument 'cmake_clean_cache' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'openarm_portfolio_tools' build argument 'cmake_clean_first' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'openarm_portfolio_tools' build argument 'cmake_force_configure' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'openarm_portfolio_tools' build argument 'ament_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'openarm_portfolio_tools' build argument 'catkin_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'openarm_portfolio_tools' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.249s] DEBUG:colcon.colcon_core.verb:Building package 'openarm_portfolio_tools' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lee/ros2_ws/build/openarm_portfolio_tools', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lee/ros2_ws/install/openarm_portfolio_tools', 'merge_install': False, 'path': '/home/lee/ros2_ws/src/openarm_portfolio_tools', 'symlink_install': False, 'test_result_base': None}
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'openarm_scene_tools' build argument 'cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'openarm_scene_tools' build argument 'cmake_target' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'openarm_scene_tools' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'openarm_scene_tools' build argument 'cmake_clean_cache' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'openarm_scene_tools' build argument 'cmake_clean_first' from command line to 'False'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'openarm_scene_tools' build argument 'cmake_force_configure' from command line to 'False'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'openarm_scene_tools' build argument 'ament_cmake_args' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'openarm_scene_tools' build argument 'catkin_cmake_args' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'openarm_scene_tools' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.250s] DEBUG:colcon.colcon_core.verb:Building package 'openarm_scene_tools' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lee/ros2_ws/build/openarm_scene_tools', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lee/ros2_ws/install/openarm_scene_tools', 'merge_install': False, 'path': '/home/lee/ros2_ws/src/openarm_scene_tools', 'symlink_install': False, 'test_result_base': None}
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'openarm_bimanual_moveit_config' build argument 'cmake_args' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'openarm_bimanual_moveit_config' build argument 'cmake_target' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'openarm_bimanual_moveit_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'openarm_bimanual_moveit_config' build argument 'cmake_clean_cache' from command line to 'False'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'openarm_bimanual_moveit_config' build argument 'cmake_clean_first' from command line to 'False'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'openarm_bimanual_moveit_config' build argument 'cmake_force_configure' from command line to 'False'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'openarm_bimanual_moveit_config' build argument 'ament_cmake_args' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'openarm_bimanual_moveit_config' build argument 'catkin_cmake_args' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'openarm_bimanual_moveit_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.250s] DEBUG:colcon.colcon_core.verb:Building package 'openarm_bimanual_moveit_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lee/ros2_ws/build/openarm_bimanual_moveit_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lee/ros2_ws/install/openarm_bimanual_moveit_config', 'merge_install': False, 'path': '/home/lee/ros2_ws/src/openarm_ros2/openarm_bimanual_moveit_config', 'symlink_install': False, 'test_result_base': None}
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'openarm_hardware' build argument 'cmake_args' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'openarm_hardware' build argument 'cmake_target' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'openarm_hardware' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'openarm_hardware' build argument 'cmake_clean_cache' from command line to 'False'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'openarm_hardware' build argument 'cmake_clean_first' from command line to 'False'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'openarm_hardware' build argument 'cmake_force_configure' from command line to 'False'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'openarm_hardware' build argument 'ament_cmake_args' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'openarm_hardware' build argument 'catkin_cmake_args' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'openarm_hardware' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.250s] DEBUG:colcon.colcon_core.verb:Building package 'openarm_hardware' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lee/ros2_ws/build/openarm_hardware', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lee/ros2_ws/install/openarm_hardware', 'merge_install': False, 'path': '/home/lee/ros2_ws/src/openarm_ros2/openarm_hardware', 'symlink_install': False, 'test_result_base': None}
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'openarm_moveit_config' build argument 'cmake_args' from command line to 'None'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'openarm_moveit_config' build argument 'cmake_target' from command line to 'None'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'openarm_moveit_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'openarm_moveit_config' build argument 'cmake_clean_cache' from command line to 'False'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'openarm_moveit_config' build argument 'cmake_clean_first' from command line to 'False'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'openarm_moveit_config' build argument 'cmake_force_configure' from command line to 'False'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'openarm_moveit_config' build argument 'ament_cmake_args' from command line to 'None'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'openarm_moveit_config' build argument 'catkin_cmake_args' from command line to 'None'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'openarm_moveit_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.251s] DEBUG:colcon.colcon_core.verb:Building package 'openarm_moveit_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lee/ros2_ws/build/openarm_moveit_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lee/ros2_ws/install/openarm_moveit_config', 'merge_install': False, 'path': '/home/lee/ros2_ws/src/openarm_moveit_config', 'symlink_install': False, 'test_result_base': None}
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'openarm' build argument 'cmake_args' from command line to 'None'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'openarm' build argument 'cmake_target' from command line to 'None'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'openarm' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'openarm' build argument 'cmake_clean_cache' from command line to 'False'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'openarm' build argument 'cmake_clean_first' from command line to 'False'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'openarm' build argument 'cmake_force_configure' from command line to 'False'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'openarm' build argument 'ament_cmake_args' from command line to 'None'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'openarm' build argument 'catkin_cmake_args' from command line to 'None'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'openarm' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.251s] DEBUG:colcon.colcon_core.verb:Building package 'openarm' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lee/ros2_ws/build/openarm', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lee/ros2_ws/install/openarm', 'merge_install': False, 'path': '/home/lee/ros2_ws/src/openarm_ros2/openarm', 'symlink_install': False, 'test_result_base': None}
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'openarm_portfolio_bringup' build argument 'cmake_args' from command line to 'None'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'openarm_portfolio_bringup' build argument 'cmake_target' from command line to 'None'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'openarm_portfolio_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'openarm_portfolio_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'openarm_portfolio_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'openarm_portfolio_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'openarm_portfolio_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'openarm_portfolio_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'openarm_portfolio_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.252s] DEBUG:colcon.colcon_core.verb:Building package 'openarm_portfolio_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lee/ros2_ws/build/openarm_portfolio_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lee/ros2_ws/install/openarm_portfolio_bringup', 'merge_install': False, 'path': '/home/lee/ros2_ws/src/openarm_portfolio_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.252s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.253s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.253s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lee/ros2_ws/src/openarm_description' with build type 'ament_cmake'
+[0.253s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lee/ros2_ws/src/openarm_description'
+[0.255s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.255s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.255s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.259s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lee/ros2_ws/src/openarm_ros2/openarm_bringup' with build type 'ament_cmake'
+[0.259s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lee/ros2_ws/src/openarm_ros2/openarm_bringup'
+[0.259s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.259s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.262s] INFO:colcon.colcon_ros.task.cmake.build:Building ROS package in '/home/lee/ros2_ws/src/openarm_can' with build type 'cmake'
+[0.262s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lee/ros2_ws/src/openarm_can'
+[0.262s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.262s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.264s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lee/ros2_ws/src/openarm_mtc_pick_place' with build type 'ament_cmake'
+[0.264s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lee/ros2_ws/src/openarm_mtc_pick_place'
+[0.265s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.265s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.267s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lee/ros2_ws/src/openarm_portfolio_tools' with build type 'ament_cmake'
+[0.267s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lee/ros2_ws/src/openarm_portfolio_tools'
+[0.268s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.268s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.271s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lee/ros2_ws/src/openarm_scene_tools' with build type 'ament_cmake'
+[0.271s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lee/ros2_ws/src/openarm_scene_tools'
+[0.271s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.271s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.277s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lee/ros2_ws/build/openarm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lee/ros2_ws/src/openarm_description -DCMAKE_INSTALL_PREFIX=/home/lee/ros2_ws/install/openarm_description
+[0.279s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lee/ros2_ws/build/openarm_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lee/ros2_ws/src/openarm_ros2/openarm_bringup -DCMAKE_INSTALL_PREFIX=/home/lee/ros2_ws/install/openarm_bringup
+[0.281s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lee/ros2_ws/build/openarm_can': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lee/ros2_ws/src/openarm_can -DCMAKE_INSTALL_PREFIX=/home/lee/ros2_ws/install/openarm_can
+[0.282s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lee/ros2_ws/build/openarm_mtc_pick_place': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lee/ros2_ws/src/openarm_mtc_pick_place -DCMAKE_INSTALL_PREFIX=/home/lee/ros2_ws/install/openarm_mtc_pick_place
+[0.285s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lee/ros2_ws/build/openarm_portfolio_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lee/ros2_ws/src/openarm_portfolio_tools -DCMAKE_INSTALL_PREFIX=/home/lee/ros2_ws/install/openarm_portfolio_tools
+[0.289s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lee/ros2_ws/build/openarm_scene_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lee/ros2_ws/src/openarm_scene_tools -DCMAKE_INSTALL_PREFIX=/home/lee/ros2_ws/install/openarm_scene_tools
+[0.702s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lee/ros2_ws/build/openarm_can' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lee/ros2_ws/src/openarm_can -DCMAKE_INSTALL_PREFIX=/home/lee/ros2_ws/install/openarm_can
+[0.705s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lee/ros2_ws/build/openarm_can': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lee/ros2_ws/build/openarm_can -- -j16 -l16
+[1.836s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lee/ros2_ws/build/openarm_portfolio_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lee/ros2_ws/src/openarm_portfolio_tools -DCMAKE_INSTALL_PREFIX=/home/lee/ros2_ws/install/openarm_portfolio_tools
+[1.838s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lee/ros2_ws/build/openarm_portfolio_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lee/ros2_ws/build/openarm_portfolio_tools -- -j16 -l16
+[1.861s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lee/ros2_ws/build/openarm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lee/ros2_ws/src/openarm_description -DCMAKE_INSTALL_PREFIX=/home/lee/ros2_ws/install/openarm_description
+[1.864s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lee/ros2_ws/build/openarm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lee/ros2_ws/build/openarm_description -- -j16 -l16
+[1.889s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lee/ros2_ws/build/openarm_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lee/ros2_ws/src/openarm_ros2/openarm_bringup -DCMAKE_INSTALL_PREFIX=/home/lee/ros2_ws/install/openarm_bringup
+[1.892s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lee/ros2_ws/build/openarm_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lee/ros2_ws/build/openarm_bringup -- -j16 -l16
+[1.893s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lee/ros2_ws/build/openarm_portfolio_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lee/ros2_ws/build/openarm_portfolio_tools -- -j16 -l16
+[1.907s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lee/ros2_ws/build/openarm_portfolio_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lee/ros2_ws/build/openarm_portfolio_tools
+[1.919s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lee/ros2_ws/build/openarm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lee/ros2_ws/build/openarm_description -- -j16 -l16
+[1.922s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lee/ros2_ws/build/openarm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lee/ros2_ws/build/openarm_description
+[1.922s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(openarm_portfolio_tools)
+[1.923s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lee/ros2_ws/build/openarm_portfolio_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lee/ros2_ws/build/openarm_portfolio_tools
+[1.927s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_portfolio_tools' for CMake module files
+[1.928s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_portfolio_tools' for CMake config files
+[1.928s] Level 1:colcon.colcon_core.shell:create_environment_hook('openarm_portfolio_tools', 'cmake_prefix_path')
+[1.929s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lee/ros2_ws/install/openarm_portfolio_tools/share/openarm_portfolio_tools/hook/cmake_prefix_path.ps1'
+[1.930s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lee/ros2_ws/install/openarm_portfolio_tools/share/openarm_portfolio_tools/hook/cmake_prefix_path.dsv'
+[1.931s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lee/ros2_ws/install/openarm_portfolio_tools/share/openarm_portfolio_tools/hook/cmake_prefix_path.sh'
+[1.932s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_portfolio_tools/lib'
+[1.933s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_portfolio_tools/bin'
+[1.933s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_portfolio_tools/lib/pkgconfig/openarm_portfolio_tools.pc'
+[1.934s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_portfolio_tools/lib/python3.10/site-packages'
+[1.935s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_portfolio_tools/bin'
+[1.935s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm_portfolio_tools/share/openarm_portfolio_tools/package.ps1'
+[1.937s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lee/ros2_ws/install/openarm_portfolio_tools/share/openarm_portfolio_tools/package.dsv'
+[1.938s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm_portfolio_tools/share/openarm_portfolio_tools/package.sh'
+[1.939s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm_portfolio_tools/share/openarm_portfolio_tools/package.bash'
+[1.940s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm_portfolio_tools/share/openarm_portfolio_tools/package.zsh'
+[1.940s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lee/ros2_ws/install/openarm_portfolio_tools/share/colcon-core/packages/openarm_portfolio_tools)
+[1.942s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(openarm_portfolio_tools)
+[1.942s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_portfolio_tools' for CMake module files
+[1.942s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_portfolio_tools' for CMake config files
+[1.943s] Level 1:colcon.colcon_core.shell:create_environment_hook('openarm_portfolio_tools', 'cmake_prefix_path')
+[1.943s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lee/ros2_ws/install/openarm_portfolio_tools/share/openarm_portfolio_tools/hook/cmake_prefix_path.ps1'
+[1.943s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lee/ros2_ws/install/openarm_portfolio_tools/share/openarm_portfolio_tools/hook/cmake_prefix_path.dsv'
+[1.944s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lee/ros2_ws/install/openarm_portfolio_tools/share/openarm_portfolio_tools/hook/cmake_prefix_path.sh'
+[1.944s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_portfolio_tools/lib'
+[1.944s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_portfolio_tools/bin'
+[1.945s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_portfolio_tools/lib/pkgconfig/openarm_portfolio_tools.pc'
+[1.945s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_portfolio_tools/lib/python3.10/site-packages'
+[1.945s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_portfolio_tools/bin'
+[1.946s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm_portfolio_tools/share/openarm_portfolio_tools/package.ps1'
+[1.946s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lee/ros2_ws/install/openarm_portfolio_tools/share/openarm_portfolio_tools/package.dsv'
+[1.947s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm_portfolio_tools/share/openarm_portfolio_tools/package.sh'
+[1.947s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm_portfolio_tools/share/openarm_portfolio_tools/package.bash'
+[1.948s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm_portfolio_tools/share/openarm_portfolio_tools/package.zsh'
+[1.948s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lee/ros2_ws/install/openarm_portfolio_tools/share/colcon-core/packages/openarm_portfolio_tools)
+[1.950s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lee/ros2_ws/build/openarm_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lee/ros2_ws/build/openarm_bringup -- -j16 -l16
+[1.952s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lee/ros2_ws/build/openarm_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lee/ros2_ws/build/openarm_bringup
+[1.973s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(openarm_bringup)
+[1.974s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_bringup' for CMake module files
+[1.974s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lee/ros2_ws/build/openarm_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lee/ros2_ws/build/openarm_bringup
+[1.975s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_bringup' for CMake config files
+[1.975s] Level 1:colcon.colcon_core.shell:create_environment_hook('openarm_bringup', 'cmake_prefix_path')
+[1.976s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lee/ros2_ws/install/openarm_bringup/share/openarm_bringup/hook/cmake_prefix_path.ps1'
+[1.976s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lee/ros2_ws/install/openarm_bringup/share/openarm_bringup/hook/cmake_prefix_path.dsv'
+[1.977s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lee/ros2_ws/install/openarm_bringup/share/openarm_bringup/hook/cmake_prefix_path.sh'
+[1.978s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_bringup/bin'
+[1.978s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_bringup/lib/pkgconfig/openarm_bringup.pc'
+[1.978s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_bringup/lib/python3.10/site-packages'
+[1.978s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_bringup/bin'
+[1.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm_bringup/share/openarm_bringup/package.ps1'
+[1.979s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lee/ros2_ws/install/openarm_bringup/share/openarm_bringup/package.dsv'
+[1.980s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm_bringup/share/openarm_bringup/package.sh'
+[1.980s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm_bringup/share/openarm_bringup/package.bash'
+[1.980s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm_bringup/share/openarm_bringup/package.zsh'
+[1.981s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lee/ros2_ws/install/openarm_bringup/share/colcon-core/packages/openarm_bringup)
+[1.981s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(openarm_bringup)
+[1.982s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_bringup' for CMake module files
+[1.982s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_bringup' for CMake config files
+[1.982s] Level 1:colcon.colcon_core.shell:create_environment_hook('openarm_bringup', 'cmake_prefix_path')
+[1.983s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lee/ros2_ws/install/openarm_bringup/share/openarm_bringup/hook/cmake_prefix_path.ps1'
+[1.983s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lee/ros2_ws/install/openarm_bringup/share/openarm_bringup/hook/cmake_prefix_path.dsv'
+[1.984s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lee/ros2_ws/install/openarm_bringup/share/openarm_bringup/hook/cmake_prefix_path.sh'
+[1.984s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_bringup/bin'
+[1.985s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_bringup/lib/pkgconfig/openarm_bringup.pc'
+[1.985s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_bringup/lib/python3.10/site-packages'
+[1.985s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_bringup/bin'
+[1.986s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm_bringup/share/openarm_bringup/package.ps1'
+[1.986s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lee/ros2_ws/install/openarm_bringup/share/openarm_bringup/package.dsv'
+[1.987s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm_bringup/share/openarm_bringup/package.sh'
+[1.988s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm_bringup/share/openarm_bringup/package.bash'
+[1.988s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm_bringup/share/openarm_bringup/package.zsh'
+[1.989s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lee/ros2_ws/install/openarm_bringup/share/colcon-core/packages/openarm_bringup)
+[2.124s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(openarm_description)
+[2.125s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_description' for CMake module files
+[2.125s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lee/ros2_ws/build/openarm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lee/ros2_ws/build/openarm_description
+[2.126s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_description' for CMake config files
+[2.127s] Level 1:colcon.colcon_core.shell:create_environment_hook('openarm_description', 'cmake_prefix_path')
+[2.127s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lee/ros2_ws/install/openarm_description/share/openarm_description/hook/cmake_prefix_path.ps1'
+[2.128s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lee/ros2_ws/install/openarm_description/share/openarm_description/hook/cmake_prefix_path.dsv'
+[2.129s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lee/ros2_ws/install/openarm_description/share/openarm_description/hook/cmake_prefix_path.sh'
+[2.129s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_description/bin'
+[2.129s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_description/lib/pkgconfig/openarm_description.pc'
+[2.130s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_description/lib/python3.10/site-packages'
+[2.130s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_description/bin'
+[2.130s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm_description/share/openarm_description/package.ps1'
+[2.131s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lee/ros2_ws/install/openarm_description/share/openarm_description/package.dsv'
+[2.131s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm_description/share/openarm_description/package.sh'
+[2.132s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm_description/share/openarm_description/package.bash'
+[2.132s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm_description/share/openarm_description/package.zsh'
+[2.133s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lee/ros2_ws/install/openarm_description/share/colcon-core/packages/openarm_description)
+[2.133s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(openarm_description)
+[2.134s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_description' for CMake module files
+[2.134s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_description' for CMake config files
+[2.135s] Level 1:colcon.colcon_core.shell:create_environment_hook('openarm_description', 'cmake_prefix_path')
+[2.135s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lee/ros2_ws/install/openarm_description/share/openarm_description/hook/cmake_prefix_path.ps1'
+[2.135s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lee/ros2_ws/install/openarm_description/share/openarm_description/hook/cmake_prefix_path.dsv'
+[2.136s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lee/ros2_ws/install/openarm_description/share/openarm_description/hook/cmake_prefix_path.sh'
+[2.136s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_description/bin'
+[2.136s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_description/lib/pkgconfig/openarm_description.pc'
+[2.137s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_description/lib/python3.10/site-packages'
+[2.137s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_description/bin'
+[2.137s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm_description/share/openarm_description/package.ps1'
+[2.138s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lee/ros2_ws/install/openarm_description/share/openarm_description/package.dsv'
+[2.138s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm_description/share/openarm_description/package.sh'
+[2.139s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm_description/share/openarm_description/package.bash'
+[2.139s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm_description/share/openarm_description/package.zsh'
+[2.140s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lee/ros2_ws/install/openarm_description/share/colcon-core/packages/openarm_description)
+[2.140s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lee/ros2_ws/src/openarm_ros2/openarm_bimanual_moveit_config' with build type 'ament_cmake'
+[2.140s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lee/ros2_ws/src/openarm_ros2/openarm_bimanual_moveit_config'
+[2.141s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.141s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.145s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lee/ros2_ws/src/openarm_moveit_config' with build type 'ament_cmake'
+[2.145s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lee/ros2_ws/src/openarm_moveit_config'
+[2.146s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.146s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.155s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lee/ros2_ws/build/openarm_bimanual_moveit_config': CMAKE_PREFIX_PATH=/home/lee/ros2_ws/install/openarm_description:/home/lee/ros2_ws/install/rviz_marker_tools:/home/lee/ros2_ws/install/openarm_scene_tools:/home/lee/ros2_ws/install/openarm_portfolio_tools:/home/lee/ros2_ws/install/openarm_portfolio_bringup:/home/lee/ros2_ws/install/openarm_moveit_config:/home/lee/ros2_ws/install/openarm:/home/lee/ros2_ws/install/openarm_hardware:/home/lee/ros2_ws/install/openarm_bimanual_moveit_config:/home/lee/ros2_ws/install/openarm_can:/home/lee/ros2_ws/install/openarm_bringup:/home/lee/ros2_ws/install/moveit_task_constructor_msgs:/opt/ros/humble /usr/bin/cmake /home/lee/ros2_ws/src/openarm_ros2/openarm_bimanual_moveit_config -DCMAKE_INSTALL_PREFIX=/home/lee/ros2_ws/install/openarm_bimanual_moveit_config
+[2.159s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lee/ros2_ws/build/openarm_moveit_config': CMAKE_PREFIX_PATH=/home/lee/ros2_ws/install/openarm_description:/home/lee/ros2_ws/install/rviz_marker_tools:/home/lee/ros2_ws/install/openarm_scene_tools:/home/lee/ros2_ws/install/openarm_portfolio_tools:/home/lee/ros2_ws/install/openarm_portfolio_bringup:/home/lee/ros2_ws/install/openarm_moveit_config:/home/lee/ros2_ws/install/openarm:/home/lee/ros2_ws/install/openarm_hardware:/home/lee/ros2_ws/install/openarm_bimanual_moveit_config:/home/lee/ros2_ws/install/openarm_can:/home/lee/ros2_ws/install/openarm_bringup:/home/lee/ros2_ws/install/moveit_task_constructor_msgs:/opt/ros/humble /usr/bin/cmake /home/lee/ros2_ws/src/openarm_moveit_config -DCMAKE_INSTALL_PREFIX=/home/lee/ros2_ws/install/openarm_moveit_config
+[3.065s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lee/ros2_ws/build/openarm_can' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lee/ros2_ws/build/openarm_can -- -j16 -l16
+[3.067s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lee/ros2_ws/build/openarm_can': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lee/ros2_ws/build/openarm_can
+[3.091s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lee/ros2_ws/build/openarm_can' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lee/ros2_ws/build/openarm_can
+[3.092s] Level 1:colcon.colcon_core.shell:create_environment_hook('openarm_can', 'pkg_config_path')
+[3.092s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lee/ros2_ws/install/openarm_can/share/openarm_can/hook/pkg_config_path.ps1'
+[3.093s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lee/ros2_ws/install/openarm_can/share/openarm_can/hook/pkg_config_path.dsv'
+[3.094s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lee/ros2_ws/install/openarm_can/share/openarm_can/hook/pkg_config_path.sh'
+[3.097s] Level 1:colcon.colcon_core.shell:create_environment_hook('openarm_can', 'pkg_config_path_multiarch')
+[3.098s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lee/ros2_ws/install/openarm_can/share/openarm_can/hook/pkg_config_path_multiarch.ps1'
+[3.099s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lee/ros2_ws/install/openarm_can/share/openarm_can/hook/pkg_config_path_multiarch.dsv'
+[3.099s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lee/ros2_ws/install/openarm_can/share/openarm_can/hook/pkg_config_path_multiarch.sh'
+[3.099s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(openarm_can)
+[3.100s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_can' for CMake module files
+[3.100s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_can' for CMake config files
+[3.100s] Level 1:colcon.colcon_core.shell:create_environment_hook('openarm_can', 'cmake_prefix_path')
+[3.101s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lee/ros2_ws/install/openarm_can/share/openarm_can/hook/cmake_prefix_path.ps1'
+[3.101s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lee/ros2_ws/install/openarm_can/share/openarm_can/hook/cmake_prefix_path.dsv'
+[3.101s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lee/ros2_ws/install/openarm_can/share/openarm_can/hook/cmake_prefix_path.sh'
+[3.102s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_can/lib'
+[3.102s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_can/bin'
+[3.102s] Level 1:colcon.colcon_core.shell:create_environment_hook('openarm_can', 'path')
+[3.103s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lee/ros2_ws/install/openarm_can/share/openarm_can/hook/path.ps1'
+[3.103s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lee/ros2_ws/install/openarm_can/share/openarm_can/hook/path.dsv'
+[3.103s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lee/ros2_ws/install/openarm_can/share/openarm_can/hook/path.sh'
+[3.104s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_can/lib/pkgconfig/openarm_can.pc'
+[3.104s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_can/lib/python3.10/site-packages'
+[3.104s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_can/bin'
+[3.104s] Level 1:colcon.colcon_core.shell:create_environment_hook('openarm_can', 'pythonscriptspath')
+[3.105s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lee/ros2_ws/install/openarm_can/share/openarm_can/hook/pythonscriptspath.ps1'
+[3.105s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lee/ros2_ws/install/openarm_can/share/openarm_can/hook/pythonscriptspath.dsv'
+[3.106s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lee/ros2_ws/install/openarm_can/share/openarm_can/hook/pythonscriptspath.sh'
+[3.106s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm_can/share/openarm_can/package.ps1'
+[3.107s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lee/ros2_ws/install/openarm_can/share/openarm_can/package.dsv'
+[3.108s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm_can/share/openarm_can/package.sh'
+[3.108s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm_can/share/openarm_can/package.bash'
+[3.109s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm_can/share/openarm_can/package.zsh'
+[3.109s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lee/ros2_ws/install/openarm_can/share/colcon-core/packages/openarm_can)
+[3.110s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lee/ros2_ws/src/openarm_ros2/openarm_hardware' with build type 'ament_cmake'
+[3.110s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lee/ros2_ws/src/openarm_ros2/openarm_hardware'
+[3.110s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.110s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.126s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lee/ros2_ws/build/openarm_hardware': CMAKE_PREFIX_PATH=/home/lee/ros2_ws/install/openarm_can:/home/lee/ros2_ws/install/rviz_marker_tools:/home/lee/ros2_ws/install/openarm_scene_tools:/home/lee/ros2_ws/install/openarm_portfolio_tools:/home/lee/ros2_ws/install/openarm_portfolio_bringup:/home/lee/ros2_ws/install/openarm_moveit_config:/home/lee/ros2_ws/install/openarm:/home/lee/ros2_ws/install/openarm_hardware:/home/lee/ros2_ws/install/openarm_bimanual_moveit_config:/home/lee/ros2_ws/install/openarm_description:/home/lee/ros2_ws/install/openarm_bringup:/home/lee/ros2_ws/install/moveit_task_constructor_msgs:/opt/ros/humble /usr/bin/cmake /home/lee/ros2_ws/src/openarm_ros2/openarm_hardware -DCMAKE_INSTALL_PREFIX=/home/lee/ros2_ws/install/openarm_hardware
+[3.366s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lee/ros2_ws/build/openarm_mtc_pick_place' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lee/ros2_ws/src/openarm_mtc_pick_place -DCMAKE_INSTALL_PREFIX=/home/lee/ros2_ws/install/openarm_mtc_pick_place
+[3.368s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lee/ros2_ws/build/openarm_mtc_pick_place': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lee/ros2_ws/build/openarm_mtc_pick_place -- -j16 -l16
+[3.377s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lee/ros2_ws/build/openarm_scene_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lee/ros2_ws/src/openarm_scene_tools -DCMAKE_INSTALL_PREFIX=/home/lee/ros2_ws/install/openarm_scene_tools
+[3.380s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lee/ros2_ws/build/openarm_scene_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lee/ros2_ws/build/openarm_scene_tools -- -j16 -l16
+[3.384s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lee/ros2_ws/build/openarm_bimanual_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/lee/ros2_ws/install/openarm_description:/home/lee/ros2_ws/install/rviz_marker_tools:/home/lee/ros2_ws/install/openarm_scene_tools:/home/lee/ros2_ws/install/openarm_portfolio_tools:/home/lee/ros2_ws/install/openarm_portfolio_bringup:/home/lee/ros2_ws/install/openarm_moveit_config:/home/lee/ros2_ws/install/openarm:/home/lee/ros2_ws/install/openarm_hardware:/home/lee/ros2_ws/install/openarm_bimanual_moveit_config:/home/lee/ros2_ws/install/openarm_can:/home/lee/ros2_ws/install/openarm_bringup:/home/lee/ros2_ws/install/moveit_task_constructor_msgs:/opt/ros/humble /usr/bin/cmake /home/lee/ros2_ws/src/openarm_ros2/openarm_bimanual_moveit_config -DCMAKE_INSTALL_PREFIX=/home/lee/ros2_ws/install/openarm_bimanual_moveit_config
+[3.386s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lee/ros2_ws/build/openarm_bimanual_moveit_config': CMAKE_PREFIX_PATH=/home/lee/ros2_ws/install/openarm_description:/home/lee/ros2_ws/install/rviz_marker_tools:/home/lee/ros2_ws/install/openarm_scene_tools:/home/lee/ros2_ws/install/openarm_portfolio_tools:/home/lee/ros2_ws/install/openarm_portfolio_bringup:/home/lee/ros2_ws/install/openarm_moveit_config:/home/lee/ros2_ws/install/openarm:/home/lee/ros2_ws/install/openarm_hardware:/home/lee/ros2_ws/install/openarm_bimanual_moveit_config:/home/lee/ros2_ws/install/openarm_can:/home/lee/ros2_ws/install/openarm_bringup:/home/lee/ros2_ws/install/moveit_task_constructor_msgs:/opt/ros/humble /usr/bin/cmake --build /home/lee/ros2_ws/build/openarm_bimanual_moveit_config -- -j16 -l16
+[3.404s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lee/ros2_ws/build/openarm_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/lee/ros2_ws/install/openarm_description:/home/lee/ros2_ws/install/rviz_marker_tools:/home/lee/ros2_ws/install/openarm_scene_tools:/home/lee/ros2_ws/install/openarm_portfolio_tools:/home/lee/ros2_ws/install/openarm_portfolio_bringup:/home/lee/ros2_ws/install/openarm_moveit_config:/home/lee/ros2_ws/install/openarm:/home/lee/ros2_ws/install/openarm_hardware:/home/lee/ros2_ws/install/openarm_bimanual_moveit_config:/home/lee/ros2_ws/install/openarm_can:/home/lee/ros2_ws/install/openarm_bringup:/home/lee/ros2_ws/install/moveit_task_constructor_msgs:/opt/ros/humble /usr/bin/cmake /home/lee/ros2_ws/src/openarm_moveit_config -DCMAKE_INSTALL_PREFIX=/home/lee/ros2_ws/install/openarm_moveit_config
+[3.406s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lee/ros2_ws/build/openarm_moveit_config': CMAKE_PREFIX_PATH=/home/lee/ros2_ws/install/openarm_description:/home/lee/ros2_ws/install/rviz_marker_tools:/home/lee/ros2_ws/install/openarm_scene_tools:/home/lee/ros2_ws/install/openarm_portfolio_tools:/home/lee/ros2_ws/install/openarm_portfolio_bringup:/home/lee/ros2_ws/install/openarm_moveit_config:/home/lee/ros2_ws/install/openarm:/home/lee/ros2_ws/install/openarm_hardware:/home/lee/ros2_ws/install/openarm_bimanual_moveit_config:/home/lee/ros2_ws/install/openarm_can:/home/lee/ros2_ws/install/openarm_bringup:/home/lee/ros2_ws/install/moveit_task_constructor_msgs:/opt/ros/humble /usr/bin/cmake --build /home/lee/ros2_ws/build/openarm_moveit_config -- -j16 -l16
+[3.436s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lee/ros2_ws/build/openarm_bimanual_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/lee/ros2_ws/install/openarm_description:/home/lee/ros2_ws/install/rviz_marker_tools:/home/lee/ros2_ws/install/openarm_scene_tools:/home/lee/ros2_ws/install/openarm_portfolio_tools:/home/lee/ros2_ws/install/openarm_portfolio_bringup:/home/lee/ros2_ws/install/openarm_moveit_config:/home/lee/ros2_ws/install/openarm:/home/lee/ros2_ws/install/openarm_hardware:/home/lee/ros2_ws/install/openarm_bimanual_moveit_config:/home/lee/ros2_ws/install/openarm_can:/home/lee/ros2_ws/install/openarm_bringup:/home/lee/ros2_ws/install/moveit_task_constructor_msgs:/opt/ros/humble /usr/bin/cmake --build /home/lee/ros2_ws/build/openarm_bimanual_moveit_config -- -j16 -l16
+[3.439s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lee/ros2_ws/build/openarm_bimanual_moveit_config': CMAKE_PREFIX_PATH=/home/lee/ros2_ws/install/openarm_description:/home/lee/ros2_ws/install/rviz_marker_tools:/home/lee/ros2_ws/install/openarm_scene_tools:/home/lee/ros2_ws/install/openarm_portfolio_tools:/home/lee/ros2_ws/install/openarm_portfolio_bringup:/home/lee/ros2_ws/install/openarm_moveit_config:/home/lee/ros2_ws/install/openarm:/home/lee/ros2_ws/install/openarm_hardware:/home/lee/ros2_ws/install/openarm_bimanual_moveit_config:/home/lee/ros2_ws/install/openarm_can:/home/lee/ros2_ws/install/openarm_bringup:/home/lee/ros2_ws/install/moveit_task_constructor_msgs:/opt/ros/humble /usr/bin/cmake --install /home/lee/ros2_ws/build/openarm_bimanual_moveit_config
+[3.452s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lee/ros2_ws/build/openarm_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/lee/ros2_ws/install/openarm_description:/home/lee/ros2_ws/install/rviz_marker_tools:/home/lee/ros2_ws/install/openarm_scene_tools:/home/lee/ros2_ws/install/openarm_portfolio_tools:/home/lee/ros2_ws/install/openarm_portfolio_bringup:/home/lee/ros2_ws/install/openarm_moveit_config:/home/lee/ros2_ws/install/openarm:/home/lee/ros2_ws/install/openarm_hardware:/home/lee/ros2_ws/install/openarm_bimanual_moveit_config:/home/lee/ros2_ws/install/openarm_can:/home/lee/ros2_ws/install/openarm_bringup:/home/lee/ros2_ws/install/moveit_task_constructor_msgs:/opt/ros/humble /usr/bin/cmake --build /home/lee/ros2_ws/build/openarm_moveit_config -- -j16 -l16
+[3.453s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lee/ros2_ws/build/openarm_moveit_config': CMAKE_PREFIX_PATH=/home/lee/ros2_ws/install/openarm_description:/home/lee/ros2_ws/install/rviz_marker_tools:/home/lee/ros2_ws/install/openarm_scene_tools:/home/lee/ros2_ws/install/openarm_portfolio_tools:/home/lee/ros2_ws/install/openarm_portfolio_bringup:/home/lee/ros2_ws/install/openarm_moveit_config:/home/lee/ros2_ws/install/openarm:/home/lee/ros2_ws/install/openarm_hardware:/home/lee/ros2_ws/install/openarm_bimanual_moveit_config:/home/lee/ros2_ws/install/openarm_can:/home/lee/ros2_ws/install/openarm_bringup:/home/lee/ros2_ws/install/moveit_task_constructor_msgs:/opt/ros/humble /usr/bin/cmake --install /home/lee/ros2_ws/build/openarm_moveit_config
+[3.454s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(openarm_bimanual_moveit_config)
+[3.454s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_bimanual_moveit_config' for CMake module files
+[3.455s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lee/ros2_ws/build/openarm_bimanual_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/lee/ros2_ws/install/openarm_description:/home/lee/ros2_ws/install/rviz_marker_tools:/home/lee/ros2_ws/install/openarm_scene_tools:/home/lee/ros2_ws/install/openarm_portfolio_tools:/home/lee/ros2_ws/install/openarm_portfolio_bringup:/home/lee/ros2_ws/install/openarm_moveit_config:/home/lee/ros2_ws/install/openarm:/home/lee/ros2_ws/install/openarm_hardware:/home/lee/ros2_ws/install/openarm_bimanual_moveit_config:/home/lee/ros2_ws/install/openarm_can:/home/lee/ros2_ws/install/openarm_bringup:/home/lee/ros2_ws/install/moveit_task_constructor_msgs:/opt/ros/humble /usr/bin/cmake --install /home/lee/ros2_ws/build/openarm_bimanual_moveit_config
+[3.455s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_bimanual_moveit_config' for CMake config files
+[3.455s] Level 1:colcon.colcon_core.shell:create_environment_hook('openarm_bimanual_moveit_config', 'cmake_prefix_path')
+[3.456s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lee/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/hook/cmake_prefix_path.ps1'
+[3.456s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lee/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/hook/cmake_prefix_path.dsv'
+[3.456s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lee/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/hook/cmake_prefix_path.sh'
+[3.457s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_bimanual_moveit_config/bin'
+[3.457s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_bimanual_moveit_config/lib/pkgconfig/openarm_bimanual_moveit_config.pc'
+[3.457s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_bimanual_moveit_config/lib/python3.10/site-packages'
+[3.457s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_bimanual_moveit_config/bin'
+[3.458s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/package.ps1'
+[3.458s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lee/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/package.dsv'
+[3.459s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/package.sh'
+[3.459s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/package.bash'
+[3.459s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/package.zsh'
+[3.460s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lee/ros2_ws/install/openarm_bimanual_moveit_config/share/colcon-core/packages/openarm_bimanual_moveit_config)
+[3.460s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(openarm_bimanual_moveit_config)
+[3.460s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_bimanual_moveit_config' for CMake module files
+[3.461s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_bimanual_moveit_config' for CMake config files
+[3.461s] Level 1:colcon.colcon_core.shell:create_environment_hook('openarm_bimanual_moveit_config', 'cmake_prefix_path')
+[3.461s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lee/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/hook/cmake_prefix_path.ps1'
+[3.462s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lee/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/hook/cmake_prefix_path.dsv'
+[3.462s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lee/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/hook/cmake_prefix_path.sh'
+[3.463s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_bimanual_moveit_config/bin'
+[3.463s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_bimanual_moveit_config/lib/pkgconfig/openarm_bimanual_moveit_config.pc'
+[3.463s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_bimanual_moveit_config/lib/python3.10/site-packages'
+[3.464s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_bimanual_moveit_config/bin'
+[3.464s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/package.ps1'
+[3.464s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lee/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/package.dsv'
+[3.465s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/package.sh'
+[3.466s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/package.bash'
+[3.466s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/package.zsh'
+[3.467s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lee/ros2_ws/install/openarm_bimanual_moveit_config/share/colcon-core/packages/openarm_bimanual_moveit_config)
+[3.473s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(openarm_moveit_config)
+[3.474s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_moveit_config' for CMake module files
+[3.474s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lee/ros2_ws/build/openarm_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/lee/ros2_ws/install/openarm_description:/home/lee/ros2_ws/install/rviz_marker_tools:/home/lee/ros2_ws/install/openarm_scene_tools:/home/lee/ros2_ws/install/openarm_portfolio_tools:/home/lee/ros2_ws/install/openarm_portfolio_bringup:/home/lee/ros2_ws/install/openarm_moveit_config:/home/lee/ros2_ws/install/openarm:/home/lee/ros2_ws/install/openarm_hardware:/home/lee/ros2_ws/install/openarm_bimanual_moveit_config:/home/lee/ros2_ws/install/openarm_can:/home/lee/ros2_ws/install/openarm_bringup:/home/lee/ros2_ws/install/moveit_task_constructor_msgs:/opt/ros/humble /usr/bin/cmake --install /home/lee/ros2_ws/build/openarm_moveit_config
+[3.475s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_moveit_config' for CMake config files
+[3.475s] Level 1:colcon.colcon_core.shell:create_environment_hook('openarm_moveit_config', 'cmake_prefix_path')
+[3.475s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lee/ros2_ws/install/openarm_moveit_config/share/openarm_moveit_config/hook/cmake_prefix_path.ps1'
+[3.476s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lee/ros2_ws/install/openarm_moveit_config/share/openarm_moveit_config/hook/cmake_prefix_path.dsv'
+[3.476s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lee/ros2_ws/install/openarm_moveit_config/share/openarm_moveit_config/hook/cmake_prefix_path.sh'
+[3.477s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_moveit_config/bin'
+[3.477s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_moveit_config/lib/pkgconfig/openarm_moveit_config.pc'
+[3.477s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_moveit_config/lib/python3.10/site-packages'
+[3.477s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_moveit_config/bin'
+[3.478s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm_moveit_config/share/openarm_moveit_config/package.ps1'
+[3.478s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lee/ros2_ws/install/openarm_moveit_config/share/openarm_moveit_config/package.dsv'
+[3.479s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm_moveit_config/share/openarm_moveit_config/package.sh'
+[3.479s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm_moveit_config/share/openarm_moveit_config/package.bash'
+[3.479s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm_moveit_config/share/openarm_moveit_config/package.zsh'
+[3.480s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lee/ros2_ws/install/openarm_moveit_config/share/colcon-core/packages/openarm_moveit_config)
+[3.480s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(openarm_moveit_config)
+[3.480s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_moveit_config' for CMake module files
+[3.481s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_moveit_config' for CMake config files
+[3.481s] Level 1:colcon.colcon_core.shell:create_environment_hook('openarm_moveit_config', 'cmake_prefix_path')
+[3.481s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lee/ros2_ws/install/openarm_moveit_config/share/openarm_moveit_config/hook/cmake_prefix_path.ps1'
+[3.482s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lee/ros2_ws/install/openarm_moveit_config/share/openarm_moveit_config/hook/cmake_prefix_path.dsv'
+[3.482s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lee/ros2_ws/install/openarm_moveit_config/share/openarm_moveit_config/hook/cmake_prefix_path.sh'
+[3.483s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_moveit_config/bin'
+[3.483s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_moveit_config/lib/pkgconfig/openarm_moveit_config.pc'
+[3.483s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_moveit_config/lib/python3.10/site-packages'
+[3.483s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_moveit_config/bin'
+[3.484s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm_moveit_config/share/openarm_moveit_config/package.ps1'
+[3.484s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lee/ros2_ws/install/openarm_moveit_config/share/openarm_moveit_config/package.dsv'
+[3.485s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm_moveit_config/share/openarm_moveit_config/package.sh'
+[3.485s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm_moveit_config/share/openarm_moveit_config/package.bash'
+[3.485s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm_moveit_config/share/openarm_moveit_config/package.zsh'
+[3.486s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lee/ros2_ws/install/openarm_moveit_config/share/colcon-core/packages/openarm_moveit_config)
+[3.486s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lee/ros2_ws/src/openarm_portfolio_bringup' with build type 'ament_cmake'
+[3.486s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lee/ros2_ws/src/openarm_portfolio_bringup'
+[3.486s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.486s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.500s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lee/ros2_ws/build/openarm_portfolio_bringup': CMAKE_PREFIX_PATH=/home/lee/ros2_ws/install/openarm_moveit_config:/home/lee/ros2_ws/install/openarm_bimanual_moveit_config:/home/lee/ros2_ws/install/openarm_description:/home/lee/ros2_ws/install/openarm_bringup:/home/lee/ros2_ws/install/rviz_marker_tools:/home/lee/ros2_ws/install/openarm_scene_tools:/home/lee/ros2_ws/install/openarm_portfolio_tools:/home/lee/ros2_ws/install/openarm_portfolio_bringup:/home/lee/ros2_ws/install/openarm:/home/lee/ros2_ws/install/openarm_hardware:/home/lee/ros2_ws/install/openarm_can:/home/lee/ros2_ws/install/moveit_task_constructor_msgs:/opt/ros/humble /usr/bin/cmake /home/lee/ros2_ws/src/openarm_portfolio_bringup -DCMAKE_INSTALL_PREFIX=/home/lee/ros2_ws/install/openarm_portfolio_bringup
+[4.554s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lee/ros2_ws/build/openarm_portfolio_bringup' returned '0': CMAKE_PREFIX_PATH=/home/lee/ros2_ws/install/openarm_moveit_config:/home/lee/ros2_ws/install/openarm_bimanual_moveit_config:/home/lee/ros2_ws/install/openarm_description:/home/lee/ros2_ws/install/openarm_bringup:/home/lee/ros2_ws/install/rviz_marker_tools:/home/lee/ros2_ws/install/openarm_scene_tools:/home/lee/ros2_ws/install/openarm_portfolio_tools:/home/lee/ros2_ws/install/openarm_portfolio_bringup:/home/lee/ros2_ws/install/openarm:/home/lee/ros2_ws/install/openarm_hardware:/home/lee/ros2_ws/install/openarm_can:/home/lee/ros2_ws/install/moveit_task_constructor_msgs:/opt/ros/humble /usr/bin/cmake /home/lee/ros2_ws/src/openarm_portfolio_bringup -DCMAKE_INSTALL_PREFIX=/home/lee/ros2_ws/install/openarm_portfolio_bringup
+[4.557s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lee/ros2_ws/build/openarm_portfolio_bringup': CMAKE_PREFIX_PATH=/home/lee/ros2_ws/install/openarm_moveit_config:/home/lee/ros2_ws/install/openarm_bimanual_moveit_config:/home/lee/ros2_ws/install/openarm_description:/home/lee/ros2_ws/install/openarm_bringup:/home/lee/ros2_ws/install/rviz_marker_tools:/home/lee/ros2_ws/install/openarm_scene_tools:/home/lee/ros2_ws/install/openarm_portfolio_tools:/home/lee/ros2_ws/install/openarm_portfolio_bringup:/home/lee/ros2_ws/install/openarm:/home/lee/ros2_ws/install/openarm_hardware:/home/lee/ros2_ws/install/openarm_can:/home/lee/ros2_ws/install/moveit_task_constructor_msgs:/opt/ros/humble /usr/bin/cmake --build /home/lee/ros2_ws/build/openarm_portfolio_bringup -- -j16 -l16
+[4.614s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lee/ros2_ws/build/openarm_portfolio_bringup' returned '0': CMAKE_PREFIX_PATH=/home/lee/ros2_ws/install/openarm_moveit_config:/home/lee/ros2_ws/install/openarm_bimanual_moveit_config:/home/lee/ros2_ws/install/openarm_description:/home/lee/ros2_ws/install/openarm_bringup:/home/lee/ros2_ws/install/rviz_marker_tools:/home/lee/ros2_ws/install/openarm_scene_tools:/home/lee/ros2_ws/install/openarm_portfolio_tools:/home/lee/ros2_ws/install/openarm_portfolio_bringup:/home/lee/ros2_ws/install/openarm:/home/lee/ros2_ws/install/openarm_hardware:/home/lee/ros2_ws/install/openarm_can:/home/lee/ros2_ws/install/moveit_task_constructor_msgs:/opt/ros/humble /usr/bin/cmake --build /home/lee/ros2_ws/build/openarm_portfolio_bringup -- -j16 -l16
+[4.617s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lee/ros2_ws/build/openarm_portfolio_bringup': CMAKE_PREFIX_PATH=/home/lee/ros2_ws/install/openarm_moveit_config:/home/lee/ros2_ws/install/openarm_bimanual_moveit_config:/home/lee/ros2_ws/install/openarm_description:/home/lee/ros2_ws/install/openarm_bringup:/home/lee/ros2_ws/install/rviz_marker_tools:/home/lee/ros2_ws/install/openarm_scene_tools:/home/lee/ros2_ws/install/openarm_portfolio_tools:/home/lee/ros2_ws/install/openarm_portfolio_bringup:/home/lee/ros2_ws/install/openarm:/home/lee/ros2_ws/install/openarm_hardware:/home/lee/ros2_ws/install/openarm_can:/home/lee/ros2_ws/install/moveit_task_constructor_msgs:/opt/ros/humble /usr/bin/cmake --install /home/lee/ros2_ws/build/openarm_portfolio_bringup
+[4.635s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(openarm_portfolio_bringup)
+[4.635s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_portfolio_bringup' for CMake module files
+[4.636s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lee/ros2_ws/build/openarm_portfolio_bringup' returned '0': CMAKE_PREFIX_PATH=/home/lee/ros2_ws/install/openarm_moveit_config:/home/lee/ros2_ws/install/openarm_bimanual_moveit_config:/home/lee/ros2_ws/install/openarm_description:/home/lee/ros2_ws/install/openarm_bringup:/home/lee/ros2_ws/install/rviz_marker_tools:/home/lee/ros2_ws/install/openarm_scene_tools:/home/lee/ros2_ws/install/openarm_portfolio_tools:/home/lee/ros2_ws/install/openarm_portfolio_bringup:/home/lee/ros2_ws/install/openarm:/home/lee/ros2_ws/install/openarm_hardware:/home/lee/ros2_ws/install/openarm_can:/home/lee/ros2_ws/install/moveit_task_constructor_msgs:/opt/ros/humble /usr/bin/cmake --install /home/lee/ros2_ws/build/openarm_portfolio_bringup
+[4.636s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_portfolio_bringup' for CMake config files
+[4.637s] Level 1:colcon.colcon_core.shell:create_environment_hook('openarm_portfolio_bringup', 'cmake_prefix_path')
+[4.637s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lee/ros2_ws/install/openarm_portfolio_bringup/share/openarm_portfolio_bringup/hook/cmake_prefix_path.ps1'
+[4.638s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lee/ros2_ws/install/openarm_portfolio_bringup/share/openarm_portfolio_bringup/hook/cmake_prefix_path.dsv'
+[4.638s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lee/ros2_ws/install/openarm_portfolio_bringup/share/openarm_portfolio_bringup/hook/cmake_prefix_path.sh'
+[4.638s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_portfolio_bringup/bin'
+[4.638s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_portfolio_bringup/lib/pkgconfig/openarm_portfolio_bringup.pc'
+[4.639s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_portfolio_bringup/lib/python3.10/site-packages'
+[4.639s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_portfolio_bringup/bin'
+[4.639s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm_portfolio_bringup/share/openarm_portfolio_bringup/package.ps1'
+[4.640s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lee/ros2_ws/install/openarm_portfolio_bringup/share/openarm_portfolio_bringup/package.dsv'
+[4.640s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm_portfolio_bringup/share/openarm_portfolio_bringup/package.sh'
+[4.641s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm_portfolio_bringup/share/openarm_portfolio_bringup/package.bash'
+[4.641s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm_portfolio_bringup/share/openarm_portfolio_bringup/package.zsh'
+[4.641s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lee/ros2_ws/install/openarm_portfolio_bringup/share/colcon-core/packages/openarm_portfolio_bringup)
+[4.642s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(openarm_portfolio_bringup)
+[4.642s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_portfolio_bringup' for CMake module files
+[4.643s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_portfolio_bringup' for CMake config files
+[4.643s] Level 1:colcon.colcon_core.shell:create_environment_hook('openarm_portfolio_bringup', 'cmake_prefix_path')
+[4.643s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lee/ros2_ws/install/openarm_portfolio_bringup/share/openarm_portfolio_bringup/hook/cmake_prefix_path.ps1'
+[4.643s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lee/ros2_ws/install/openarm_portfolio_bringup/share/openarm_portfolio_bringup/hook/cmake_prefix_path.dsv'
+[4.644s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lee/ros2_ws/install/openarm_portfolio_bringup/share/openarm_portfolio_bringup/hook/cmake_prefix_path.sh'
+[4.644s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_portfolio_bringup/bin'
+[4.645s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_portfolio_bringup/lib/pkgconfig/openarm_portfolio_bringup.pc'
+[4.645s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_portfolio_bringup/lib/python3.10/site-packages'
+[4.645s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_portfolio_bringup/bin'
+[4.645s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm_portfolio_bringup/share/openarm_portfolio_bringup/package.ps1'
+[4.646s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lee/ros2_ws/install/openarm_portfolio_bringup/share/openarm_portfolio_bringup/package.dsv'
+[4.646s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm_portfolio_bringup/share/openarm_portfolio_bringup/package.sh'
+[4.647s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm_portfolio_bringup/share/openarm_portfolio_bringup/package.bash'
+[4.648s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm_portfolio_bringup/share/openarm_portfolio_bringup/package.zsh'
+[4.649s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lee/ros2_ws/install/openarm_portfolio_bringup/share/colcon-core/packages/openarm_portfolio_bringup)
+[5.024s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lee/ros2_ws/build/openarm_hardware' returned '0': CMAKE_PREFIX_PATH=/home/lee/ros2_ws/install/openarm_can:/home/lee/ros2_ws/install/rviz_marker_tools:/home/lee/ros2_ws/install/openarm_scene_tools:/home/lee/ros2_ws/install/openarm_portfolio_tools:/home/lee/ros2_ws/install/openarm_portfolio_bringup:/home/lee/ros2_ws/install/openarm_moveit_config:/home/lee/ros2_ws/install/openarm:/home/lee/ros2_ws/install/openarm_hardware:/home/lee/ros2_ws/install/openarm_bimanual_moveit_config:/home/lee/ros2_ws/install/openarm_description:/home/lee/ros2_ws/install/openarm_bringup:/home/lee/ros2_ws/install/moveit_task_constructor_msgs:/opt/ros/humble /usr/bin/cmake /home/lee/ros2_ws/src/openarm_ros2/openarm_hardware -DCMAKE_INSTALL_PREFIX=/home/lee/ros2_ws/install/openarm_hardware
+[5.026s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lee/ros2_ws/build/openarm_hardware': CMAKE_PREFIX_PATH=/home/lee/ros2_ws/install/openarm_can:/home/lee/ros2_ws/install/rviz_marker_tools:/home/lee/ros2_ws/install/openarm_scene_tools:/home/lee/ros2_ws/install/openarm_portfolio_tools:/home/lee/ros2_ws/install/openarm_portfolio_bringup:/home/lee/ros2_ws/install/openarm_moveit_config:/home/lee/ros2_ws/install/openarm:/home/lee/ros2_ws/install/openarm_hardware:/home/lee/ros2_ws/install/openarm_bimanual_moveit_config:/home/lee/ros2_ws/install/openarm_description:/home/lee/ros2_ws/install/openarm_bringup:/home/lee/ros2_ws/install/moveit_task_constructor_msgs:/opt/ros/humble /usr/bin/cmake --build /home/lee/ros2_ws/build/openarm_hardware -- -j16 -l16
+[9.884s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lee/ros2_ws/build/openarm_hardware' returned '0': CMAKE_PREFIX_PATH=/home/lee/ros2_ws/install/openarm_can:/home/lee/ros2_ws/install/rviz_marker_tools:/home/lee/ros2_ws/install/openarm_scene_tools:/home/lee/ros2_ws/install/openarm_portfolio_tools:/home/lee/ros2_ws/install/openarm_portfolio_bringup:/home/lee/ros2_ws/install/openarm_moveit_config:/home/lee/ros2_ws/install/openarm:/home/lee/ros2_ws/install/openarm_hardware:/home/lee/ros2_ws/install/openarm_bimanual_moveit_config:/home/lee/ros2_ws/install/openarm_description:/home/lee/ros2_ws/install/openarm_bringup:/home/lee/ros2_ws/install/moveit_task_constructor_msgs:/opt/ros/humble /usr/bin/cmake --build /home/lee/ros2_ws/build/openarm_hardware -- -j16 -l16
+[9.885s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lee/ros2_ws/build/openarm_hardware': CMAKE_PREFIX_PATH=/home/lee/ros2_ws/install/openarm_can:/home/lee/ros2_ws/install/rviz_marker_tools:/home/lee/ros2_ws/install/openarm_scene_tools:/home/lee/ros2_ws/install/openarm_portfolio_tools:/home/lee/ros2_ws/install/openarm_portfolio_bringup:/home/lee/ros2_ws/install/openarm_moveit_config:/home/lee/ros2_ws/install/openarm:/home/lee/ros2_ws/install/openarm_hardware:/home/lee/ros2_ws/install/openarm_bimanual_moveit_config:/home/lee/ros2_ws/install/openarm_description:/home/lee/ros2_ws/install/openarm_bringup:/home/lee/ros2_ws/install/moveit_task_constructor_msgs:/opt/ros/humble /usr/bin/cmake --install /home/lee/ros2_ws/build/openarm_hardware
+[9.907s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(openarm_hardware)
+[9.907s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_hardware' for CMake module files
+[9.908s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lee/ros2_ws/build/openarm_hardware' returned '0': CMAKE_PREFIX_PATH=/home/lee/ros2_ws/install/openarm_can:/home/lee/ros2_ws/install/rviz_marker_tools:/home/lee/ros2_ws/install/openarm_scene_tools:/home/lee/ros2_ws/install/openarm_portfolio_tools:/home/lee/ros2_ws/install/openarm_portfolio_bringup:/home/lee/ros2_ws/install/openarm_moveit_config:/home/lee/ros2_ws/install/openarm:/home/lee/ros2_ws/install/openarm_hardware:/home/lee/ros2_ws/install/openarm_bimanual_moveit_config:/home/lee/ros2_ws/install/openarm_description:/home/lee/ros2_ws/install/openarm_bringup:/home/lee/ros2_ws/install/moveit_task_constructor_msgs:/opt/ros/humble /usr/bin/cmake --install /home/lee/ros2_ws/build/openarm_hardware
+[9.908s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_hardware' for CMake config files
+[9.908s] Level 1:colcon.colcon_core.shell:create_environment_hook('openarm_hardware', 'cmake_prefix_path')
+[9.908s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lee/ros2_ws/install/openarm_hardware/share/openarm_hardware/hook/cmake_prefix_path.ps1'
+[9.909s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lee/ros2_ws/install/openarm_hardware/share/openarm_hardware/hook/cmake_prefix_path.dsv'
+[9.909s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lee/ros2_ws/install/openarm_hardware/share/openarm_hardware/hook/cmake_prefix_path.sh'
+[9.910s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_hardware/lib'
+[9.910s] Level 1:colcon.colcon_core.shell:create_environment_hook('openarm_hardware', 'ld_library_path_lib')
+[9.910s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lee/ros2_ws/install/openarm_hardware/share/openarm_hardware/hook/ld_library_path_lib.ps1'
+[9.910s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lee/ros2_ws/install/openarm_hardware/share/openarm_hardware/hook/ld_library_path_lib.dsv'
+[9.911s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lee/ros2_ws/install/openarm_hardware/share/openarm_hardware/hook/ld_library_path_lib.sh'
+[9.911s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_hardware/bin'
+[9.911s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_hardware/lib/pkgconfig/openarm_hardware.pc'
+[9.911s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_hardware/lib/python3.10/site-packages'
+[9.911s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_hardware/bin'
+[9.912s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm_hardware/share/openarm_hardware/package.ps1'
+[9.912s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lee/ros2_ws/install/openarm_hardware/share/openarm_hardware/package.dsv'
+[9.912s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm_hardware/share/openarm_hardware/package.sh'
+[9.913s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm_hardware/share/openarm_hardware/package.bash'
+[9.913s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm_hardware/share/openarm_hardware/package.zsh'
+[9.913s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lee/ros2_ws/install/openarm_hardware/share/colcon-core/packages/openarm_hardware)
+[9.914s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(openarm_hardware)
+[9.914s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_hardware' for CMake module files
+[9.914s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_hardware' for CMake config files
+[9.915s] Level 1:colcon.colcon_core.shell:create_environment_hook('openarm_hardware', 'cmake_prefix_path')
+[9.915s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lee/ros2_ws/install/openarm_hardware/share/openarm_hardware/hook/cmake_prefix_path.ps1'
+[9.915s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lee/ros2_ws/install/openarm_hardware/share/openarm_hardware/hook/cmake_prefix_path.dsv'
+[9.916s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lee/ros2_ws/install/openarm_hardware/share/openarm_hardware/hook/cmake_prefix_path.sh'
+[9.916s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_hardware/lib'
+[9.916s] Level 1:colcon.colcon_core.shell:create_environment_hook('openarm_hardware', 'ld_library_path_lib')
+[9.916s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lee/ros2_ws/install/openarm_hardware/share/openarm_hardware/hook/ld_library_path_lib.ps1'
+[9.917s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lee/ros2_ws/install/openarm_hardware/share/openarm_hardware/hook/ld_library_path_lib.dsv'
+[9.917s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lee/ros2_ws/install/openarm_hardware/share/openarm_hardware/hook/ld_library_path_lib.sh'
+[9.917s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_hardware/bin'
+[9.917s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_hardware/lib/pkgconfig/openarm_hardware.pc'
+[9.917s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_hardware/lib/python3.10/site-packages'
+[9.918s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_hardware/bin'
+[9.918s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm_hardware/share/openarm_hardware/package.ps1'
+[9.918s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lee/ros2_ws/install/openarm_hardware/share/openarm_hardware/package.dsv'
+[9.919s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm_hardware/share/openarm_hardware/package.sh'
+[9.919s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm_hardware/share/openarm_hardware/package.bash'
+[9.919s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm_hardware/share/openarm_hardware/package.zsh'
+[9.920s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lee/ros2_ws/install/openarm_hardware/share/colcon-core/packages/openarm_hardware)
+[9.920s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lee/ros2_ws/src/openarm_ros2/openarm' with build type 'ament_cmake'
+[9.920s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lee/ros2_ws/src/openarm_ros2/openarm'
+[9.920s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.921s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.938s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lee/ros2_ws/build/openarm': CMAKE_PREFIX_PATH=/home/lee/ros2_ws/install/openarm_hardware:/home/lee/ros2_ws/install/openarm_description:/home/lee/ros2_ws/install/openarm_can:/home/lee/ros2_ws/install/openarm_bringup:/home/lee/ros2_ws/install/rviz_marker_tools:/home/lee/ros2_ws/install/openarm_scene_tools:/home/lee/ros2_ws/install/openarm_portfolio_tools:/home/lee/ros2_ws/install/openarm_portfolio_bringup:/home/lee/ros2_ws/install/openarm_moveit_config:/home/lee/ros2_ws/install/openarm:/home/lee/ros2_ws/install/openarm_bimanual_moveit_config:/home/lee/ros2_ws/install/moveit_task_constructor_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lee/ros2_ws/install/openarm_hardware/lib:/home/lee/ros2_ws/install/rviz_marker_tools/lib:/home/lee/ros2_ws/install/moveit_task_constructor_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/lee/IsaacLab/_isaac_sim/.:/home/lee/IsaacLab/_isaac_sim/exts/isaacsim.robot.schema/plugins/lib:/home/lee/IsaacLab/_isaac_sim/exts/isaacsim.robot_motion.lula/pip_prebundle:/home/lee/IsaacLab/_isaac_sim/exts/isaacsim.asset.exporter.urdf/pip_prebundle:/home/lee/IsaacLab/_isaac_sim/kit:/home/lee/IsaacLab/_isaac_sim/kit/kernel/plugins:/home/lee/IsaacLab/_isaac_sim/kit/libs/iray:/home/lee/IsaacLab/_isaac_sim/kit/plugins:/home/lee/IsaacLab/_isaac_sim/kit/plugins/bindings-python:/home/lee/IsaacLab/_isaac_sim/kit/plugins/carb_gfx:/home/lee/IsaacLab/_isaac_sim/kit/plugins/rtx:/home/lee/IsaacLab/_isaac_sim/kit/plugins/gpu.foundation /usr/bin/cmake /home/lee/ros2_ws/src/openarm_ros2/openarm -DCMAKE_INSTALL_PREFIX=/home/lee/ros2_ws/install/openarm
+[10.943s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lee/ros2_ws/build/openarm' returned '0': CMAKE_PREFIX_PATH=/home/lee/ros2_ws/install/openarm_hardware:/home/lee/ros2_ws/install/openarm_description:/home/lee/ros2_ws/install/openarm_can:/home/lee/ros2_ws/install/openarm_bringup:/home/lee/ros2_ws/install/rviz_marker_tools:/home/lee/ros2_ws/install/openarm_scene_tools:/home/lee/ros2_ws/install/openarm_portfolio_tools:/home/lee/ros2_ws/install/openarm_portfolio_bringup:/home/lee/ros2_ws/install/openarm_moveit_config:/home/lee/ros2_ws/install/openarm:/home/lee/ros2_ws/install/openarm_bimanual_moveit_config:/home/lee/ros2_ws/install/moveit_task_constructor_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lee/ros2_ws/install/openarm_hardware/lib:/home/lee/ros2_ws/install/rviz_marker_tools/lib:/home/lee/ros2_ws/install/moveit_task_constructor_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/lee/IsaacLab/_isaac_sim/.:/home/lee/IsaacLab/_isaac_sim/exts/isaacsim.robot.schema/plugins/lib:/home/lee/IsaacLab/_isaac_sim/exts/isaacsim.robot_motion.lula/pip_prebundle:/home/lee/IsaacLab/_isaac_sim/exts/isaacsim.asset.exporter.urdf/pip_prebundle:/home/lee/IsaacLab/_isaac_sim/kit:/home/lee/IsaacLab/_isaac_sim/kit/kernel/plugins:/home/lee/IsaacLab/_isaac_sim/kit/libs/iray:/home/lee/IsaacLab/_isaac_sim/kit/plugins:/home/lee/IsaacLab/_isaac_sim/kit/plugins/bindings-python:/home/lee/IsaacLab/_isaac_sim/kit/plugins/carb_gfx:/home/lee/IsaacLab/_isaac_sim/kit/plugins/rtx:/home/lee/IsaacLab/_isaac_sim/kit/plugins/gpu.foundation /usr/bin/cmake /home/lee/ros2_ws/src/openarm_ros2/openarm -DCMAKE_INSTALL_PREFIX=/home/lee/ros2_ws/install/openarm
+[10.945s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lee/ros2_ws/build/openarm': CMAKE_PREFIX_PATH=/home/lee/ros2_ws/install/openarm_hardware:/home/lee/ros2_ws/install/openarm_description:/home/lee/ros2_ws/install/openarm_can:/home/lee/ros2_ws/install/openarm_bringup:/home/lee/ros2_ws/install/rviz_marker_tools:/home/lee/ros2_ws/install/openarm_scene_tools:/home/lee/ros2_ws/install/openarm_portfolio_tools:/home/lee/ros2_ws/install/openarm_portfolio_bringup:/home/lee/ros2_ws/install/openarm_moveit_config:/home/lee/ros2_ws/install/openarm:/home/lee/ros2_ws/install/openarm_bimanual_moveit_config:/home/lee/ros2_ws/install/moveit_task_constructor_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lee/ros2_ws/install/openarm_hardware/lib:/home/lee/ros2_ws/install/rviz_marker_tools/lib:/home/lee/ros2_ws/install/moveit_task_constructor_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/lee/IsaacLab/_isaac_sim/.:/home/lee/IsaacLab/_isaac_sim/exts/isaacsim.robot.schema/plugins/lib:/home/lee/IsaacLab/_isaac_sim/exts/isaacsim.robot_motion.lula/pip_prebundle:/home/lee/IsaacLab/_isaac_sim/exts/isaacsim.asset.exporter.urdf/pip_prebundle:/home/lee/IsaacLab/_isaac_sim/kit:/home/lee/IsaacLab/_isaac_sim/kit/kernel/plugins:/home/lee/IsaacLab/_isaac_sim/kit/libs/iray:/home/lee/IsaacLab/_isaac_sim/kit/plugins:/home/lee/IsaacLab/_isaac_sim/kit/plugins/bindings-python:/home/lee/IsaacLab/_isaac_sim/kit/plugins/carb_gfx:/home/lee/IsaacLab/_isaac_sim/kit/plugins/rtx:/home/lee/IsaacLab/_isaac_sim/kit/plugins/gpu.foundation /usr/bin/cmake --build /home/lee/ros2_ws/build/openarm -- -j16 -l16
+[11.000s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lee/ros2_ws/build/openarm' returned '0': CMAKE_PREFIX_PATH=/home/lee/ros2_ws/install/openarm_hardware:/home/lee/ros2_ws/install/openarm_description:/home/lee/ros2_ws/install/openarm_can:/home/lee/ros2_ws/install/openarm_bringup:/home/lee/ros2_ws/install/rviz_marker_tools:/home/lee/ros2_ws/install/openarm_scene_tools:/home/lee/ros2_ws/install/openarm_portfolio_tools:/home/lee/ros2_ws/install/openarm_portfolio_bringup:/home/lee/ros2_ws/install/openarm_moveit_config:/home/lee/ros2_ws/install/openarm:/home/lee/ros2_ws/install/openarm_bimanual_moveit_config:/home/lee/ros2_ws/install/moveit_task_constructor_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lee/ros2_ws/install/openarm_hardware/lib:/home/lee/ros2_ws/install/rviz_marker_tools/lib:/home/lee/ros2_ws/install/moveit_task_constructor_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/lee/IsaacLab/_isaac_sim/.:/home/lee/IsaacLab/_isaac_sim/exts/isaacsim.robot.schema/plugins/lib:/home/lee/IsaacLab/_isaac_sim/exts/isaacsim.robot_motion.lula/pip_prebundle:/home/lee/IsaacLab/_isaac_sim/exts/isaacsim.asset.exporter.urdf/pip_prebundle:/home/lee/IsaacLab/_isaac_sim/kit:/home/lee/IsaacLab/_isaac_sim/kit/kernel/plugins:/home/lee/IsaacLab/_isaac_sim/kit/libs/iray:/home/lee/IsaacLab/_isaac_sim/kit/plugins:/home/lee/IsaacLab/_isaac_sim/kit/plugins/bindings-python:/home/lee/IsaacLab/_isaac_sim/kit/plugins/carb_gfx:/home/lee/IsaacLab/_isaac_sim/kit/plugins/rtx:/home/lee/IsaacLab/_isaac_sim/kit/plugins/gpu.foundation /usr/bin/cmake --build /home/lee/ros2_ws/build/openarm -- -j16 -l16
+[11.002s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lee/ros2_ws/build/openarm': CMAKE_PREFIX_PATH=/home/lee/ros2_ws/install/openarm_hardware:/home/lee/ros2_ws/install/openarm_description:/home/lee/ros2_ws/install/openarm_can:/home/lee/ros2_ws/install/openarm_bringup:/home/lee/ros2_ws/install/rviz_marker_tools:/home/lee/ros2_ws/install/openarm_scene_tools:/home/lee/ros2_ws/install/openarm_portfolio_tools:/home/lee/ros2_ws/install/openarm_portfolio_bringup:/home/lee/ros2_ws/install/openarm_moveit_config:/home/lee/ros2_ws/install/openarm:/home/lee/ros2_ws/install/openarm_bimanual_moveit_config:/home/lee/ros2_ws/install/moveit_task_constructor_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lee/ros2_ws/install/openarm_hardware/lib:/home/lee/ros2_ws/install/rviz_marker_tools/lib:/home/lee/ros2_ws/install/moveit_task_constructor_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/lee/IsaacLab/_isaac_sim/.:/home/lee/IsaacLab/_isaac_sim/exts/isaacsim.robot.schema/plugins/lib:/home/lee/IsaacLab/_isaac_sim/exts/isaacsim.robot_motion.lula/pip_prebundle:/home/lee/IsaacLab/_isaac_sim/exts/isaacsim.asset.exporter.urdf/pip_prebundle:/home/lee/IsaacLab/_isaac_sim/kit:/home/lee/IsaacLab/_isaac_sim/kit/kernel/plugins:/home/lee/IsaacLab/_isaac_sim/kit/libs/iray:/home/lee/IsaacLab/_isaac_sim/kit/plugins:/home/lee/IsaacLab/_isaac_sim/kit/plugins/bindings-python:/home/lee/IsaacLab/_isaac_sim/kit/plugins/carb_gfx:/home/lee/IsaacLab/_isaac_sim/kit/plugins/rtx:/home/lee/IsaacLab/_isaac_sim/kit/plugins/gpu.foundation /usr/bin/cmake --install /home/lee/ros2_ws/build/openarm
+[11.017s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(openarm)
+[11.018s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm' for CMake module files
+[11.018s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lee/ros2_ws/build/openarm' returned '0': CMAKE_PREFIX_PATH=/home/lee/ros2_ws/install/openarm_hardware:/home/lee/ros2_ws/install/openarm_description:/home/lee/ros2_ws/install/openarm_can:/home/lee/ros2_ws/install/openarm_bringup:/home/lee/ros2_ws/install/rviz_marker_tools:/home/lee/ros2_ws/install/openarm_scene_tools:/home/lee/ros2_ws/install/openarm_portfolio_tools:/home/lee/ros2_ws/install/openarm_portfolio_bringup:/home/lee/ros2_ws/install/openarm_moveit_config:/home/lee/ros2_ws/install/openarm:/home/lee/ros2_ws/install/openarm_bimanual_moveit_config:/home/lee/ros2_ws/install/moveit_task_constructor_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lee/ros2_ws/install/openarm_hardware/lib:/home/lee/ros2_ws/install/rviz_marker_tools/lib:/home/lee/ros2_ws/install/moveit_task_constructor_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/lee/IsaacLab/_isaac_sim/.:/home/lee/IsaacLab/_isaac_sim/exts/isaacsim.robot.schema/plugins/lib:/home/lee/IsaacLab/_isaac_sim/exts/isaacsim.robot_motion.lula/pip_prebundle:/home/lee/IsaacLab/_isaac_sim/exts/isaacsim.asset.exporter.urdf/pip_prebundle:/home/lee/IsaacLab/_isaac_sim/kit:/home/lee/IsaacLab/_isaac_sim/kit/kernel/plugins:/home/lee/IsaacLab/_isaac_sim/kit/libs/iray:/home/lee/IsaacLab/_isaac_sim/kit/plugins:/home/lee/IsaacLab/_isaac_sim/kit/plugins/bindings-python:/home/lee/IsaacLab/_isaac_sim/kit/plugins/carb_gfx:/home/lee/IsaacLab/_isaac_sim/kit/plugins/rtx:/home/lee/IsaacLab/_isaac_sim/kit/plugins/gpu.foundation /usr/bin/cmake --install /home/lee/ros2_ws/build/openarm
+[11.018s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm' for CMake config files
+[11.019s] Level 1:colcon.colcon_core.shell:create_environment_hook('openarm', 'cmake_prefix_path')
+[11.019s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lee/ros2_ws/install/openarm/share/openarm/hook/cmake_prefix_path.ps1'
+[11.020s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lee/ros2_ws/install/openarm/share/openarm/hook/cmake_prefix_path.dsv'
+[11.020s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lee/ros2_ws/install/openarm/share/openarm/hook/cmake_prefix_path.sh'
+[11.020s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm/bin'
+[11.021s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm/lib/pkgconfig/openarm.pc'
+[11.021s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm/lib/python3.10/site-packages'
+[11.021s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm/bin'
+[11.021s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm/share/openarm/package.ps1'
+[11.022s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lee/ros2_ws/install/openarm/share/openarm/package.dsv'
+[11.022s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm/share/openarm/package.sh'
+[11.023s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm/share/openarm/package.bash'
+[11.023s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm/share/openarm/package.zsh'
+[11.023s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lee/ros2_ws/install/openarm/share/colcon-core/packages/openarm)
+[11.024s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(openarm)
+[11.024s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm' for CMake module files
+[11.024s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm' for CMake config files
+[11.024s] Level 1:colcon.colcon_core.shell:create_environment_hook('openarm', 'cmake_prefix_path')
+[11.025s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lee/ros2_ws/install/openarm/share/openarm/hook/cmake_prefix_path.ps1'
+[11.025s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lee/ros2_ws/install/openarm/share/openarm/hook/cmake_prefix_path.dsv'
+[11.025s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lee/ros2_ws/install/openarm/share/openarm/hook/cmake_prefix_path.sh'
+[11.026s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm/bin'
+[11.026s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm/lib/pkgconfig/openarm.pc'
+[11.026s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm/lib/python3.10/site-packages'
+[11.026s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm/bin'
+[11.027s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm/share/openarm/package.ps1'
+[11.027s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lee/ros2_ws/install/openarm/share/openarm/package.dsv'
+[11.027s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm/share/openarm/package.sh'
+[11.028s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm/share/openarm/package.bash'
+[11.028s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm/share/openarm/package.zsh'
+[11.029s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lee/ros2_ws/install/openarm/share/colcon-core/packages/openarm)
+[11.545s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lee/ros2_ws/build/openarm_scene_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lee/ros2_ws/build/openarm_scene_tools -- -j16 -l16
+[11.547s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lee/ros2_ws/build/openarm_scene_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lee/ros2_ws/build/openarm_scene_tools
+[11.559s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(openarm_scene_tools)
+[11.560s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_scene_tools' for CMake module files
+[11.560s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lee/ros2_ws/build/openarm_scene_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lee/ros2_ws/build/openarm_scene_tools
+[11.560s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_scene_tools' for CMake config files
+[11.561s] Level 1:colcon.colcon_core.shell:create_environment_hook('openarm_scene_tools', 'cmake_prefix_path')
+[11.561s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lee/ros2_ws/install/openarm_scene_tools/share/openarm_scene_tools/hook/cmake_prefix_path.ps1'
+[11.561s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lee/ros2_ws/install/openarm_scene_tools/share/openarm_scene_tools/hook/cmake_prefix_path.dsv'
+[11.561s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lee/ros2_ws/install/openarm_scene_tools/share/openarm_scene_tools/hook/cmake_prefix_path.sh'
+[11.562s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_scene_tools/lib'
+[11.562s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_scene_tools/bin'
+[11.562s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_scene_tools/lib/pkgconfig/openarm_scene_tools.pc'
+[11.562s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_scene_tools/lib/python3.10/site-packages'
+[11.563s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_scene_tools/bin'
+[11.563s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm_scene_tools/share/openarm_scene_tools/package.ps1'
+[11.563s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lee/ros2_ws/install/openarm_scene_tools/share/openarm_scene_tools/package.dsv'
+[11.563s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm_scene_tools/share/openarm_scene_tools/package.sh'
+[11.564s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm_scene_tools/share/openarm_scene_tools/package.bash'
+[11.564s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm_scene_tools/share/openarm_scene_tools/package.zsh'
+[11.564s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lee/ros2_ws/install/openarm_scene_tools/share/colcon-core/packages/openarm_scene_tools)
+[11.565s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(openarm_scene_tools)
+[11.565s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_scene_tools' for CMake module files
+[11.565s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_scene_tools' for CMake config files
+[11.565s] Level 1:colcon.colcon_core.shell:create_environment_hook('openarm_scene_tools', 'cmake_prefix_path')
+[11.565s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lee/ros2_ws/install/openarm_scene_tools/share/openarm_scene_tools/hook/cmake_prefix_path.ps1'
+[11.566s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lee/ros2_ws/install/openarm_scene_tools/share/openarm_scene_tools/hook/cmake_prefix_path.dsv'
+[11.566s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lee/ros2_ws/install/openarm_scene_tools/share/openarm_scene_tools/hook/cmake_prefix_path.sh'
+[11.566s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_scene_tools/lib'
+[11.566s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_scene_tools/bin'
+[11.566s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_scene_tools/lib/pkgconfig/openarm_scene_tools.pc'
+[11.567s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_scene_tools/lib/python3.10/site-packages'
+[11.567s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_scene_tools/bin'
+[11.567s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm_scene_tools/share/openarm_scene_tools/package.ps1'
+[11.567s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lee/ros2_ws/install/openarm_scene_tools/share/openarm_scene_tools/package.dsv'
+[11.568s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm_scene_tools/share/openarm_scene_tools/package.sh'
+[11.568s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm_scene_tools/share/openarm_scene_tools/package.bash'
+[11.569s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm_scene_tools/share/openarm_scene_tools/package.zsh'
+[11.569s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lee/ros2_ws/install/openarm_scene_tools/share/colcon-core/packages/openarm_scene_tools)
+[13.210s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lee/ros2_ws/build/openarm_mtc_pick_place' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lee/ros2_ws/build/openarm_mtc_pick_place -- -j16 -l16
+[13.211s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(openarm_mtc_pick_place)
+[13.211s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_mtc_pick_place' for CMake module files
+[13.211s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_mtc_pick_place' for CMake config files
+[13.211s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_mtc_pick_place/bin'
+[13.211s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_mtc_pick_place/lib/pkgconfig/openarm_mtc_pick_place.pc'
+[13.211s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_mtc_pick_place/lib/python3.10/site-packages'
+[13.212s] Level 1:colcon.colcon_core.environment:checking '/home/lee/ros2_ws/install/openarm_mtc_pick_place/bin'
+[13.212s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm_mtc_pick_place/share/openarm_mtc_pick_place/package.ps1'
+[13.212s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lee/ros2_ws/install/openarm_mtc_pick_place/share/openarm_mtc_pick_place/package.dsv'
+[13.212s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm_mtc_pick_place/share/openarm_mtc_pick_place/package.sh'
+[13.213s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm_mtc_pick_place/share/openarm_mtc_pick_place/package.bash'
+[13.213s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/ros2_ws/install/openarm_mtc_pick_place/share/openarm_mtc_pick_place/package.zsh'
+[13.213s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lee/ros2_ws/install/openarm_mtc_pick_place/share/colcon-core/packages/openarm_mtc_pick_place)
+[13.224s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[13.224s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[13.224s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[13.224s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[13.231s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[13.231s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[13.231s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[13.242s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[13.242s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lee/ros2_ws/install/local_setup.ps1'
+[13.243s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lee/ros2_ws/install/_local_setup_util_ps1.py'
+[13.244s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lee/ros2_ws/install/setup.ps1'
+[13.245s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lee/ros2_ws/install/local_setup.sh'
+[13.245s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lee/ros2_ws/install/_local_setup_util_sh.py'
+[13.246s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lee/ros2_ws/install/setup.sh'
+[13.247s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lee/ros2_ws/install/local_setup.bash'
+[13.247s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lee/ros2_ws/install/setup.bash'
+[13.248s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lee/ros2_ws/install/local_setup.zsh'
+[13.248s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lee/ros2_ws/install/setup.zsh'

@@ -1,0 +1,5 @@
+planning_pipelines:
+  pipeline_names:
+    - ompl
+  default_planning_pipeline: ompl
+

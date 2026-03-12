@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/openarm-can-motor-check.dir/setup/motor_check.cpp.o -o openarm-can-motor-check  libopenarm_can.a 

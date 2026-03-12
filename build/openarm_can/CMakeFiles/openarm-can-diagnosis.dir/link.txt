@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/openarm-can-diagnosis.dir/setup/openarm_can_diagnosis.cpp.o -o openarm-can-diagnosis  libopenarm_can.a 

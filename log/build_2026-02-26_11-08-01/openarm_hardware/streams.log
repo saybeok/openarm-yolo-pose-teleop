@@ -1,0 +1,75 @@
+[0.014s] Invoking command in '/home/lee/ros2_ws/build/openarm_hardware': CMAKE_PREFIX_PATH=/home/lee/ros2_ws/install/openarm_can:/home/lee/ros2_ws/install/rviz_marker_tools:/home/lee/ros2_ws/install/openarm_scene_tools:/home/lee/ros2_ws/install/openarm_portfolio_tools:/home/lee/ros2_ws/install/openarm_portfolio_bringup:/home/lee/ros2_ws/install/openarm_moveit_config:/home/lee/ros2_ws/install/openarm:/home/lee/ros2_ws/install/openarm_hardware:/home/lee/ros2_ws/install/openarm_bimanual_moveit_config:/home/lee/ros2_ws/install/openarm_description:/home/lee/ros2_ws/install/openarm_bringup:/home/lee/ros2_ws/install/moveit_task_constructor_msgs:/opt/ros/humble /usr/bin/cmake /home/lee/ros2_ws/src/openarm_ros2/openarm_hardware -DCMAKE_INSTALL_PREFIX=/home/lee/ros2_ws/install/openarm_hardware
+[0.092s] -- The C compiler identification is GNU 11.4.0
+[0.161s] -- The CXX compiler identification is GNU 11.4.0
+[0.169s] -- Detecting C compiler ABI info
+[0.270s] -- Detecting C compiler ABI info - done
+[0.277s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.278s] -- Detecting C compile features
+[0.278s] -- Detecting C compile features - done
+[0.281s] -- Detecting CXX compiler ABI info
+[0.376s] -- Detecting CXX compiler ABI info - done
+[0.382s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.383s] -- Detecting CXX compile features
+[0.383s] -- Detecting CXX compile features - done
+[0.387s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.825s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.943s] -- Found hardware_interface: 2.53.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[0.994s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.001s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.013s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.027s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.045s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.270s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.274s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.304s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.384s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.387s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.409s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.413s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.425s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.441s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.452s] -- Looking for pthread.h
+[1.557s] -- Looking for pthread.h - found
+[1.557s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.681s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.682s] -- Found Threads: TRUE  
+[1.878s] -- Configuring done
+[1.896s] -- Generating done
+[1.901s] -- Build files have been written to: /home/lee/ros2_ws/build/openarm_hardware
+[1.912s] Invoked command in '/home/lee/ros2_ws/build/openarm_hardware' returned '0': CMAKE_PREFIX_PATH=/home/lee/ros2_ws/install/openarm_can:/home/lee/ros2_ws/install/rviz_marker_tools:/home/lee/ros2_ws/install/openarm_scene_tools:/home/lee/ros2_ws/install/openarm_portfolio_tools:/home/lee/ros2_ws/install/openarm_portfolio_bringup:/home/lee/ros2_ws/install/openarm_moveit_config:/home/lee/ros2_ws/install/openarm:/home/lee/ros2_ws/install/openarm_hardware:/home/lee/ros2_ws/install/openarm_bimanual_moveit_config:/home/lee/ros2_ws/install/openarm_description:/home/lee/ros2_ws/install/openarm_bringup:/home/lee/ros2_ws/install/moveit_task_constructor_msgs:/opt/ros/humble /usr/bin/cmake /home/lee/ros2_ws/src/openarm_ros2/openarm_hardware -DCMAKE_INSTALL_PREFIX=/home/lee/ros2_ws/install/openarm_hardware
+[1.914s] Invoking command in '/home/lee/ros2_ws/build/openarm_hardware': CMAKE_PREFIX_PATH=/home/lee/ros2_ws/install/openarm_can:/home/lee/ros2_ws/install/rviz_marker_tools:/home/lee/ros2_ws/install/openarm_scene_tools:/home/lee/ros2_ws/install/openarm_portfolio_tools:/home/lee/ros2_ws/install/openarm_portfolio_bringup:/home/lee/ros2_ws/install/openarm_moveit_config:/home/lee/ros2_ws/install/openarm:/home/lee/ros2_ws/install/openarm_hardware:/home/lee/ros2_ws/install/openarm_bimanual_moveit_config:/home/lee/ros2_ws/install/openarm_description:/home/lee/ros2_ws/install/openarm_bringup:/home/lee/ros2_ws/install/moveit_task_constructor_msgs:/opt/ros/humble /usr/bin/cmake --build /home/lee/ros2_ws/build/openarm_hardware -- -j16 -l16
+[1.990s] [ 50%] [32mBuilding CXX object CMakeFiles/openarm_hardware.dir/src/v10_simple_hardware.cpp.o[0m
+[6.521s] [100%] [32m[1mLinking CXX shared library libopenarm_hardware.so[0m
+[6.758s] [100%] Built target openarm_hardware
+[6.772s] Invoked command in '/home/lee/ros2_ws/build/openarm_hardware' returned '0': CMAKE_PREFIX_PATH=/home/lee/ros2_ws/install/openarm_can:/home/lee/ros2_ws/install/rviz_marker_tools:/home/lee/ros2_ws/install/openarm_scene_tools:/home/lee/ros2_ws/install/openarm_portfolio_tools:/home/lee/ros2_ws/install/openarm_portfolio_bringup:/home/lee/ros2_ws/install/openarm_moveit_config:/home/lee/ros2_ws/install/openarm:/home/lee/ros2_ws/install/openarm_hardware:/home/lee/ros2_ws/install/openarm_bimanual_moveit_config:/home/lee/ros2_ws/install/openarm_description:/home/lee/ros2_ws/install/openarm_bringup:/home/lee/ros2_ws/install/moveit_task_constructor_msgs:/opt/ros/humble /usr/bin/cmake --build /home/lee/ros2_ws/build/openarm_hardware -- -j16 -l16
+[6.774s] Invoking command in '/home/lee/ros2_ws/build/openarm_hardware': CMAKE_PREFIX_PATH=/home/lee/ros2_ws/install/openarm_can:/home/lee/ros2_ws/install/rviz_marker_tools:/home/lee/ros2_ws/install/openarm_scene_tools:/home/lee/ros2_ws/install/openarm_portfolio_tools:/home/lee/ros2_ws/install/openarm_portfolio_bringup:/home/lee/ros2_ws/install/openarm_moveit_config:/home/lee/ros2_ws/install/openarm:/home/lee/ros2_ws/install/openarm_hardware:/home/lee/ros2_ws/install/openarm_bimanual_moveit_config:/home/lee/ros2_ws/install/openarm_description:/home/lee/ros2_ws/install/openarm_bringup:/home/lee/ros2_ws/install/moveit_task_constructor_msgs:/opt/ros/humble /usr/bin/cmake --install /home/lee/ros2_ws/build/openarm_hardware
+[6.786s] -- Install configuration: ""
+[6.786s] -- Installing: /home/lee/ros2_ws/install/openarm_hardware/share/openarm_hardware/openarm_hardware.xml
+[6.786s] -- Installing: /home/lee/ros2_ws/install/openarm_hardware/lib/libopenarm_hardware.so
+[6.789s] -- Set runtime path of "/home/lee/ros2_ws/install/openarm_hardware/lib/libopenarm_hardware.so" to ""
+[6.789s] -- Installing: /home/lee/ros2_ws/install/openarm_hardware/include
+[6.789s] -- Installing: /home/lee/ros2_ws/install/openarm_hardware/include/openarm_hardware
+[6.789s] -- Installing: /home/lee/ros2_ws/install/openarm_hardware/include/openarm_hardware/v10_simple_hardware.hpp
+[6.790s] -- Installing: /home/lee/ros2_ws/install/openarm_hardware/include/openarm_hardware/visibility_control.h
+[6.790s] -- Installing: /home/lee/ros2_ws/install/openarm_hardware/share/openarm_hardware/environment/library_path.sh
+[6.790s] -- Installing: /home/lee/ros2_ws/install/openarm_hardware/share/openarm_hardware/environment/library_path.dsv
+[6.790s] -- Installing: /home/lee/ros2_ws/install/openarm_hardware/share/ament_index/resource_index/package_run_dependencies/openarm_hardware
+[6.790s] -- Installing: /home/lee/ros2_ws/install/openarm_hardware/share/ament_index/resource_index/parent_prefix_path/openarm_hardware
+[6.790s] -- Installing: /home/lee/ros2_ws/install/openarm_hardware/share/openarm_hardware/environment/ament_prefix_path.sh
+[6.791s] -- Installing: /home/lee/ros2_ws/install/openarm_hardware/share/openarm_hardware/environment/ament_prefix_path.dsv
+[6.791s] -- Installing: /home/lee/ros2_ws/install/openarm_hardware/share/openarm_hardware/environment/path.sh
+[6.791s] -- Installing: /home/lee/ros2_ws/install/openarm_hardware/share/openarm_hardware/environment/path.dsv
+[6.791s] -- Installing: /home/lee/ros2_ws/install/openarm_hardware/share/openarm_hardware/local_setup.bash
+[6.791s] -- Installing: /home/lee/ros2_ws/install/openarm_hardware/share/openarm_hardware/local_setup.sh
+[6.791s] -- Installing: /home/lee/ros2_ws/install/openarm_hardware/share/openarm_hardware/local_setup.zsh
+[6.791s] -- Installing: /home/lee/ros2_ws/install/openarm_hardware/share/openarm_hardware/local_setup.dsv
+[6.791s] -- Installing: /home/lee/ros2_ws/install/openarm_hardware/share/openarm_hardware/package.dsv
+[6.792s] -- Installing: /home/lee/ros2_ws/install/openarm_hardware/share/ament_index/resource_index/packages/openarm_hardware
+[6.792s] -- Installing: /home/lee/ros2_ws/install/openarm_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/openarm_hardware
+[6.792s] -- Installing: /home/lee/ros2_ws/install/openarm_hardware/share/openarm_hardware/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.792s] -- Installing: /home/lee/ros2_ws/install/openarm_hardware/share/openarm_hardware/cmake/ament_cmake_export_libraries-extras.cmake
+[6.792s] -- Installing: /home/lee/ros2_ws/install/openarm_hardware/share/openarm_hardware/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.792s] -- Installing: /home/lee/ros2_ws/install/openarm_hardware/share/openarm_hardware/cmake/openarm_hardwareConfig.cmake
+[6.793s] -- Installing: /home/lee/ros2_ws/install/openarm_hardware/share/openarm_hardware/cmake/openarm_hardwareConfig-version.cmake
+[6.793s] -- Installing: /home/lee/ros2_ws/install/openarm_hardware/share/openarm_hardware/package.xml
+[6.796s] Invoked command in '/home/lee/ros2_ws/build/openarm_hardware' returned '0': CMAKE_PREFIX_PATH=/home/lee/ros2_ws/install/openarm_can:/home/lee/ros2_ws/install/rviz_marker_tools:/home/lee/ros2_ws/install/openarm_scene_tools:/home/lee/ros2_ws/install/openarm_portfolio_tools:/home/lee/ros2_ws/install/openarm_portfolio_bringup:/home/lee/ros2_ws/install/openarm_moveit_config:/home/lee/ros2_ws/install/openarm:/home/lee/ros2_ws/install/openarm_hardware:/home/lee/ros2_ws/install/openarm_bimanual_moveit_config:/home/lee/ros2_ws/install/openarm_description:/home/lee/ros2_ws/install/openarm_bringup:/home/lee/ros2_ws/install/moveit_task_constructor_msgs:/opt/ros/humble /usr/bin/cmake --install /home/lee/ros2_ws/build/openarm_hardware

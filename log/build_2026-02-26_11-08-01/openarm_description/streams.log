@@ -1,0 +1,132 @@
+[0.024s] Invoking command in '/home/lee/ros2_ws/build/openarm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lee/ros2_ws/src/openarm_description -DCMAKE_INSTALL_PREFIX=/home/lee/ros2_ws/install/openarm_description
+[0.089s] -- The C compiler identification is GNU 11.4.0
+[0.155s] -- The CXX compiler identification is GNU 11.4.0
+[0.163s] -- Detecting C compiler ABI info
+[0.258s] -- Detecting C compiler ABI info - done
+[0.265s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.265s] -- Detecting C compile features
+[0.265s] -- Detecting C compile features - done
+[0.269s] -- Detecting CXX compiler ABI info
+[0.386s] -- Detecting CXX compiler ABI info - done
+[0.394s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.394s] -- Detecting CXX compile features
+[0.395s] -- Detecting CXX compile features - done
+[0.398s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.272s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.432s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.578s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.581s] -- Added test 'lint_cmake' to check CMake code style
+[1.585s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.594s] -- Added test 'xmllint' to check XML markup files
+[1.595s] -- Configuring done
+[1.599s] -- Generating done
+[1.601s] -- Build files have been written to: /home/lee/ros2_ws/build/openarm_description
+[1.608s] Invoked command in '/home/lee/ros2_ws/build/openarm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lee/ros2_ws/src/openarm_description -DCMAKE_INSTALL_PREFIX=/home/lee/ros2_ws/install/openarm_description
+[1.610s] Invoking command in '/home/lee/ros2_ws/build/openarm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lee/ros2_ws/build/openarm_description -- -j16 -l16
+[1.666s] Invoked command in '/home/lee/ros2_ws/build/openarm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lee/ros2_ws/build/openarm_description -- -j16 -l16
+[1.668s] Invoking command in '/home/lee/ros2_ws/build/openarm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lee/ros2_ws/build/openarm_description
+[1.679s] -- Install configuration: ""
+[1.679s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/launch
+[1.679s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/launch/display_openarm.launch.py
+[1.679s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/meshes
+[1.680s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/meshes/arm
+[1.680s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/meshes/arm/v10
+[1.680s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/meshes/arm/v10/collision
+[1.682s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/meshes/arm/v10/collision/link2_symp.stl
+[1.682s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/meshes/arm/v10/collision/link4_symp.stl
+[1.682s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/meshes/arm/v10/collision/link5_symp.stl
+[1.683s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/meshes/arm/v10/collision/link0_symp.stl
+[1.684s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/meshes/arm/v10/collision/link6_symp.stl
+[1.684s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/meshes/arm/v10/collision/link7_symp.stl
+[1.684s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/meshes/arm/v10/collision/link1_symp.stl
+[1.684s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/meshes/arm/v10/collision/link3_symp.stl
+[1.684s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/meshes/arm/v10/visual
+[1.685s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/meshes/arm/v10/visual/link1.dae
+[1.695s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/meshes/arm/v10/visual/link2.dae
+[1.703s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/meshes/arm/v10/visual/link2.stl
+[1.711s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/meshes/arm/v10/visual/link6.dae
+[1.721s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/meshes/arm/v10/visual/link5.dae
+[1.736s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/meshes/arm/v10/visual/link7.dae
+[1.746s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/meshes/arm/v10/visual/link7.stl
+[1.753s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/meshes/arm/v10/visual/link3.stl
+[1.760s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/meshes/arm/v10/visual/link1.stl
+[1.768s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/meshes/arm/v10/visual/link0.dae
+[1.772s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/meshes/arm/v10/visual/link3.dae
+[1.782s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/meshes/arm/v10/visual/link4.stl
+[1.789s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/meshes/arm/v10/visual/link0.stl
+[1.794s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/meshes/arm/v10/visual/link5.stl
+[1.804s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/meshes/arm/v10/visual/link4.dae
+[1.813s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/meshes/arm/v10/visual/link6.stl
+[1.820s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/meshes/body
+[1.820s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/meshes/body/v10
+[1.820s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/meshes/body/v10/collision
+[1.820s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/meshes/body/v10/collision/body_link0_symp.stl
+[1.820s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/meshes/body/v10/visual
+[1.820s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/meshes/body/v10/visual/body_link0.dae
+[1.837s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/meshes/body/v10/visual/body_link0.stl
+[1.848s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/meshes/ee
+[1.848s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/meshes/ee/openarm_hand
+[1.848s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/meshes/ee/openarm_hand/collision
+[1.849s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/meshes/ee/openarm_hand/collision/finger.stl
+[1.849s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/meshes/ee/openarm_hand/collision/hand.stl
+[1.849s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/meshes/ee/openarm_hand/visual
+[1.849s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/meshes/ee/openarm_hand/visual/hand.dae
+[1.851s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/meshes/ee/openarm_hand/visual/finger.dae
+[1.859s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/meshes/ee/openarm_hand/visual/finger.stl
+[1.860s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/rviz
+[1.860s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/rviz/arm_only.rviz
+[1.860s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/rviz/bimanual.rviz
+[1.860s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/urdf
+[1.860s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/urdf/arm
+[1.860s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/urdf/arm/openarm_macro.xacro
+[1.861s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/urdf/arm/openarm_arm.xacro
+[1.861s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/urdf/ros2_control
+[1.861s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/urdf/ros2_control/openarm.ros2_control.xacro
+[1.861s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/urdf/ros2_control/openarm.bimanual.ros2_control.xacro
+[1.861s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/urdf/body
+[1.861s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/urdf/body/openarm_body_macro.xacro
+[1.861s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/urdf/body/openarm_body.xacro
+[1.861s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/urdf/ee
+[1.862s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/urdf/ee/ee_with_one_link.xacro
+[1.862s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/urdf/ee/openarm_hand_macro.xacro
+[1.862s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/urdf/ee/openarm_hand.xacro
+[1.862s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/urdf/ee/openarm_hand_arguments.xacro
+[1.862s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/urdf/robot
+[1.862s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/urdf/robot/openarm_robot.xacro
+[1.862s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/urdf/robot/v10.urdf.xacro
+[1.863s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/config
+[1.863s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/config/arm
+[1.863s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/config/arm/v10
+[1.863s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/config/arm/v10/kinematics_offset.yaml
+[1.863s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/config/arm/v10/joint_limits.yaml
+[1.863s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/config/arm/v10/inertials.yaml
+[1.863s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/config/arm/v10/kinematics_link.yaml
+[1.863s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/config/arm/v10/kinematics.yaml
+[1.863s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/config/arm/v10/control_gains.yaml
+[1.863s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/config/body
+[1.864s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/config/body/v10
+[1.864s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/config/body/v10/inertials.yaml
+[1.864s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/config/body/v10/kinematics_link.yaml
+[1.864s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/config/body/v10/kinematics.yaml
+[1.864s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/config/hand
+[1.864s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/config/hand/openarm_hand
+[1.864s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/config/hand/openarm_hand/joint_limits.yaml
+[1.864s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/config/hand/openarm_hand/inertials.yaml
+[1.864s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/config/hand/openarm_hand/kinematics_link.yaml
+[1.864s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/config/hand/openarm_hand/kinematics.yaml
+[1.865s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/ament_index/resource_index/package_run_dependencies/openarm_description
+[1.865s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/ament_index/resource_index/parent_prefix_path/openarm_description
+[1.865s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/environment/ament_prefix_path.sh
+[1.865s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/environment/ament_prefix_path.dsv
+[1.865s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/environment/path.sh
+[1.866s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/environment/path.dsv
+[1.866s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/local_setup.bash
+[1.866s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/local_setup.sh
+[1.866s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/local_setup.zsh
+[1.866s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/local_setup.dsv
+[1.866s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/package.dsv
+[1.867s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/ament_index/resource_index/packages/openarm_description
+[1.867s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/cmake/openarm_descriptionConfig.cmake
+[1.867s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/cmake/openarm_descriptionConfig-version.cmake
+[1.867s] -- Installing: /home/lee/ros2_ws/install/openarm_description/share/openarm_description/package.xml
+[1.872s] Invoked command in '/home/lee/ros2_ws/build/openarm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lee/ros2_ws/build/openarm_description

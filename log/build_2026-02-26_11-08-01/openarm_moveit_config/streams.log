@@ -1,0 +1,57 @@
+[0.013s] Invoking command in '/home/lee/ros2_ws/build/openarm_moveit_config': CMAKE_PREFIX_PATH=/home/lee/ros2_ws/install/openarm_description:/home/lee/ros2_ws/install/rviz_marker_tools:/home/lee/ros2_ws/install/openarm_scene_tools:/home/lee/ros2_ws/install/openarm_portfolio_tools:/home/lee/ros2_ws/install/openarm_portfolio_bringup:/home/lee/ros2_ws/install/openarm_moveit_config:/home/lee/ros2_ws/install/openarm:/home/lee/ros2_ws/install/openarm_hardware:/home/lee/ros2_ws/install/openarm_bimanual_moveit_config:/home/lee/ros2_ws/install/openarm_can:/home/lee/ros2_ws/install/openarm_bringup:/home/lee/ros2_ws/install/moveit_task_constructor_msgs:/opt/ros/humble /usr/bin/cmake /home/lee/ros2_ws/src/openarm_moveit_config -DCMAKE_INSTALL_PREFIX=/home/lee/ros2_ws/install/openarm_moveit_config
+[0.088s] -- The C compiler identification is GNU 11.4.0
+[0.158s] -- The CXX compiler identification is GNU 11.4.0
+[0.168s] -- Detecting C compiler ABI info
+[0.260s] -- Detecting C compiler ABI info - done
+[0.267s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.267s] -- Detecting C compile features
+[0.268s] -- Detecting C compile features - done
+[0.271s] -- Detecting CXX compiler ABI info
+[0.382s] -- Detecting CXX compiler ABI info - done
+[0.390s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.391s] -- Detecting CXX compile features
+[0.391s] -- Detecting CXX compile features - done
+[0.395s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.988s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.245s] -- Configuring done
+[1.249s] -- Generating done
+[1.250s] -- Build files have been written to: /home/lee/ros2_ws/build/openarm_moveit_config
+[1.258s] Invoked command in '/home/lee/ros2_ws/build/openarm_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/lee/ros2_ws/install/openarm_description:/home/lee/ros2_ws/install/rviz_marker_tools:/home/lee/ros2_ws/install/openarm_scene_tools:/home/lee/ros2_ws/install/openarm_portfolio_tools:/home/lee/ros2_ws/install/openarm_portfolio_bringup:/home/lee/ros2_ws/install/openarm_moveit_config:/home/lee/ros2_ws/install/openarm:/home/lee/ros2_ws/install/openarm_hardware:/home/lee/ros2_ws/install/openarm_bimanual_moveit_config:/home/lee/ros2_ws/install/openarm_can:/home/lee/ros2_ws/install/openarm_bringup:/home/lee/ros2_ws/install/moveit_task_constructor_msgs:/opt/ros/humble /usr/bin/cmake /home/lee/ros2_ws/src/openarm_moveit_config -DCMAKE_INSTALL_PREFIX=/home/lee/ros2_ws/install/openarm_moveit_config
+[1.260s] Invoking command in '/home/lee/ros2_ws/build/openarm_moveit_config': CMAKE_PREFIX_PATH=/home/lee/ros2_ws/install/openarm_description:/home/lee/ros2_ws/install/rviz_marker_tools:/home/lee/ros2_ws/install/openarm_scene_tools:/home/lee/ros2_ws/install/openarm_portfolio_tools:/home/lee/ros2_ws/install/openarm_portfolio_bringup:/home/lee/ros2_ws/install/openarm_moveit_config:/home/lee/ros2_ws/install/openarm:/home/lee/ros2_ws/install/openarm_hardware:/home/lee/ros2_ws/install/openarm_bimanual_moveit_config:/home/lee/ros2_ws/install/openarm_can:/home/lee/ros2_ws/install/openarm_bringup:/home/lee/ros2_ws/install/moveit_task_constructor_msgs:/opt/ros/humble /usr/bin/cmake --build /home/lee/ros2_ws/build/openarm_moveit_config -- -j16 -l16
+[1.306s] Invoked command in '/home/lee/ros2_ws/build/openarm_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/lee/ros2_ws/install/openarm_description:/home/lee/ros2_ws/install/rviz_marker_tools:/home/lee/ros2_ws/install/openarm_scene_tools:/home/lee/ros2_ws/install/openarm_portfolio_tools:/home/lee/ros2_ws/install/openarm_portfolio_bringup:/home/lee/ros2_ws/install/openarm_moveit_config:/home/lee/ros2_ws/install/openarm:/home/lee/ros2_ws/install/openarm_hardware:/home/lee/ros2_ws/install/openarm_bimanual_moveit_config:/home/lee/ros2_ws/install/openarm_can:/home/lee/ros2_ws/install/openarm_bringup:/home/lee/ros2_ws/install/moveit_task_constructor_msgs:/opt/ros/humble /usr/bin/cmake --build /home/lee/ros2_ws/build/openarm_moveit_config -- -j16 -l16
+[1.307s] Invoking command in '/home/lee/ros2_ws/build/openarm_moveit_config': CMAKE_PREFIX_PATH=/home/lee/ros2_ws/install/openarm_description:/home/lee/ros2_ws/install/rviz_marker_tools:/home/lee/ros2_ws/install/openarm_scene_tools:/home/lee/ros2_ws/install/openarm_portfolio_tools:/home/lee/ros2_ws/install/openarm_portfolio_bringup:/home/lee/ros2_ws/install/openarm_moveit_config:/home/lee/ros2_ws/install/openarm:/home/lee/ros2_ws/install/openarm_hardware:/home/lee/ros2_ws/install/openarm_bimanual_moveit_config:/home/lee/ros2_ws/install/openarm_can:/home/lee/ros2_ws/install/openarm_bringup:/home/lee/ros2_ws/install/moveit_task_constructor_msgs:/opt/ros/humble /usr/bin/cmake --install /home/lee/ros2_ws/build/openarm_moveit_config
+[1.319s] -- Install configuration: ""
+[1.319s] -- Installing: /home/lee/ros2_ws/install/openarm_moveit_config/share/ament_index/resource_index/package_run_dependencies/openarm_moveit_config
+[1.319s] -- Installing: /home/lee/ros2_ws/install/openarm_moveit_config/share/ament_index/resource_index/parent_prefix_path/openarm_moveit_config
+[1.320s] -- Installing: /home/lee/ros2_ws/install/openarm_moveit_config/share/openarm_moveit_config/environment/ament_prefix_path.sh
+[1.320s] -- Installing: /home/lee/ros2_ws/install/openarm_moveit_config/share/openarm_moveit_config/environment/ament_prefix_path.dsv
+[1.320s] -- Installing: /home/lee/ros2_ws/install/openarm_moveit_config/share/openarm_moveit_config/environment/path.sh
+[1.320s] -- Installing: /home/lee/ros2_ws/install/openarm_moveit_config/share/openarm_moveit_config/environment/path.dsv
+[1.320s] -- Installing: /home/lee/ros2_ws/install/openarm_moveit_config/share/openarm_moveit_config/local_setup.bash
+[1.321s] -- Installing: /home/lee/ros2_ws/install/openarm_moveit_config/share/openarm_moveit_config/local_setup.sh
+[1.321s] -- Installing: /home/lee/ros2_ws/install/openarm_moveit_config/share/openarm_moveit_config/local_setup.zsh
+[1.321s] -- Installing: /home/lee/ros2_ws/install/openarm_moveit_config/share/openarm_moveit_config/local_setup.dsv
+[1.321s] -- Installing: /home/lee/ros2_ws/install/openarm_moveit_config/share/openarm_moveit_config/package.dsv
+[1.321s] -- Installing: /home/lee/ros2_ws/install/openarm_moveit_config/share/ament_index/resource_index/packages/openarm_moveit_config
+[1.321s] -- Installing: /home/lee/ros2_ws/install/openarm_moveit_config/share/openarm_moveit_config/cmake/openarm_moveit_configConfig.cmake
+[1.322s] -- Installing: /home/lee/ros2_ws/install/openarm_moveit_config/share/openarm_moveit_config/cmake/openarm_moveit_configConfig-version.cmake
+[1.322s] -- Installing: /home/lee/ros2_ws/install/openarm_moveit_config/share/openarm_moveit_config/package.xml
+[1.322s] -- Installing: /home/lee/ros2_ws/install/openarm_moveit_config/share/openarm_moveit_config/launch
+[1.322s] -- Installing: /home/lee/ros2_ws/install/openarm_moveit_config/share/openarm_moveit_config/launch/moveit_rviz.launch.py
+[1.323s] -- Installing: /home/lee/ros2_ws/install/openarm_moveit_config/share/openarm_moveit_config/launch/move_group.launch.py
+[1.323s] -- Installing: /home/lee/ros2_ws/install/openarm_moveit_config/share/openarm_moveit_config/launch/demo.launch.py
+[1.323s] -- Installing: /home/lee/ros2_ws/install/openarm_moveit_config/share/openarm_moveit_config/config
+[1.323s] -- Installing: /home/lee/ros2_ws/install/openarm_moveit_config/share/openarm_moveit_config/config/moveit_controllers.yaml
+[1.323s] -- Installing: /home/lee/ros2_ws/install/openarm_moveit_config/share/openarm_moveit_config/config/moveit_cpp.yaml
+[1.323s] -- Installing: /home/lee/ros2_ws/install/openarm_moveit_config/share/openarm_moveit_config/config/moveit.rviz
+[1.323s] -- Installing: /home/lee/ros2_ws/install/openarm_moveit_config/share/openarm_moveit_config/config/joint_limits.yaml
+[1.323s] -- Installing: /home/lee/ros2_ws/install/openarm_moveit_config/share/openarm_moveit_config/config/ompl_planning.yaml
+[1.323s] -- Installing: /home/lee/ros2_ws/install/openarm_moveit_config/share/openarm_moveit_config/config/initial_positions.yaml
+[1.323s] -- Installing: /home/lee/ros2_ws/install/openarm_moveit_config/share/openarm_moveit_config/config/ros2_controllers.yaml
+[1.324s] -- Installing: /home/lee/ros2_ws/install/openarm_moveit_config/share/openarm_moveit_config/config/openarm.srdf
+[1.324s] -- Installing: /home/lee/ros2_ws/install/openarm_moveit_config/share/openarm_moveit_config/config/move_group.yaml
+[1.324s] -- Installing: /home/lee/ros2_ws/install/openarm_moveit_config/share/openarm_moveit_config/config/kinematics.yaml
+[1.324s] -- Installing: /home/lee/ros2_ws/install/openarm_moveit_config/share/openarm_moveit_config/config/pilz_cartesian_limits.yaml
+[1.324s] -- Installing: /home/lee/ros2_ws/install/openarm_moveit_config/share/openarm_moveit_config/config/planning_pipelines.yaml
+[1.324s] -- Installing: /home/lee/ros2_ws/install/openarm_moveit_config/share/openarm_moveit_config/.setup_assistant
+[1.328s] Invoked command in '/home/lee/ros2_ws/build/openarm_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/lee/ros2_ws/install/openarm_description:/home/lee/ros2_ws/install/rviz_marker_tools:/home/lee/ros2_ws/install/openarm_scene_tools:/home/lee/ros2_ws/install/openarm_portfolio_tools:/home/lee/ros2_ws/install/openarm_portfolio_bringup:/home/lee/ros2_ws/install/openarm_moveit_config:/home/lee/ros2_ws/install/openarm:/home/lee/ros2_ws/install/openarm_hardware:/home/lee/ros2_ws/install/openarm_bimanual_moveit_config:/home/lee/ros2_ws/install/openarm_can:/home/lee/ros2_ws/install/openarm_bringup:/home/lee/ros2_ws/install/moveit_task_constructor_msgs:/opt/ros/humble /usr/bin/cmake --install /home/lee/ros2_ws/build/openarm_moveit_config
